@@ -1,0 +1,296 @@
+<?xml version="1.0"?>
+<!--?xml version="1.0"?--><!-- All Rights Reserved, Copyright (c) FUJITSU 2012 --><html xmlns="http://www.w3.org/1999/xhtml" xmlns:rpi="http://www.fujitsu.com/raportado/ixbrl" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:ix="http://www.xbrl.org/2008/inlineXBRL" xmlns:ixt="http://www.xbrl.org/inlineXBRL/transformation/2010-04-20" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:ref="http://www.xbrl.org/2006/ref" xmlns:num="http://www.xbrl.org/dtr/type/numeric" xmlns:nonnum="http://www.xbrl.org/dtr/type/non-numeric" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:negated="http://www.xbrl.org/2009/role/negated" xmlns:idx-cor="http://www.idx.co.id/xbrl/taxonomy/2020-01-01/cor" xmlns:idx-dei="http://www.idx.co.id/xbrl/taxonomy/2020-01-01/dei" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:xlink="http://www.w3.org/1999/xlink"> 
+ <!--4624100.html--> 
+ <head> 
+  <title>Interstage XWand WebForm</title> 
+  <!-- following style tag will be converted to be inline styling HTML --> 
+  <!-- following style tag will not be converted to be inline styling HTML --> 
+  <style type="text/css"> @page { size: 43in 27in; margin: 0.15in; padding: 1em; } .ix_negated { background-color: yellow; } input[type='radio'][name^='IX'] { width: auto; } input[name^='IX'] { width: 80%; } select[name^='IX'] { width: 80%; } </style> 
+  <script type="text/javascript"> // var specialKeys = new Array(); specialKeys.push(8); // backspace //specialKeys.push(44); // comma (,) //specialKeys.push(46); // dot (.) var IsNumeric = function IsNumeric(e) { var keyCode = e.which ? e.which : e.keyCode; var allow = (keyCode &gt;= 48 &amp;&amp; keyCode &lt;= 57) || specialKeys.indexOf(keyCode) != -1; if (!allow) { e.preventDefault(); } }; function onBodyLoaded() { var moneteryItemTypeInputs = document.getElementsByClassName( "ix_monetary" ); var formatNumber = function (e) { let value = e.srcElement.value; if (value == '') return; value = value.replace(/\D/g, ''); value = new Number(value).toLocaleString('en-US'); e.srcElement.value = value; } for (var i = 0; i &lt; moneteryItemTypeInputs.length; i++) { var monetaryItemTypeInput = moneteryItemTypeInputs.item(i); monetaryItemTypeInput.addEventListener("keypress", IsNumeric); monetaryItemTypeInput.addEventListener('keyup', formatNumber); monetaryItemTypeInput.value = monetaryItemTypeInput.value.replace(/\.0*/, ''); } } // </script> 
+ </head> 
+ <body onload="onBodyLoaded()"> 
+  <p class="titleLeft" style="font-family: Arial, Helvetica, sans-serif;font-size: 13.5pt;font-weight: bold;color: #000000;padding: 5px;border-spacing: 0px;vertical-align: top;text-align: left;">[4624100] Notes to the financial statements - Annual average interest rate Third Party Funds - Financial and Sharia Industry</p> 
+  <div name="FORM_CONTAINER_DIMENSIONAL_SIDE_BY_SIDE" class="prepareTemplateFormContainer" href="http://www.idx.co.id/role/IDX-rt_role-2020-01-01_4624100"> 
+   <table> 
+    <tbody> 
+     <tr> 
+      <td> <p class="titleLeft" style="font-family: Arial, Helvetica, sans-serif;font-size: 13.5pt;font-weight: bold;color: #000000;padding: 5px;border-spacing: 0px;vertical-align: top;text-align: left;">  2023-12-31</p> </td> 
+      <td> <p class="titleRight" style="font-family: Arial, Helvetica, sans-serif;font-size: 13.5pt;font-weight: bold;color: #000000;padding: 5px;border-spacing: 0px;vertical-align: top;text-align: right;">  </p> </td> 
+     </tr> 
+     <tr> 
+      <td> 
+       <div> 
+        <div> 
+         <div> 
+          <table class="table01" style="font-family: Arial, Helvetica, sans-serif;font-size: 10pt;padding: 5px;border-spacing: 0px;text-align: center;width:auto;"> 
+           <tbody> 
+            <tr> 
+             <td class="titleLeft" colspan="2" style="font-family: Arial, Helvetica, sans-serif;font-size: 13.5pt;font-weight: bold;color: #000000;padding: 5px;border-spacing: 0px;vertical-align: top;text-align: left;">Tingkat bunga rata-rata per tahun dana pihak ketiga </td> 
+             <td class="titleRight" style="font-family: Arial, Helvetica, sans-serif;font-size: 13.5pt;font-weight: bold;color: #000000;padding: 5px;border-spacing: 0px;vertical-align: top;text-align: right;text-align:right;" colspan="3">Annual average interest rate third party funds </td> 
+            </tr> 
+            <tr> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;;padding-left:1.5em" rowspan="3">Tingkat bunga giro</td> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Rupiah </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonNumeric name="idx-cor:CurrentAccountsInterestRate" contextRef="CurrentYearInstant_4624100_RupiahMember" id="IXF4624100E02_1230_00009_00_0001" escape="false">0.005508333333333333</ix:nonNumeric> </td> 
+             <td class="rowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Rupiah </td> 
+             <td class="rowHeaderRight fixedFormRowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;;padding-right:1.5em" rowspan="3">Current accounts interest rate</td> 
+            </tr> 
+            <tr> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Mata uang asing </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonNumeric name="idx-cor:CurrentAccountsInterestRate" contextRef="CurrentYearInstant_4624100_ForeignCurrenciesMember" id="IXF4624100E02_1230_00008_00_0001" escape="false">0.007408333333333333</ix:nonNumeric> </td> 
+             <td class="rowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Foreign currencies </td> 
+            </tr> 
+            <tr> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Subjumlah Seluruh Mata Uang </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonNumeric name="idx-cor:CurrentAccountsInterestRate" contextRef="CurrentYearInstant" xsi:nil="true" escape="false" id="IXF4624100E02_1230_00001_00_0001"/> </td> 
+             <td class="rowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Subtotal on all Currencies </td> 
+            </tr> 
+            <tr> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;;padding-left:1.5em" rowspan="3">Imbal hasil giro wadiah</td> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Rupiah </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonNumeric name="idx-cor:WadiahDemandDepositsReturn" contextRef="CurrentYearInstant_4624100_RupiahMember" xsi:nil="true" escape="false" id="IXF4624100E02_1231_00009_00_0001"/> </td> 
+             <td class="rowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Rupiah </td> 
+             <td class="rowHeaderRight fixedFormRowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;;padding-right:1.5em" rowspan="3">Wadiah demand deposits return</td> 
+            </tr> 
+            <tr> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Mata uang asing </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonNumeric name="idx-cor:WadiahDemandDepositsReturn" contextRef="CurrentYearInstant_4624100_ForeignCurrenciesMember" xsi:nil="true" escape="false" id="IXF4624100E02_1231_00008_00_0001"/> </td> 
+             <td class="rowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Foreign currencies </td> 
+            </tr> 
+            <tr> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Subjumlah Seluruh Mata Uang </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonNumeric name="idx-cor:WadiahDemandDepositsReturn" contextRef="CurrentYearInstant" xsi:nil="true" escape="false" id="IXF4624100E02_1231_00001_00_0001"/> </td> 
+             <td class="rowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Subtotal on all Currencies </td> 
+            </tr> 
+            <tr> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;;padding-left:1.5em" rowspan="3">Tingkat bunga tabungan</td> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Rupiah </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonNumeric name="idx-cor:SavingsDepositsInterestRate" contextRef="CurrentYearInstant_4624100_RupiahMember" id="IXF4624100E02_1232_00009_00_0001" escape="false">0.005024999999999999</ix:nonNumeric> </td> 
+             <td class="rowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Rupiah </td> 
+             <td class="rowHeaderRight fixedFormRowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;;padding-right:1.5em" rowspan="3">Savings deposits interest rate</td> 
+            </tr> 
+            <tr> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Mata uang asing </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonNumeric name="idx-cor:SavingsDepositsInterestRate" contextRef="CurrentYearInstant_4624100_ForeignCurrenciesMember" id="IXF4624100E02_1232_00008_00_0001" escape="false">0</ix:nonNumeric> </td> 
+             <td class="rowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Foreign currencies </td> 
+            </tr> 
+            <tr> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Subjumlah Seluruh Mata Uang </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonNumeric name="idx-cor:SavingsDepositsInterestRate" contextRef="CurrentYearInstant" xsi:nil="true" escape="false" id="IXF4624100E02_1232_00001_00_0001"/> </td> 
+             <td class="rowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Subtotal on all Currencies </td> 
+            </tr> 
+            <tr> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;;padding-left:1.5em" rowspan="3">Imbal hasil tabungan wadiah</td> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Rupiah </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonNumeric name="idx-cor:WadiahSavingsDepositsReturn" contextRef="CurrentYearInstant_4624100_RupiahMember" xsi:nil="true" escape="false" id="IXF4624100E02_1233_00009_00_0001"/> </td> 
+             <td class="rowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Rupiah </td> 
+             <td class="rowHeaderRight fixedFormRowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;;padding-right:1.5em" rowspan="3">Wadiah savings deposits return</td> 
+            </tr> 
+            <tr> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Mata uang asing </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonNumeric name="idx-cor:WadiahSavingsDepositsReturn" contextRef="CurrentYearInstant_4624100_ForeignCurrenciesMember" xsi:nil="true" escape="false" id="IXF4624100E02_1233_00008_00_0001"/> </td> 
+             <td class="rowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Foreign currencies </td> 
+            </tr> 
+            <tr> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Subjumlah Seluruh Mata Uang </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonNumeric name="idx-cor:WadiahSavingsDepositsReturn" contextRef="CurrentYearInstant" xsi:nil="true" escape="false" id="IXF4624100E02_1233_00001_00_0001"/> </td> 
+             <td class="rowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Subtotal on all Currencies </td> 
+            </tr> 
+            <tr> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;;padding-left:1.5em" rowspan="3">Tingkat bunga deposito berjangka</td> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Rupiah </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonNumeric name="idx-cor:TimeDepositsInterestRate" contextRef="CurrentYearInstant_4624100_RupiahMember" id="IXF4624100E02_1234_00009_00_0001" escape="false">0.056708333333333326</ix:nonNumeric> </td> 
+             <td class="rowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Rupiah </td> 
+             <td class="rowHeaderRight fixedFormRowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;;padding-right:1.5em" rowspan="3">Time deposits interest rate</td> 
+            </tr> 
+            <tr> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Mata uang asing </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonNumeric name="idx-cor:TimeDepositsInterestRate" contextRef="CurrentYearInstant_4624100_ForeignCurrenciesMember" id="IXF4624100E02_1234_00008_00_0001" escape="false">0.022589583333333333</ix:nonNumeric> </td> 
+             <td class="rowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Foreign currencies </td> 
+            </tr> 
+            <tr> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Subjumlah Seluruh Mata Uang </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonNumeric name="idx-cor:TimeDepositsInterestRate" contextRef="CurrentYearInstant" xsi:nil="true" escape="false" id="IXF4624100E02_1234_00001_00_0001"/> </td> 
+             <td class="rowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Subtotal on all Currencies </td> 
+            </tr> 
+            <tr> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;;padding-left:1.5em" rowspan="3">Imbal hasil deposito wakalah</td> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Rupiah </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonNumeric name="idx-cor:WakalahDepositsReturn" contextRef="CurrentYearInstant_4624100_RupiahMember" xsi:nil="true" escape="false" id="IXF4624100E02_1235_00009_00_0001"/> </td> 
+             <td class="rowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Rupiah </td> 
+             <td class="rowHeaderRight fixedFormRowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;;padding-right:1.5em" rowspan="3">Wakalah deposits return</td> 
+            </tr> 
+            <tr> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Mata uang asing </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonNumeric name="idx-cor:WakalahDepositsReturn" contextRef="CurrentYearInstant_4624100_ForeignCurrenciesMember" xsi:nil="true" escape="false" id="IXF4624100E02_1235_00008_00_0001"/> </td> 
+             <td class="rowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Foreign currencies </td> 
+            </tr> 
+            <tr> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Subjumlah Seluruh Mata Uang </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonNumeric name="idx-cor:WakalahDepositsReturn" contextRef="CurrentYearInstant" xsi:nil="true" escape="false" id="IXF4624100E02_1235_00001_00_0001"/> </td> 
+             <td class="rowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Subtotal on all Currencies </td> 
+            </tr> 
+           </tbody> 
+          </table> 
+         </div> 
+        </div> 
+       </div> </td> 
+      <td> 
+       <div> 
+        <div> 
+         <div> 
+          <table class="table01" style="font-family: Arial, Helvetica, sans-serif;font-size: 10pt;padding: 5px;border-spacing: 0px;text-align: center;width:auto;"> 
+           <tbody> 
+            <tr> 
+             <td class="titleLeft" colspan="2" style="font-family: Arial, Helvetica, sans-serif;font-size: 13.5pt;font-weight: bold;color: #000000;padding: 5px;border-spacing: 0px;vertical-align: top;text-align: left;">Tingkat bunga rata-rata per tahun dana pihak ketiga </td> 
+             <td class="titleRight" style="font-family: Arial, Helvetica, sans-serif;font-size: 13.5pt;font-weight: bold;color: #000000;padding: 5px;border-spacing: 0px;vertical-align: top;text-align: right;text-align:right;" colspan="3">Annual average interest rate third party funds </td> 
+            </tr> 
+            <tr> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;;padding-left:1.5em" rowspan="3">Tingkat bunga giro</td> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Rupiah </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonNumeric name="idx-cor:CurrentAccountsInterestRate" contextRef="PriorEndYearInstant_4624100_RupiahMember" id="IXF4624100E02_1230_00011_00_0001" escape="false">0.005549999999999999</ix:nonNumeric> </td> 
+             <td class="rowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Rupiah </td> 
+             <td class="rowHeaderRight fixedFormRowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;;padding-right:1.5em" rowspan="3">Current accounts interest rate</td> 
+            </tr> 
+            <tr> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Mata uang asing </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonNumeric name="idx-cor:CurrentAccountsInterestRate" contextRef="PriorEndYearInstant_4624100_ForeignCurrenciesMember" id="IXF4624100E02_1230_00010_00_0001" escape="false">0.005433333333333334</ix:nonNumeric> </td> 
+             <td class="rowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Foreign currencies </td> 
+            </tr> 
+            <tr> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Subjumlah Seluruh Mata Uang </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonNumeric name="idx-cor:CurrentAccountsInterestRate" contextRef="PriorEndYearInstant" xsi:nil="true" escape="false" id="IXF4624100E02_1230_00003_00_0001"/> </td> 
+             <td class="rowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Subtotal on all Currencies </td> 
+            </tr> 
+            <tr> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;;padding-left:1.5em" rowspan="3">Imbal hasil giro wadiah</td> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Rupiah </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonNumeric name="idx-cor:WadiahDemandDepositsReturn" contextRef="PriorEndYearInstant_4624100_RupiahMember" xsi:nil="true" escape="false" id="IXF4624100E02_1231_00011_00_0001"/> </td> 
+             <td class="rowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Rupiah </td> 
+             <td class="rowHeaderRight fixedFormRowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;;padding-right:1.5em" rowspan="3">Wadiah demand deposits return</td> 
+            </tr> 
+            <tr> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Mata uang asing </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonNumeric name="idx-cor:WadiahDemandDepositsReturn" contextRef="PriorEndYearInstant_4624100_ForeignCurrenciesMember" xsi:nil="true" escape="false" id="IXF4624100E02_1231_00010_00_0001"/> </td> 
+             <td class="rowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Foreign currencies </td> 
+            </tr> 
+            <tr> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Subjumlah Seluruh Mata Uang </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonNumeric name="idx-cor:WadiahDemandDepositsReturn" contextRef="PriorEndYearInstant" xsi:nil="true" escape="false" id="IXF4624100E02_1231_00003_00_0001"/> </td> 
+             <td class="rowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Subtotal on all Currencies </td> 
+            </tr> 
+            <tr> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;;padding-left:1.5em" rowspan="3">Tingkat bunga tabungan</td> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Rupiah </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonNumeric name="idx-cor:SavingsDepositsInterestRate" contextRef="PriorEndYearInstant_4624100_RupiahMember" id="IXF4624100E02_1232_00011_00_0001" escape="false">0.007449999999999999</ix:nonNumeric> </td> 
+             <td class="rowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Rupiah </td> 
+             <td class="rowHeaderRight fixedFormRowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;;padding-right:1.5em" rowspan="3">Savings deposits interest rate</td> 
+            </tr> 
+            <tr> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Mata uang asing </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonNumeric name="idx-cor:SavingsDepositsInterestRate" contextRef="PriorEndYearInstant_4624100_ForeignCurrenciesMember" id="IXF4624100E02_1232_00010_00_0001" escape="false">0</ix:nonNumeric> </td> 
+             <td class="rowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Foreign currencies </td> 
+            </tr> 
+            <tr> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Subjumlah Seluruh Mata Uang </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonNumeric name="idx-cor:SavingsDepositsInterestRate" contextRef="PriorEndYearInstant" xsi:nil="true" escape="false" id="IXF4624100E02_1232_00003_00_0001"/> </td> 
+             <td class="rowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Subtotal on all Currencies </td> 
+            </tr> 
+            <tr> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;;padding-left:1.5em" rowspan="3">Imbal hasil tabungan wadiah</td> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Rupiah </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonNumeric name="idx-cor:WadiahSavingsDepositsReturn" contextRef="PriorEndYearInstant_4624100_RupiahMember" xsi:nil="true" escape="false" id="IXF4624100E02_1233_00011_00_0001"/> </td> 
+             <td class="rowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Rupiah </td> 
+             <td class="rowHeaderRight fixedFormRowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;;padding-right:1.5em" rowspan="3">Wadiah savings deposits return</td> 
+            </tr> 
+            <tr> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Mata uang asing </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonNumeric name="idx-cor:WadiahSavingsDepositsReturn" contextRef="PriorEndYearInstant_4624100_ForeignCurrenciesMember" xsi:nil="true" escape="false" id="IXF4624100E02_1233_00010_00_0001"/> </td> 
+             <td class="rowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Foreign currencies </td> 
+            </tr> 
+            <tr> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Subjumlah Seluruh Mata Uang </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonNumeric name="idx-cor:WadiahSavingsDepositsReturn" contextRef="PriorEndYearInstant" xsi:nil="true" escape="false" id="IXF4624100E02_1233_00003_00_0001"/> </td> 
+             <td class="rowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Subtotal on all Currencies </td> 
+            </tr> 
+            <tr> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;;padding-left:1.5em" rowspan="3">Tingkat bunga deposito berjangka</td> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Rupiah </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonNumeric name="idx-cor:TimeDepositsInterestRate" contextRef="PriorEndYearInstant_4624100_RupiahMember" id="IXF4624100E02_1234_00011_00_0001" escape="false">0.04631333333333333</ix:nonNumeric> </td> 
+             <td class="rowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Rupiah </td> 
+             <td class="rowHeaderRight fixedFormRowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;;padding-right:1.5em" rowspan="3">Time deposits interest rate</td> 
+            </tr> 
+            <tr> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Mata uang asing </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonNumeric name="idx-cor:TimeDepositsInterestRate" contextRef="PriorEndYearInstant_4624100_ForeignCurrenciesMember" id="IXF4624100E02_1234_00010_00_0001" escape="false">0.0160625</ix:nonNumeric> </td> 
+             <td class="rowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Foreign currencies </td> 
+            </tr> 
+            <tr> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Subjumlah Seluruh Mata Uang </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonNumeric name="idx-cor:TimeDepositsInterestRate" contextRef="PriorEndYearInstant" xsi:nil="true" escape="false" id="IXF4624100E02_1234_00003_00_0001"/> </td> 
+             <td class="rowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Subtotal on all Currencies </td> 
+            </tr> 
+            <tr> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;;padding-left:1.5em" rowspan="3">Imbal hasil deposito wakalah</td> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Rupiah </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonNumeric name="idx-cor:WakalahDepositsReturn" contextRef="PriorEndYearInstant_4624100_RupiahMember" xsi:nil="true" escape="false" id="IXF4624100E02_1235_00011_00_0001"/> </td> 
+             <td class="rowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Rupiah </td> 
+             <td class="rowHeaderRight fixedFormRowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;;padding-right:1.5em" rowspan="3">Wakalah deposits return</td> 
+            </tr> 
+            <tr> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Mata uang asing </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonNumeric name="idx-cor:WakalahDepositsReturn" contextRef="PriorEndYearInstant_4624100_ForeignCurrenciesMember" xsi:nil="true" escape="false" id="IXF4624100E02_1235_00010_00_0001"/> </td> 
+             <td class="rowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Foreign currencies </td> 
+            </tr> 
+            <tr> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Subjumlah Seluruh Mata Uang </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonNumeric name="idx-cor:WakalahDepositsReturn" contextRef="PriorEndYearInstant" xsi:nil="true" escape="false" id="IXF4624100E02_1235_00003_00_0001"/> </td> 
+             <td class="rowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Subtotal on all Currencies </td> 
+            </tr> 
+           </tbody> 
+          </table> 
+         </div> 
+        </div> 
+       </div> </td> 
+     </tr> 
+    </tbody> 
+   </table> 
+  </div> 
+ </body> 
+</html>

@@ -1,0 +1,466 @@
+<?xml version="1.0"?>
+<!--?xml version="1.0"?--><!-- All Rights Reserved, Copyright (c) FUJITSU 2012 --><html xmlns="http://www.w3.org/1999/xhtml" xmlns:rpi="http://www.fujitsu.com/raportado/ixbrl" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:ix="http://www.xbrl.org/2008/inlineXBRL" xmlns:ixt="http://www.xbrl.org/inlineXBRL/transformation/2010-04-20" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:ref="http://www.xbrl.org/2006/ref" xmlns:num="http://www.xbrl.org/dtr/type/numeric" xmlns:nonnum="http://www.xbrl.org/dtr/type/non-numeric" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:negated="http://www.xbrl.org/2009/role/negated" xmlns:idx-cor="http://www.idx.co.id/xbrl/taxonomy/2020-01-01/cor" xmlns:idx-dei="http://www.idx.co.id/xbrl/taxonomy/2020-01-01/dei" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:xlink="http://www.w3.org/1999/xlink"> 
+ <!--1640300.html--> 
+ <head> 
+  <title>Interstage XWand WebForm</title> 
+  <!-- following style tag will be converted to be inline styling HTML --> 
+  <!-- following style tag will not be converted to be inline styling HTML --> 
+  <style type="text/css"> @page { size: 43in 27in; margin: 0.15in; padding: 1em; } .ix_negated { background-color: yellow; } input[type='radio'][name^='IX'] { width: auto; } input[name^='IX'] { width: 80%; } select[name^='IX'] { width: 80%; } </style> 
+  <script type="text/javascript"> // var specialKeys = new Array(); specialKeys.push(8); // backspace //specialKeys.push(44); // comma (,) //specialKeys.push(46); // dot (.) var IsNumeric = function IsNumeric(e) { var keyCode = e.which ? e.which : e.keyCode; var allow = (keyCode &gt;= 48 &amp;&amp; keyCode &lt;= 57) || specialKeys.indexOf(keyCode) != -1; if (!allow) { e.preventDefault(); } }; function onBodyLoaded() { var moneteryItemTypeInputs = document.getElementsByClassName( "ix_monetary" ); var formatNumber = function (e) { let value = e.srcElement.value; if (value == '') return; value = value.replace(/\D/g, ''); value = new Number(value).toLocaleString('en-US'); e.srcElement.value = value; } for (var i = 0; i &lt; moneteryItemTypeInputs.length; i++) { var monetaryItemTypeInput = moneteryItemTypeInputs.item(i); monetaryItemTypeInput.addEventListener("keypress", IsNumeric); monetaryItemTypeInput.addEventListener('keyup', formatNumber); monetaryItemTypeInput.value = monetaryItemTypeInput.value.replace(/\.0*/, ''); } } // </script> 
+ </head> 
+ <body onload="onBodyLoaded()"> 
+  <p class="titleLeft" style="font-family: Arial, Helvetica, sans-serif;font-size: 13.5pt;font-weight: bold;color: #000000;padding: 5px;border-spacing: 0px;vertical-align: top;text-align: left;">[1640300] Notes to the financial statements - Trade Payable, by list of counterparty - General Industry </p> 
+  <div name="FORM_CONTAINER_DIMENSIONAL_SIDE_BY_SIDE" class="prepareTemplateFormContainer" href="http://www.idx.co.id/role/IDX-rt_role-2020-01-01_1640300"> 
+   <table> 
+    <tbody> 
+     <tr> 
+      <td> <p class="titleLeft" style="font-family: Arial, Helvetica, sans-serif;font-size: 13.5pt;font-weight: bold;color: #000000;padding: 5px;border-spacing: 0px;vertical-align: top;text-align: left;">  </p> </td> 
+      <td> <p class="titleRight" style="font-family: Arial, Helvetica, sans-serif;font-size: 13.5pt;font-weight: bold;color: #000000;padding: 5px;border-spacing: 0px;vertical-align: top;text-align: right;">  </p> </td> 
+     </tr> 
+     <tr> 
+      <td> 
+       <div> 
+        <div> 
+         <div> 
+          <table class="table01" style="font-family: Arial, Helvetica, sans-serif;font-size: 10pt;padding: 5px;border-spacing: 0px;text-align: center;width:auto;"> 
+           <tbody> 
+            <tr> 
+             <td class="titleLeft" colspan="3" style="font-family: Arial, Helvetica, sans-serif;font-size: 13.5pt;font-weight: bold;color: #000000;padding: 5px;border-spacing: 0px;vertical-align: top;text-align: left;">Rincian utang usaha berdasarkan rincian pihak </td> 
+             <td class="titleRight" style="font-family: Arial, Helvetica, sans-serif;font-size: 13.5pt;font-weight: bold;color: #000000;padding: 5px;border-spacing: 0px;vertical-align: top;text-align: right;text-align:right;" colspan="3">Trade payables by list of counterparty </td> 
+            </tr> 
+            <tr> 
+             <td rowspan="2" colspan="2"/> 
+             <td class="colHeader01 dimensionalFormColumnHeader" style="width: 200px !important;padding: 1px;background-color: #b2bec9;color: #000000;text-decoration: underline;font-weight: bold;text-align: center;/* border-bottom: 1px solid #4e4d4d;*/            font-size: 8pt;min-width:200px;max-width:200px;" colspan="2">Utang usaha [baris komponen]</td> 
+             <td rowspan="2" colspan="2"/> 
+            </tr> 
+            <tr> 
+             <td class="colHeader01 dimensionalFormColumnHeader" style="width: 200px !important;padding: 1px;background-color: #b2bec9;color: #000000;text-decoration: underline;font-weight: bold;text-align: center;/* border-bottom: 1px solid #4e4d4d;*/            font-size: 8pt;min-width:200px;max-width:200px;">Nama pihak, utang usaha</td> 
+             <td class="colHeader01 dimensionalFormColumnHeader" style="width: 200px !important;padding: 1px;background-color: #b2bec9;color: #000000;text-decoration: underline;font-weight: bold;text-align: center;/* border-bottom: 1px solid #4e4d4d;*/            font-size: 8pt;min-width:200px;max-width:200px;">Utang usaha</td> 
+            </tr> 
+            <tr> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;" rowspan="12">Pihak ketiga </td> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Pihak 1 </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonNumeric name="idx-cor:CounterpartyNameTradePayable" contextRef="CurrentYearDuration_1640300_Rank1CounterpartyMember_ThirdPartyMember" id="IXF1640300E02_1451_00043_00_0001" escape="false">CV Traco Sejahtera</ix:nonNumeric> </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonFraction name="idx-cor:TradePayables" contextRef="CurrentYearInstant_1640300_Rank1CounterpartyMember_ThirdPartyMember" unitRef="IDR" id="IXF1640300E02_1367_00021_01_0001" format="ixt:numcommadot" decimals="-0" scale="0">2,981,228,500</ix:nonFraction> </td> 
+             <td class="rowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;" rowspan="12">Third party </td> 
+             <td class="rowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Rank 1, counterparty </td> 
+            </tr> 
+            <tr> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Pihak 2 </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonNumeric name="idx-cor:CounterpartyNameTradePayable" contextRef="CurrentYearDuration_1640300_Rank2CounterpartyMember_ThirdPartyMember" id="IXF1640300E02_1451_00045_00_0001" escape="false">Zhangjiagang Xianfeng Automatic Machinery Joint Stock Co., Ltd</ix:nonNumeric> </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonFraction name="idx-cor:TradePayables" contextRef="CurrentYearInstant_1640300_Rank2CounterpartyMember_ThirdPartyMember" unitRef="IDR" id="IXF1640300E02_1367_00023_01_0001" format="ixt:numcommadot" decimals="-0" scale="0">2,372,345,116</ix:nonFraction> </td> 
+             <td class="rowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Rank 2, counterparty </td> 
+            </tr> 
+            <tr> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Pihak 3 </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonNumeric name="idx-cor:CounterpartyNameTradePayable" contextRef="CurrentYearDuration_1640300_Rank3CounterpartyMember_ThirdPartyMember" id="IXF1640300E02_1451_00047_00_0001" escape="false">PT Atlas Prima Grafika</ix:nonNumeric> </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonFraction name="idx-cor:TradePayables" contextRef="CurrentYearInstant_1640300_Rank3CounterpartyMember_ThirdPartyMember" unitRef="IDR" id="IXF1640300E02_1367_00025_01_0001" format="ixt:numcommadot" decimals="-0" scale="0">1,557,577,690</ix:nonFraction> </td> 
+             <td class="rowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Rank 3, counterparty </td> 
+            </tr> 
+            <tr> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Pihak 4 </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonNumeric name="idx-cor:CounterpartyNameTradePayable" contextRef="CurrentYearDuration_1640300_Rank4CounterpartyMember_ThirdPartyMember" id="IXF1640300E02_1451_00049_00_0001" escape="false">CV Ucarindo</ix:nonNumeric> </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonFraction name="idx-cor:TradePayables" contextRef="CurrentYearInstant_1640300_Rank4CounterpartyMember_ThirdPartyMember" unitRef="IDR" id="IXF1640300E02_1367_00027_01_0001" format="ixt:numcommadot" decimals="-0" scale="0">1,370,389,908</ix:nonFraction> </td> 
+             <td class="rowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Rank 4, counterparty </td> 
+            </tr> 
+            <tr> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Pihak 5 </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonNumeric name="idx-cor:CounterpartyNameTradePayable" contextRef="CurrentYearDuration_1640300_Rank5CounterpartyMember_ThirdPartyMember" id="IXF1640300E02_1451_00051_00_0001" escape="false">Suzhou Haiende Conveyor Chain Co., Ltd</ix:nonNumeric> </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonFraction name="idx-cor:TradePayables" contextRef="CurrentYearInstant_1640300_Rank5CounterpartyMember_ThirdPartyMember" unitRef="IDR" id="IXF1640300E02_1367_00029_01_0001" format="ixt:numcommadot" decimals="-0" scale="0">716,844,000</ix:nonFraction> </td> 
+             <td class="rowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Rank 5, counterparty </td> 
+            </tr> 
+            <tr> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Pihak 6 </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonNumeric name="idx-cor:CounterpartyNameTradePayable" contextRef="CurrentYearDuration_1640300_Rank6CounterpartyMember_ThirdPartyMember" id="IXF1640300E02_1451_00053_00_0001" escape="false">PT Gresik Cipta Sejahtera</ix:nonNumeric> </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonFraction name="idx-cor:TradePayables" contextRef="CurrentYearInstant_1640300_Rank6CounterpartyMember_ThirdPartyMember" unitRef="IDR" id="IXF1640300E02_1367_00031_01_0001" format="ixt:numcommadot" decimals="-0" scale="0">606,552,101</ix:nonFraction> </td> 
+             <td class="rowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Rank 6, counterparty </td> 
+            </tr> 
+            <tr> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Pihak 7 </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonNumeric name="idx-cor:CounterpartyNameTradePayable" contextRef="CurrentYearDuration_1640300_Rank7CounterpartyMember_ThirdPartyMember" id="IXF1640300E02_1451_00055_00_0001" escape="false">Zibo Honghui Mould Technology Co., Ltd</ix:nonNumeric> </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonFraction name="idx-cor:TradePayables" contextRef="CurrentYearInstant_1640300_Rank7CounterpartyMember_ThirdPartyMember" unitRef="IDR" id="IXF1640300E02_1367_00033_01_0001" format="ixt:numcommadot" decimals="-0" scale="0">553,544,316</ix:nonFraction> </td> 
+             <td class="rowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Rank 7, counterparty </td> 
+            </tr> 
+            <tr> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Pihak 8 </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonNumeric name="idx-cor:CounterpartyNameTradePayable" contextRef="CurrentYearDuration_1640300_Rank8CounterpartyMember_ThirdPartyMember" id="IXF1640300E02_1451_00057_00_0001" escape="false">CV Infinity Chemicals</ix:nonNumeric> </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonFraction name="idx-cor:TradePayables" contextRef="CurrentYearInstant_1640300_Rank8CounterpartyMember_ThirdPartyMember" unitRef="IDR" id="IXF1640300E02_1367_00035_01_0001" format="ixt:numcommadot" decimals="-0" scale="0">371,820,500</ix:nonFraction> </td> 
+             <td class="rowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Rank 8, counterparty </td> 
+            </tr> 
+            <tr> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Pihak 9 </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonNumeric name="idx-cor:CounterpartyNameTradePayable" contextRef="CurrentYearDuration_1640300_Rank9CounterpartyMember_ThirdPartyMember" xsi:nil="true" escape="false" id="IXF1640300E02_1451_00059_00_0001"/> </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonFraction name="idx-cor:TradePayables" contextRef="CurrentYearInstant_1640300_Rank9CounterpartyMember_ThirdPartyMember" unitRef="IDR" xsi:nil="true" id="IXF1640300E02_1367_00037_01_0001"/> </td> 
+             <td class="rowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Rank 9, counterparty </td> 
+            </tr> 
+            <tr> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Pihak 10 </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonNumeric name="idx-cor:CounterpartyNameTradePayable" contextRef="CurrentYearDuration_1640300_Rank10CounterpartyMember_ThirdPartyMember" xsi:nil="true" escape="false" id="IXF1640300E02_1451_00041_00_0001"/> </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonFraction name="idx-cor:TradePayables" contextRef="CurrentYearInstant_1640300_Rank10CounterpartyMember_ThirdPartyMember" unitRef="IDR" xsi:nil="true" id="IXF1640300E02_1367_00019_01_0001"/> </td> 
+             <td class="rowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Rank 10, counterparty </td> 
+            </tr> 
+            <tr> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Pihak lainnya </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonNumeric name="idx-cor:CounterpartyNameTradePayable" contextRef="CurrentYearDuration_1640300_OthersCounterpartyMember_ThirdPartyMember" id="IXF1640300E02_1451_00039_00_0001" escape="false">Lain-lain</ix:nonNumeric> </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonFraction name="idx-cor:TradePayables" contextRef="CurrentYearInstant_1640300_OthersCounterpartyMember_ThirdPartyMember" unitRef="IDR" id="IXF1640300E02_1367_00017_01_0001" format="ixt:numcommadot" decimals="-0" scale="0">1,518,822,233</ix:nonFraction> </td> 
+             <td class="rowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Others, counterparty </td> 
+            </tr> 
+            <tr> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Rincian pihak </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonNumeric name="idx-cor:CounterpartyNameTradePayable" contextRef="CurrentYearDuration_1640300_ThirdPartyMember" xsi:nil="true" escape="false" id="IXF1640300E02_1451_00011_00_0001"/> </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonFraction name="idx-cor:TradePayables" contextRef="CurrentYearInstant_1640300_ThirdPartyMember" unitRef="IDR" id="IXF1640300E02_1367_00009_01_0001" format="ixt:numcommadot" decimals="-0" scale="0">12,049,124,364</ix:nonFraction> </td> 
+             <td class="rowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">List of counterparty </td> 
+            </tr> 
+            <tr> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;" rowspan="12">Pihak berelasi </td> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Pihak 1 </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonNumeric name="idx-cor:CounterpartyNameTradePayable" contextRef="CurrentYearDuration_1640300_Rank1CounterpartyMember_RelatedPartyMember" id="IXF1640300E02_1451_00042_00_0001" escape="false">PT Darsum</ix:nonNumeric> </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonFraction name="idx-cor:TradePayables" contextRef="CurrentYearInstant_1640300_Rank1CounterpartyMember_RelatedPartyMember" unitRef="IDR" id="IXF1640300E02_1367_00020_01_0001" format="ixt:numcommadot" decimals="-0" scale="0">5,776,043,104</ix:nonFraction> </td> 
+             <td class="rowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;" rowspan="12">Related party </td> 
+             <td class="rowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Rank 1, counterparty </td> 
+            </tr> 
+            <tr> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Pihak 2 </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonNumeric name="idx-cor:CounterpartyNameTradePayable" contextRef="CurrentYearDuration_1640300_Rank2CounterpartyMember_RelatedPartyMember" id="IXF1640300E02_1451_00044_00_0001" escape="false">PT Shamrock Manufacturing Corpora</ix:nonNumeric> </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonFraction name="idx-cor:TradePayables" contextRef="CurrentYearInstant_1640300_Rank2CounterpartyMember_RelatedPartyMember" unitRef="IDR" id="IXF1640300E02_1367_00022_01_0001" format="ixt:numcommadot" decimals="-0" scale="0">5,722,572,410</ix:nonFraction> </td> 
+             <td class="rowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Rank 2, counterparty </td> 
+            </tr> 
+            <tr> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Pihak 3 </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonNumeric name="idx-cor:CounterpartyNameTradePayable" contextRef="CurrentYearDuration_1640300_Rank3CounterpartyMember_RelatedPartyMember" id="IXF1640300E02_1451_00046_00_0001" escape="false">PT Perusahaan Perkebunan Industri dan Dagang Sri Rahayu Agung</ix:nonNumeric> </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonFraction name="idx-cor:TradePayables" contextRef="CurrentYearInstant_1640300_Rank3CounterpartyMember_RelatedPartyMember" unitRef="IDR" id="IXF1640300E02_1367_00024_01_0001" format="ixt:numcommadot" decimals="-0" scale="0">2,023,258,258</ix:nonFraction> </td> 
+             <td class="rowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Rank 3, counterparty </td> 
+            </tr> 
+            <tr> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Pihak 4 </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonNumeric name="idx-cor:CounterpartyNameTradePayable" contextRef="CurrentYearDuration_1640300_Rank4CounterpartyMember_RelatedPartyMember" id="IXF1640300E02_1451_00048_00_0001" escape="false">PT Melania Indonesia</ix:nonNumeric> </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonFraction name="idx-cor:TradePayables" contextRef="CurrentYearInstant_1640300_Rank4CounterpartyMember_RelatedPartyMember" unitRef="IDR" id="IXF1640300E02_1367_00026_01_0001" format="ixt:numcommadot" decimals="-0" scale="0">162,374,000</ix:nonFraction> </td> 
+             <td class="rowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Rank 4, counterparty </td> 
+            </tr> 
+            <tr> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Pihak 5 </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonNumeric name="idx-cor:CounterpartyNameTradePayable" contextRef="CurrentYearDuration_1640300_Rank5CounterpartyMember_RelatedPartyMember" xsi:nil="true" escape="false" id="IXF1640300E02_1451_00050_00_0001"/> </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonFraction name="idx-cor:TradePayables" contextRef="CurrentYearInstant_1640300_Rank5CounterpartyMember_RelatedPartyMember" unitRef="IDR" xsi:nil="true" id="IXF1640300E02_1367_00028_01_0001"/> </td> 
+             <td class="rowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Rank 5, counterparty </td> 
+            </tr> 
+            <tr> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Pihak 6 </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonNumeric name="idx-cor:CounterpartyNameTradePayable" contextRef="CurrentYearDuration_1640300_Rank6CounterpartyMember_RelatedPartyMember" xsi:nil="true" escape="false" id="IXF1640300E02_1451_00052_00_0001"/> </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonFraction name="idx-cor:TradePayables" contextRef="CurrentYearInstant_1640300_Rank6CounterpartyMember_RelatedPartyMember" unitRef="IDR" xsi:nil="true" id="IXF1640300E02_1367_00030_01_0001"/> </td> 
+             <td class="rowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Rank 6, counterparty </td> 
+            </tr> 
+            <tr> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Pihak 7 </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonNumeric name="idx-cor:CounterpartyNameTradePayable" contextRef="CurrentYearDuration_1640300_Rank7CounterpartyMember_RelatedPartyMember" xsi:nil="true" escape="false" id="IXF1640300E02_1451_00054_00_0001"/> </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonFraction name="idx-cor:TradePayables" contextRef="CurrentYearInstant_1640300_Rank7CounterpartyMember_RelatedPartyMember" unitRef="IDR" xsi:nil="true" id="IXF1640300E02_1367_00032_01_0001"/> </td> 
+             <td class="rowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Rank 7, counterparty </td> 
+            </tr> 
+            <tr> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Pihak 8 </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonNumeric name="idx-cor:CounterpartyNameTradePayable" contextRef="CurrentYearDuration_1640300_Rank8CounterpartyMember_RelatedPartyMember" xsi:nil="true" escape="false" id="IXF1640300E02_1451_00056_00_0001"/> </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonFraction name="idx-cor:TradePayables" contextRef="CurrentYearInstant_1640300_Rank8CounterpartyMember_RelatedPartyMember" unitRef="IDR" xsi:nil="true" id="IXF1640300E02_1367_00034_01_0001"/> </td> 
+             <td class="rowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Rank 8, counterparty </td> 
+            </tr> 
+            <tr> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Pihak 9 </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonNumeric name="idx-cor:CounterpartyNameTradePayable" contextRef="CurrentYearDuration_1640300_Rank9CounterpartyMember_RelatedPartyMember" xsi:nil="true" escape="false" id="IXF1640300E02_1451_00058_00_0001"/> </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonFraction name="idx-cor:TradePayables" contextRef="CurrentYearInstant_1640300_Rank9CounterpartyMember_RelatedPartyMember" unitRef="IDR" xsi:nil="true" id="IXF1640300E02_1367_00036_01_0001"/> </td> 
+             <td class="rowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Rank 9, counterparty </td> 
+            </tr> 
+            <tr> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Pihak 10 </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonNumeric name="idx-cor:CounterpartyNameTradePayable" contextRef="CurrentYearDuration_1640300_Rank10CounterpartyMember_RelatedPartyMember" xsi:nil="true" escape="false" id="IXF1640300E02_1451_00040_00_0001"/> </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonFraction name="idx-cor:TradePayables" contextRef="CurrentYearInstant_1640300_Rank10CounterpartyMember_RelatedPartyMember" unitRef="IDR" xsi:nil="true" id="IXF1640300E02_1367_00018_01_0001"/> </td> 
+             <td class="rowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Rank 10, counterparty </td> 
+            </tr> 
+            <tr> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Pihak lainnya </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonNumeric name="idx-cor:CounterpartyNameTradePayable" contextRef="CurrentYearDuration_1640300_OthersCounterpartyMember_RelatedPartyMember" xsi:nil="true" escape="false" id="IXF1640300E02_1451_00038_00_0001"/> </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonFraction name="idx-cor:TradePayables" contextRef="CurrentYearInstant_1640300_OthersCounterpartyMember_RelatedPartyMember" unitRef="IDR" xsi:nil="true" id="IXF1640300E02_1367_00016_01_0001"/> </td> 
+             <td class="rowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Others, counterparty </td> 
+            </tr> 
+            <tr> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Rincian pihak </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonNumeric name="idx-cor:CounterpartyNameTradePayable" contextRef="CurrentYearDuration_1640300_RelatedPartyMember" xsi:nil="true" escape="false" id="IXF1640300E02_1451_00010_00_0001"/> </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonFraction name="idx-cor:TradePayables" contextRef="CurrentYearInstant_1640300_RelatedPartyMember" unitRef="IDR" id="IXF1640300E02_1367_00008_01_0001" format="ixt:numcommadot" decimals="-0" scale="0">13,684,247,772</ix:nonFraction> </td> 
+             <td class="rowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">List of counterparty </td> 
+            </tr> 
+           </tbody> 
+          </table> 
+         </div> 
+        </div> 
+       </div> </td> 
+      <td> 
+       <div> 
+        <div> 
+         <div> 
+          <table class="table01" style="font-family: Arial, Helvetica, sans-serif;font-size: 10pt;padding: 5px;border-spacing: 0px;text-align: center;width:auto;"> 
+           <tbody> 
+            <tr> 
+             <td class="titleLeft" colspan="3" style="font-family: Arial, Helvetica, sans-serif;font-size: 13.5pt;font-weight: bold;color: #000000;padding: 5px;border-spacing: 0px;vertical-align: top;text-align: left;">Rincian utang usaha berdasarkan rincian pihak </td> 
+             <td class="titleRight" style="font-family: Arial, Helvetica, sans-serif;font-size: 13.5pt;font-weight: bold;color: #000000;padding: 5px;border-spacing: 0px;vertical-align: top;text-align: right;text-align:right;" colspan="3">Trade payables by list of counterparty </td> 
+            </tr> 
+            <tr> 
+             <td rowspan="2" colspan="2"/> 
+             <td class="colHeader01 dimensionalFormColumnHeader" style="width: 200px !important;padding: 1px;background-color: #b2bec9;color: #000000;text-decoration: underline;font-weight: bold;text-align: center;/* border-bottom: 1px solid #4e4d4d;*/            font-size: 8pt;min-width:200px;max-width:200px;" colspan="2">Utang usaha [baris komponen]</td> 
+             <td rowspan="2" colspan="2"/> 
+            </tr> 
+            <tr> 
+             <td class="colHeader01 dimensionalFormColumnHeader" style="width: 200px !important;padding: 1px;background-color: #b2bec9;color: #000000;text-decoration: underline;font-weight: bold;text-align: center;/* border-bottom: 1px solid #4e4d4d;*/            font-size: 8pt;min-width:200px;max-width:200px;">Nama pihak, utang usaha</td> 
+             <td class="colHeader01 dimensionalFormColumnHeader" style="width: 200px !important;padding: 1px;background-color: #b2bec9;color: #000000;text-decoration: underline;font-weight: bold;text-align: center;/* border-bottom: 1px solid #4e4d4d;*/            font-size: 8pt;min-width:200px;max-width:200px;">Utang usaha</td> 
+            </tr> 
+            <tr> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;" rowspan="12">Pihak ketiga </td> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Pihak 1 </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonNumeric name="idx-cor:CounterpartyNameTradePayable" contextRef="PriorEndYearDuration_1640300_Rank1CounterpartyMember_ThirdPartyMember" xsi:nil="true" escape="false" id="IXF1640300E02_1451_00087_00_0001"/> </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonFraction name="idx-cor:TradePayables" contextRef="PriorEndYearInstant_1640300_Rank1CounterpartyMember_ThirdPartyMember" unitRef="IDR" xsi:nil="true" id="IXF1640300E02_1367_00065_01_0001"/> </td> 
+             <td class="rowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;" rowspan="12">Third party </td> 
+             <td class="rowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Rank 1, counterparty </td> 
+            </tr> 
+            <tr> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Pihak 2 </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonNumeric name="idx-cor:CounterpartyNameTradePayable" contextRef="PriorEndYearDuration_1640300_Rank2CounterpartyMember_ThirdPartyMember" id="IXF1640300E02_1451_00089_00_0001" escape="false">Zhangjiagang Xianfeng Automatic Machinery Joint Stock Co., Ltd</ix:nonNumeric> </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonFraction name="idx-cor:TradePayables" contextRef="PriorEndYearInstant_1640300_Rank2CounterpartyMember_ThirdPartyMember" unitRef="IDR" id="IXF1640300E02_1367_00067_01_0001" format="ixt:numcommadot" decimals="-0" scale="0">2,105,311,192</ix:nonFraction> </td> 
+             <td class="rowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Rank 2, counterparty </td> 
+            </tr> 
+            <tr> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Pihak 3 </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonNumeric name="idx-cor:CounterpartyNameTradePayable" contextRef="PriorEndYearDuration_1640300_Rank3CounterpartyMember_ThirdPartyMember" id="IXF1640300E02_1451_00091_00_0001" escape="false">PT Atlas Prima Grafika</ix:nonNumeric> </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonFraction name="idx-cor:TradePayables" contextRef="PriorEndYearInstant_1640300_Rank3CounterpartyMember_ThirdPartyMember" unitRef="IDR" id="IXF1640300E02_1367_00069_01_0001" format="ixt:numcommadot" decimals="-0" scale="0">583,786,100</ix:nonFraction> </td> 
+             <td class="rowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Rank 3, counterparty </td> 
+            </tr> 
+            <tr> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Pihak 4 </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonNumeric name="idx-cor:CounterpartyNameTradePayable" contextRef="PriorEndYearDuration_1640300_Rank4CounterpartyMember_ThirdPartyMember" id="IXF1640300E02_1451_00093_00_0001" escape="false">CV Ucarindo</ix:nonNumeric> </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonFraction name="idx-cor:TradePayables" contextRef="PriorEndYearInstant_1640300_Rank4CounterpartyMember_ThirdPartyMember" unitRef="IDR" id="IXF1640300E02_1367_00071_01_0001" format="ixt:numcommadot" decimals="-0" scale="0">1,442,075,136</ix:nonFraction> </td> 
+             <td class="rowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Rank 4, counterparty </td> 
+            </tr> 
+            <tr> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Pihak 5 </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonNumeric name="idx-cor:CounterpartyNameTradePayable" contextRef="PriorEndYearDuration_1640300_Rank5CounterpartyMember_ThirdPartyMember" xsi:nil="true" escape="false" id="IXF1640300E02_1451_00095_00_0001"/> </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonFraction name="idx-cor:TradePayables" contextRef="PriorEndYearInstant_1640300_Rank5CounterpartyMember_ThirdPartyMember" unitRef="IDR" xsi:nil="true" id="IXF1640300E02_1367_00073_01_0001"/> </td> 
+             <td class="rowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Rank 5, counterparty </td> 
+            </tr> 
+            <tr> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Pihak 6 </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonNumeric name="idx-cor:CounterpartyNameTradePayable" contextRef="PriorEndYearDuration_1640300_Rank6CounterpartyMember_ThirdPartyMember" id="IXF1640300E02_1451_00097_00_0001" escape="false">PT Gresik Cipta Sejahtera</ix:nonNumeric> </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonFraction name="idx-cor:TradePayables" contextRef="PriorEndYearInstant_1640300_Rank6CounterpartyMember_ThirdPartyMember" unitRef="IDR" id="IXF1640300E02_1367_00075_01_0001" format="ixt:numcommadot" decimals="-0" scale="0">505,739,251</ix:nonFraction> </td> 
+             <td class="rowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Rank 6, counterparty </td> 
+            </tr> 
+            <tr> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Pihak 7 </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonNumeric name="idx-cor:CounterpartyNameTradePayable" contextRef="PriorEndYearDuration_1640300_Rank7CounterpartyMember_ThirdPartyMember" id="IXF1640300E02_1451_00099_00_0001" escape="false">Zibo Honghui Mould Technology Co., Ltd</ix:nonNumeric> </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonFraction name="idx-cor:TradePayables" contextRef="PriorEndYearInstant_1640300_Rank7CounterpartyMember_ThirdPartyMember" unitRef="IDR" id="IXF1640300E02_1367_00077_01_0001" format="ixt:numcommadot" decimals="-0" scale="0">428,268,053</ix:nonFraction> </td> 
+             <td class="rowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Rank 7, counterparty </td> 
+            </tr> 
+            <tr> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Pihak 8 </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonNumeric name="idx-cor:CounterpartyNameTradePayable" contextRef="PriorEndYearDuration_1640300_Rank8CounterpartyMember_ThirdPartyMember" id="IXF1640300E02_1451_00101_00_0001" escape="false">CV Infinity Chemicals</ix:nonNumeric> </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonFraction name="idx-cor:TradePayables" contextRef="PriorEndYearInstant_1640300_Rank8CounterpartyMember_ThirdPartyMember" unitRef="IDR" id="IXF1640300E02_1367_00079_01_0001" format="ixt:numcommadot" decimals="-0" scale="0">507,875,500</ix:nonFraction> </td> 
+             <td class="rowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Rank 8, counterparty </td> 
+            </tr> 
+            <tr> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Pihak 9 </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonNumeric name="idx-cor:CounterpartyNameTradePayable" contextRef="PriorEndYearDuration_1640300_Rank9CounterpartyMember_ThirdPartyMember" xsi:nil="true" escape="false" id="IXF1640300E02_1451_00103_00_0001"/> </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonFraction name="idx-cor:TradePayables" contextRef="PriorEndYearInstant_1640300_Rank9CounterpartyMember_ThirdPartyMember" unitRef="IDR" xsi:nil="true" id="IXF1640300E02_1367_00081_01_0001"/> </td> 
+             <td class="rowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Rank 9, counterparty </td> 
+            </tr> 
+            <tr> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Pihak 10 </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonNumeric name="idx-cor:CounterpartyNameTradePayable" contextRef="PriorEndYearDuration_1640300_Rank10CounterpartyMember_ThirdPartyMember" xsi:nil="true" escape="false" id="IXF1640300E02_1451_00085_00_0001"/> </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonFraction name="idx-cor:TradePayables" contextRef="PriorEndYearInstant_1640300_Rank10CounterpartyMember_ThirdPartyMember" unitRef="IDR" xsi:nil="true" id="IXF1640300E02_1367_00063_01_0001"/> </td> 
+             <td class="rowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Rank 10, counterparty </td> 
+            </tr> 
+            <tr> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Pihak lainnya </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonNumeric name="idx-cor:CounterpartyNameTradePayable" contextRef="PriorEndYearDuration_1640300_OthersCounterpartyMember_ThirdPartyMember" id="IXF1640300E02_1451_00083_00_0001" escape="false">Lain-lain</ix:nonNumeric> </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonFraction name="idx-cor:TradePayables" contextRef="PriorEndYearInstant_1640300_OthersCounterpartyMember_ThirdPartyMember" unitRef="IDR" id="IXF1640300E02_1367_00061_01_0001" format="ixt:numcommadot" decimals="-0" scale="0">4,747,369,426</ix:nonFraction> </td> 
+             <td class="rowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Others, counterparty </td> 
+            </tr> 
+            <tr> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Rincian pihak </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonNumeric name="idx-cor:CounterpartyNameTradePayable" contextRef="PriorEndYearDuration_1640300_ThirdPartyMember" xsi:nil="true" escape="false" id="IXF1640300E02_1451_00015_00_0001"/> </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonFraction name="idx-cor:TradePayables" contextRef="PriorEndYearInstant_1640300_ThirdPartyMember" unitRef="IDR" id="IXF1640300E02_1367_00013_01_0001" format="ixt:numcommadot" decimals="-0" scale="0">10,320,424,658</ix:nonFraction> </td> 
+             <td class="rowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">List of counterparty </td> 
+            </tr> 
+            <tr> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;" rowspan="12">Pihak berelasi </td> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Pihak 1 </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonNumeric name="idx-cor:CounterpartyNameTradePayable" contextRef="PriorEndYearDuration_1640300_Rank1CounterpartyMember_RelatedPartyMember" id="IXF1640300E02_1451_00086_00_0001" escape="false">PT Darsum</ix:nonNumeric> </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonFraction name="idx-cor:TradePayables" contextRef="PriorEndYearInstant_1640300_Rank1CounterpartyMember_RelatedPartyMember" unitRef="IDR" id="IXF1640300E02_1367_00064_01_0001" format="ixt:numcommadot" decimals="-0" scale="0">18,889,378,378</ix:nonFraction> </td> 
+             <td class="rowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;" rowspan="12">Related party </td> 
+             <td class="rowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Rank 1, counterparty </td> 
+            </tr> 
+            <tr> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Pihak 2 </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonNumeric name="idx-cor:CounterpartyNameTradePayable" contextRef="PriorEndYearDuration_1640300_Rank2CounterpartyMember_RelatedPartyMember" xsi:nil="true" escape="false" id="IXF1640300E02_1451_00088_00_0001"/> </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonFraction name="idx-cor:TradePayables" contextRef="PriorEndYearInstant_1640300_Rank2CounterpartyMember_RelatedPartyMember" unitRef="IDR" xsi:nil="true" id="IXF1640300E02_1367_00066_01_0001"/> </td> 
+             <td class="rowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Rank 2, counterparty </td> 
+            </tr> 
+            <tr> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Pihak 3 </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonNumeric name="idx-cor:CounterpartyNameTradePayable" contextRef="PriorEndYearDuration_1640300_Rank3CounterpartyMember_RelatedPartyMember" id="IXF1640300E02_1451_00090_00_0001" escape="false">PT Perusahaan Perkebunan Industri dan Dagang Sri Rahayu Agung</ix:nonNumeric> </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonFraction name="idx-cor:TradePayables" contextRef="PriorEndYearInstant_1640300_Rank3CounterpartyMember_RelatedPartyMember" unitRef="IDR" id="IXF1640300E02_1367_00068_01_0001" format="ixt:numcommadot" decimals="-0" scale="0">4,997,883,123</ix:nonFraction> </td> 
+             <td class="rowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Rank 3, counterparty </td> 
+            </tr> 
+            <tr> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Pihak 4 </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonNumeric name="idx-cor:CounterpartyNameTradePayable" contextRef="PriorEndYearDuration_1640300_Rank4CounterpartyMember_RelatedPartyMember" xsi:nil="true" escape="false" id="IXF1640300E02_1451_00092_00_0001"/> </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonFraction name="idx-cor:TradePayables" contextRef="PriorEndYearInstant_1640300_Rank4CounterpartyMember_RelatedPartyMember" unitRef="IDR" xsi:nil="true" id="IXF1640300E02_1367_00070_01_0001"/> </td> 
+             <td class="rowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Rank 4, counterparty </td> 
+            </tr> 
+            <tr> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Pihak 5 </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonNumeric name="idx-cor:CounterpartyNameTradePayable" contextRef="PriorEndYearDuration_1640300_Rank5CounterpartyMember_RelatedPartyMember" id="IXF1640300E02_1451_00094_00_0001" escape="false">PT Hevea Anugrah Natura</ix:nonNumeric> </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonFraction name="idx-cor:TradePayables" contextRef="PriorEndYearInstant_1640300_Rank5CounterpartyMember_RelatedPartyMember" unitRef="IDR" id="IXF1640300E02_1367_00072_01_0001" format="ixt:numcommadot" decimals="-0" scale="0">1,554,000,000</ix:nonFraction> </td> 
+             <td class="rowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Rank 5, counterparty </td> 
+            </tr> 
+            <tr> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Pihak 6 </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonNumeric name="idx-cor:CounterpartyNameTradePayable" contextRef="PriorEndYearDuration_1640300_Rank6CounterpartyMember_RelatedPartyMember" xsi:nil="true" escape="false" id="IXF1640300E02_1451_00096_00_0001"/> </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonFraction name="idx-cor:TradePayables" contextRef="PriorEndYearInstant_1640300_Rank6CounterpartyMember_RelatedPartyMember" unitRef="IDR" xsi:nil="true" id="IXF1640300E02_1367_00074_01_0001"/> </td> 
+             <td class="rowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Rank 6, counterparty </td> 
+            </tr> 
+            <tr> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Pihak 7 </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonNumeric name="idx-cor:CounterpartyNameTradePayable" contextRef="PriorEndYearDuration_1640300_Rank7CounterpartyMember_RelatedPartyMember" xsi:nil="true" escape="false" id="IXF1640300E02_1451_00098_00_0001"/> </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonFraction name="idx-cor:TradePayables" contextRef="PriorEndYearInstant_1640300_Rank7CounterpartyMember_RelatedPartyMember" unitRef="IDR" xsi:nil="true" id="IXF1640300E02_1367_00076_01_0001"/> </td> 
+             <td class="rowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Rank 7, counterparty </td> 
+            </tr> 
+            <tr> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Pihak 8 </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonNumeric name="idx-cor:CounterpartyNameTradePayable" contextRef="PriorEndYearDuration_1640300_Rank8CounterpartyMember_RelatedPartyMember" xsi:nil="true" escape="false" id="IXF1640300E02_1451_00100_00_0001"/> </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonFraction name="idx-cor:TradePayables" contextRef="PriorEndYearInstant_1640300_Rank8CounterpartyMember_RelatedPartyMember" unitRef="IDR" xsi:nil="true" id="IXF1640300E02_1367_00078_01_0001"/> </td> 
+             <td class="rowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Rank 8, counterparty </td> 
+            </tr> 
+            <tr> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Pihak 9 </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonNumeric name="idx-cor:CounterpartyNameTradePayable" contextRef="PriorEndYearDuration_1640300_Rank9CounterpartyMember_RelatedPartyMember" xsi:nil="true" escape="false" id="IXF1640300E02_1451_00102_00_0001"/> </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonFraction name="idx-cor:TradePayables" contextRef="PriorEndYearInstant_1640300_Rank9CounterpartyMember_RelatedPartyMember" unitRef="IDR" xsi:nil="true" id="IXF1640300E02_1367_00080_01_0001"/> </td> 
+             <td class="rowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Rank 9, counterparty </td> 
+            </tr> 
+            <tr> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Pihak 10 </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonNumeric name="idx-cor:CounterpartyNameTradePayable" contextRef="PriorEndYearDuration_1640300_Rank10CounterpartyMember_RelatedPartyMember" xsi:nil="true" escape="false" id="IXF1640300E02_1451_00084_00_0001"/> </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonFraction name="idx-cor:TradePayables" contextRef="PriorEndYearInstant_1640300_Rank10CounterpartyMember_RelatedPartyMember" unitRef="IDR" xsi:nil="true" id="IXF1640300E02_1367_00062_01_0001"/> </td> 
+             <td class="rowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Rank 10, counterparty </td> 
+            </tr> 
+            <tr> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Pihak lainnya </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonNumeric name="idx-cor:CounterpartyNameTradePayable" contextRef="PriorEndYearDuration_1640300_OthersCounterpartyMember_RelatedPartyMember" xsi:nil="true" escape="false" id="IXF1640300E02_1451_00082_00_0001"/> </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonFraction name="idx-cor:TradePayables" contextRef="PriorEndYearInstant_1640300_OthersCounterpartyMember_RelatedPartyMember" unitRef="IDR" xsi:nil="true" id="IXF1640300E02_1367_00060_01_0001"/> </td> 
+             <td class="rowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Others, counterparty </td> 
+            </tr> 
+            <tr> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Rincian pihak </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonNumeric name="idx-cor:CounterpartyNameTradePayable" contextRef="PriorEndYearDuration_1640300_RelatedPartyMember" xsi:nil="true" escape="false" id="IXF1640300E02_1451_00014_00_0001"/> </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonFraction name="idx-cor:TradePayables" contextRef="PriorEndYearInstant_1640300_RelatedPartyMember" unitRef="IDR" id="IXF1640300E02_1367_00012_01_0001" format="ixt:numcommadot" decimals="-0" scale="0">25,441,261,501</ix:nonFraction> </td> 
+             <td class="rowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">List of counterparty </td> 
+            </tr> 
+           </tbody> 
+          </table> 
+         </div> 
+        </div> 
+       </div> </td> 
+     </tr> 
+    </tbody> 
+   </table> 
+  </div> 
+ </body> 
+</html>

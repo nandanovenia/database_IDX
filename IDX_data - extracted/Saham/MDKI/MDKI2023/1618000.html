@@ -1,0 +1,476 @@
+<?xml version="1.0"?>
+<!--?xml version="1.0"?--><!-- All Rights Reserved, Copyright (c) FUJITSU 2012 --><html xmlns="http://www.w3.org/1999/xhtml" xmlns:rpi="http://www.fujitsu.com/raportado/ixbrl" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:ix="http://www.xbrl.org/2008/inlineXBRL" xmlns:ixt="http://www.xbrl.org/inlineXBRL/transformation/2010-04-20" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:ref="http://www.xbrl.org/2006/ref" xmlns:num="http://www.xbrl.org/dtr/type/numeric" xmlns:nonnum="http://www.xbrl.org/dtr/type/non-numeric" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:negated="http://www.xbrl.org/2009/role/negated" xmlns:idx-cor="http://www.idx.co.id/xbrl/taxonomy/2020-01-01/cor" xmlns:idx-dei="http://www.idx.co.id/xbrl/taxonomy/2020-01-01/dei" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:xlink="http://www.w3.org/1999/xlink"> 
+ <!--1618000.html--> 
+ <head> 
+  <title>Interstage XWand WebForm</title> 
+  <!-- following style tag will be converted to be inline styling HTML --> 
+  <!-- following style tag will not be converted to be inline styling HTML --> 
+  <style type="text/css"> @page { size: 43in 27in; margin: 0.15in; padding: 1em; } .ix_negated { background-color: yellow; } input[type='radio'][name^='IX'] { width: auto; } input[name^='IX'] { width: 80%; } select[name^='IX'] { width: 80%; } </style> 
+  <script type="text/javascript"> // var specialKeys = new Array(); specialKeys.push(8); // backspace //specialKeys.push(44); // comma (,) //specialKeys.push(46); // dot (.) var IsNumeric = function IsNumeric(e) { var keyCode = e.which ? e.which : e.keyCode; var allow = (keyCode &gt;= 48 &amp;&amp; keyCode &lt;= 57) || specialKeys.indexOf(keyCode) != -1; if (!allow) { e.preventDefault(); } }; function onBodyLoaded() { var moneteryItemTypeInputs = document.getElementsByClassName( "ix_monetary" ); var formatNumber = function (e) { let value = e.srcElement.value; if (value == '') return; value = value.replace(/\D/g, ''); value = new Number(value).toLocaleString('en-US'); e.srcElement.value = value; } for (var i = 0; i &lt; moneteryItemTypeInputs.length; i++) { var monetaryItemTypeInput = moneteryItemTypeInputs.item(i); monetaryItemTypeInput.addEventListener("keypress", IsNumeric); monetaryItemTypeInput.addEventListener('keyup', formatNumber); monetaryItemTypeInput.value = monetaryItemTypeInput.value.replace(/\.0*/, ''); } } // </script> 
+ </head> 
+ <body onload="onBodyLoaded()"> 
+  <p class="titleLeft" style="font-family: Arial, Helvetica, sans-serif;font-size: 13.5pt;font-weight: bold;color: #000000;padding: 5px;border-spacing: 0px;vertical-align: top;text-align: left;">[1618000_BD] Notes to the financial statements - Revenue By Source (breakdown) - General Industry </p> 
+  <div name="FORM_CONTAINER_DIMENSIONAL_SIDE_BY_SIDE" class="prepareTemplateFormContainer" href="http://www.idx.co.id/role/IDX-rt_role-2020-01-01_1618000_BD"> 
+   <table> 
+    <tbody> 
+     <tr> 
+      <td> <p class="titleLeft" style="font-family: Arial, Helvetica, sans-serif;font-size: 13.5pt;font-weight: bold;color: #000000;padding: 5px;border-spacing: 0px;vertical-align: top;text-align: left;">  2023-12-31</p> </td> 
+      <td> <p class="titleRight" style="font-family: Arial, Helvetica, sans-serif;font-size: 13.5pt;font-weight: bold;color: #000000;padding: 5px;border-spacing: 0px;vertical-align: top;text-align: right;">  2022-12-31</p> </td> 
+     </tr> 
+     <tr> 
+      <td> 
+       <div> 
+        <div> 
+         <div> 
+          <table class="table01" style="font-family: Arial, Helvetica, sans-serif;font-size: 10pt;padding: 5px;border-spacing: 0px;text-align: center;width:auto;"> 
+           <tbody> 
+            <tr> 
+             <td class="titleLeft" colspan="2" style="font-family: Arial, Helvetica, sans-serif;font-size: 13.5pt;font-weight: bold;color: #000000;padding: 5px;border-spacing: 0px;vertical-align: top;text-align: left;">Catatan untuk sumber pendapatan </td> 
+             <td class="titleRight" style="font-family: Arial, Helvetica, sans-serif;font-size: 13.5pt;font-weight: bold;color: #000000;padding: 5px;border-spacing: 0px;vertical-align: top;text-align: right;text-align:right;" colspan="2">Notes for revenue by source </td> 
+            </tr> 
+            <tr> 
+             <td rowspan="2"/> 
+             <td class="colHeader01 dimensionalFormColumnHeader" style="width: 200px !important;padding: 1px;background-color: #b2bec9;color: #000000;text-decoration: underline;font-weight: bold;text-align: center;/* border-bottom: 1px solid #4e4d4d;*/            font-size: 8pt;min-width: 200px;max-width: 200px;;padding-left:1.5em">Nama produk atau jasa</td> 
+             <td class="colHeader01 dimensionalFormColumnHeader" style="width: 200px !important;padding: 1px;background-color: #b2bec9;color: #000000;text-decoration: underline;font-weight: bold;text-align: center;/* border-bottom: 1px solid #4e4d4d;*/            font-size: 8pt;min-width: 200px;max-width: 200px;;padding-left:1.5em">Penjualan dan pendapatan usaha</td> 
+             <td rowspan="2"/> 
+            </tr> 
+            <tr> 
+             <td class="colHeader02 dimensionalFormColumnHeader" style="background-color: #b2bec9;/* border-bottom: 1px solid #4e4d4d;*/;min-width: 200px;max-width: 200px;;padding-left:1.5em">Service or product name</td> 
+             <td class="colHeader02 dimensionalFormColumnHeader" style="background-color: #b2bec9;/* border-bottom: 1px solid #4e4d4d;*/;min-width: 200px;max-width: 200px;;padding-left:1.5em">Sales and revenue</td> 
+            </tr> 
+            <tr> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Pendapatan dari domestik 1 </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonNumeric name="idx-cor:ServiceOrProductName" contextRef="CurrentYearDuration_1618000_DomesticRevenue1Member" id="IXF1618000E02_1377_00009_00_0001" escape="false">Kalsium Karbit</ix:nonNumeric> </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonFraction name="idx-cor:SalesAndRevenue" contextRef="CurrentYearDuration_1618000_DomesticRevenue1Member" unitRef="IDR" id="IXF1618000E02_0489_00009_01_0001" format="ixt:numcommadot" decimals="-6" scale="6">387,215</ix:nonFraction> </td> 
+             <td class="rowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Domestic revenue 1 </td> 
+            </tr> 
+            <tr> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Pendapatan dari domestik 2 </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonNumeric name="idx-cor:ServiceOrProductName" contextRef="CurrentYearDuration_1618000_DomesticRevenue2Member" id="IXF1618000E02_1377_00010_00_0001" escape="false">Air Conditioner dan jasa</ix:nonNumeric> </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonFraction name="idx-cor:SalesAndRevenue" contextRef="CurrentYearDuration_1618000_DomesticRevenue2Member" unitRef="IDR" id="IXF1618000E02_0489_00010_01_0001" format="ixt:numcommadot" decimals="-6" scale="6">73,949</ix:nonFraction> </td> 
+             <td class="rowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Domestic revenue 2 </td> 
+            </tr> 
+            <tr> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Pendapatan dari domestik 3 </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonNumeric name="idx-cor:ServiceOrProductName" contextRef="CurrentYearDuration_1618000_DomesticRevenue3Member" id="IXF1618000E02_1377_00011_00_0001" escape="false">Mortar</ix:nonNumeric> </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonFraction name="idx-cor:SalesAndRevenue" contextRef="CurrentYearDuration_1618000_DomesticRevenue3Member" unitRef="IDR" id="IXF1618000E02_0489_00011_01_0001" format="ixt:numcommadot" decimals="-6" scale="6">1,733</ix:nonFraction> </td> 
+             <td class="rowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Domestic revenue 3 </td> 
+            </tr> 
+            <tr> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Pendapatan dari domestik 4 </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonNumeric name="idx-cor:ServiceOrProductName" contextRef="CurrentYearDuration_1618000_DomesticRevenue4Member" xsi:nil="true" escape="false" id="IXF1618000E02_1377_00012_00_0001"/> </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonFraction name="idx-cor:SalesAndRevenue" contextRef="CurrentYearDuration_1618000_DomesticRevenue4Member" unitRef="IDR" xsi:nil="true" id="IXF1618000E02_0489_00012_01_0001"/> </td> 
+             <td class="rowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Domestic revenue 4 </td> 
+            </tr> 
+            <tr> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Pendapatan dari domestik 5 </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonNumeric name="idx-cor:ServiceOrProductName" contextRef="CurrentYearDuration_1618000_DomesticRevenue5Member" xsi:nil="true" escape="false" id="IXF1618000E02_1377_00013_00_0001"/> </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonFraction name="idx-cor:SalesAndRevenue" contextRef="CurrentYearDuration_1618000_DomesticRevenue5Member" unitRef="IDR" xsi:nil="true" id="IXF1618000E02_0489_00013_01_0001"/> </td> 
+             <td class="rowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Domestic revenue 5 </td> 
+            </tr> 
+            <tr> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Pendapatan dari domestik 6 </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonNumeric name="idx-cor:ServiceOrProductName" contextRef="CurrentYearDuration_1618000_DomesticRevenue6Member" xsi:nil="true" escape="false" id="IXF1618000E02_1377_00014_00_0001"/> </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonFraction name="idx-cor:SalesAndRevenue" contextRef="CurrentYearDuration_1618000_DomesticRevenue6Member" unitRef="IDR" xsi:nil="true" id="IXF1618000E02_0489_00014_01_0001"/> </td> 
+             <td class="rowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Domestic revenue 6 </td> 
+            </tr> 
+            <tr> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Pendapatan dari domestik 7 </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonNumeric name="idx-cor:ServiceOrProductName" contextRef="CurrentYearDuration_1618000_DomesticRevenue7Member" xsi:nil="true" escape="false" id="IXF1618000E02_1377_00015_00_0001"/> </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonFraction name="idx-cor:SalesAndRevenue" contextRef="CurrentYearDuration_1618000_DomesticRevenue7Member" unitRef="IDR" xsi:nil="true" id="IXF1618000E02_0489_00015_01_0001"/> </td> 
+             <td class="rowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Domestic revenue 7 </td> 
+            </tr> 
+            <tr> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Pendapatan dari domestik 8 </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonNumeric name="idx-cor:ServiceOrProductName" contextRef="CurrentYearDuration_1618000_DomesticRevenue8Member" xsi:nil="true" escape="false" id="IXF1618000E02_1377_00016_00_0001"/> </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonFraction name="idx-cor:SalesAndRevenue" contextRef="CurrentYearDuration_1618000_DomesticRevenue8Member" unitRef="IDR" xsi:nil="true" id="IXF1618000E02_0489_00016_01_0001"/> </td> 
+             <td class="rowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Domestic revenue 8 </td> 
+            </tr> 
+            <tr> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Pendapatan dari domestik 9 </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonNumeric name="idx-cor:ServiceOrProductName" contextRef="CurrentYearDuration_1618000_DomesticRevenue9Member" xsi:nil="true" escape="false" id="IXF1618000E02_1377_00017_00_0001"/> </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonFraction name="idx-cor:SalesAndRevenue" contextRef="CurrentYearDuration_1618000_DomesticRevenue9Member" unitRef="IDR" xsi:nil="true" id="IXF1618000E02_0489_00017_01_0001"/> </td> 
+             <td class="rowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Domestic revenue 9 </td> 
+            </tr> 
+            <tr> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Pendapatan dari domestik 10 </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonNumeric name="idx-cor:ServiceOrProductName" contextRef="CurrentYearDuration_1618000_DomesticRevenue10Member" xsi:nil="true" escape="false" id="IXF1618000E02_1377_00008_00_0001"/> </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonFraction name="idx-cor:SalesAndRevenue" contextRef="CurrentYearDuration_1618000_DomesticRevenue10Member" unitRef="IDR" xsi:nil="true" id="IXF1618000E02_0489_00008_01_0001"/> </td> 
+             <td class="rowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Domestic revenue 10 </td> 
+            </tr> 
+            <tr> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Pendapatan domestik lainnya </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonNumeric name="idx-cor:ServiceOrProductName" contextRef="CurrentYearDuration_1618000_OtherDomesticRevenueMember" xsi:nil="true" escape="false" id="IXF1618000E02_1377_00030_00_0001"/> </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonFraction name="idx-cor:SalesAndRevenue" contextRef="CurrentYearDuration_1618000_OtherDomesticRevenueMember" unitRef="IDR" xsi:nil="true" id="IXF1618000E02_0489_00030_01_0001"/> </td> 
+             <td class="rowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Other domestic revenue </td> 
+            </tr> 
+            <tr> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Pendapatan domestik </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonNumeric name="idx-cor:ServiceOrProductName" contextRef="CurrentYearDuration_1618000_DomesticRevenueMember" xsi:nil="true" escape="false" id="IXF1618000E02_1377_00018_00_0001"/> </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonFraction name="idx-cor:SalesAndRevenue" contextRef="CurrentYearDuration_1618000_DomesticRevenueMember" unitRef="IDR" id="IXF1618000E02_0489_00018_01_0001" format="ixt:numcommadot" decimals="-6" scale="6">462,897</ix:nonFraction> </td> 
+             <td class="rowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Domestic revenue </td> 
+            </tr> 
+            <tr> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Pendapatan dari ekspor 1 </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonNumeric name="idx-cor:ServiceOrProductName" contextRef="CurrentYearDuration_1618000_ExportRevenue1Member" id="IXF1618000E02_1377_00020_00_0001" escape="false">Kalsium Karbit</ix:nonNumeric> </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonFraction name="idx-cor:SalesAndRevenue" contextRef="CurrentYearDuration_1618000_ExportRevenue1Member" unitRef="IDR" id="IXF1618000E02_0489_00020_01_0001" format="ixt:numcommadot" decimals="-6" scale="6">7,803</ix:nonFraction> </td> 
+             <td class="rowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Export revenue 1 </td> 
+            </tr> 
+            <tr> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Pendapatan dari ekspor 2 </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonNumeric name="idx-cor:ServiceOrProductName" contextRef="CurrentYearDuration_1618000_ExportRevenue2Member" xsi:nil="true" escape="false" id="IXF1618000E02_1377_00021_00_0001"/> </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonFraction name="idx-cor:SalesAndRevenue" contextRef="CurrentYearDuration_1618000_ExportRevenue2Member" unitRef="IDR" xsi:nil="true" id="IXF1618000E02_0489_00021_01_0001"/> </td> 
+             <td class="rowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Export revenue 2 </td> 
+            </tr> 
+            <tr> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Pendapatan dari ekspor 3 </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonNumeric name="idx-cor:ServiceOrProductName" contextRef="CurrentYearDuration_1618000_ExportRevenue3Member" xsi:nil="true" escape="false" id="IXF1618000E02_1377_00022_00_0001"/> </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonFraction name="idx-cor:SalesAndRevenue" contextRef="CurrentYearDuration_1618000_ExportRevenue3Member" unitRef="IDR" xsi:nil="true" id="IXF1618000E02_0489_00022_01_0001"/> </td> 
+             <td class="rowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Export revenue 3 </td> 
+            </tr> 
+            <tr> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Pendapatan dari ekspor 4 </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonNumeric name="idx-cor:ServiceOrProductName" contextRef="CurrentYearDuration_1618000_ExportRevenue4Member" xsi:nil="true" escape="false" id="IXF1618000E02_1377_00023_00_0001"/> </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonFraction name="idx-cor:SalesAndRevenue" contextRef="CurrentYearDuration_1618000_ExportRevenue4Member" unitRef="IDR" xsi:nil="true" id="IXF1618000E02_0489_00023_01_0001"/> </td> 
+             <td class="rowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Export revenue 4 </td> 
+            </tr> 
+            <tr> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Pendapatan dari ekspor 5 </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonNumeric name="idx-cor:ServiceOrProductName" contextRef="CurrentYearDuration_1618000_ExportRevenue5Member" xsi:nil="true" escape="false" id="IXF1618000E02_1377_00024_00_0001"/> </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonFraction name="idx-cor:SalesAndRevenue" contextRef="CurrentYearDuration_1618000_ExportRevenue5Member" unitRef="IDR" xsi:nil="true" id="IXF1618000E02_0489_00024_01_0001"/> </td> 
+             <td class="rowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Export revenue 5 </td> 
+            </tr> 
+            <tr> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Pendapatan dari ekspor 6 </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonNumeric name="idx-cor:ServiceOrProductName" contextRef="CurrentYearDuration_1618000_ExportRevenue6Member" xsi:nil="true" escape="false" id="IXF1618000E02_1377_00025_00_0001"/> </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonFraction name="idx-cor:SalesAndRevenue" contextRef="CurrentYearDuration_1618000_ExportRevenue6Member" unitRef="IDR" xsi:nil="true" id="IXF1618000E02_0489_00025_01_0001"/> </td> 
+             <td class="rowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Export revenue 6 </td> 
+            </tr> 
+            <tr> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Pendapatan dari ekspor 7 </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonNumeric name="idx-cor:ServiceOrProductName" contextRef="CurrentYearDuration_1618000_ExportRevenue7Member" xsi:nil="true" escape="false" id="IXF1618000E02_1377_00026_00_0001"/> </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonFraction name="idx-cor:SalesAndRevenue" contextRef="CurrentYearDuration_1618000_ExportRevenue7Member" unitRef="IDR" xsi:nil="true" id="IXF1618000E02_0489_00026_01_0001"/> </td> 
+             <td class="rowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Export revenue 7 </td> 
+            </tr> 
+            <tr> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Pendapatan dari ekspor 8 </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonNumeric name="idx-cor:ServiceOrProductName" contextRef="CurrentYearDuration_1618000_ExportRevenue8Member" xsi:nil="true" escape="false" id="IXF1618000E02_1377_00027_00_0001"/> </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonFraction name="idx-cor:SalesAndRevenue" contextRef="CurrentYearDuration_1618000_ExportRevenue8Member" unitRef="IDR" xsi:nil="true" id="IXF1618000E02_0489_00027_01_0001"/> </td> 
+             <td class="rowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Export revenue 8 </td> 
+            </tr> 
+            <tr> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Pendapatan dari ekspor 9 </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonNumeric name="idx-cor:ServiceOrProductName" contextRef="CurrentYearDuration_1618000_ExportRevenue9Member" xsi:nil="true" escape="false" id="IXF1618000E02_1377_00028_00_0001"/> </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonFraction name="idx-cor:SalesAndRevenue" contextRef="CurrentYearDuration_1618000_ExportRevenue9Member" unitRef="IDR" xsi:nil="true" id="IXF1618000E02_0489_00028_01_0001"/> </td> 
+             <td class="rowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Export revenue 9 </td> 
+            </tr> 
+            <tr> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Pendapatan dari ekspor 10 </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonNumeric name="idx-cor:ServiceOrProductName" contextRef="CurrentYearDuration_1618000_ExportRevenue10Member" xsi:nil="true" escape="false" id="IXF1618000E02_1377_00019_00_0001"/> </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonFraction name="idx-cor:SalesAndRevenue" contextRef="CurrentYearDuration_1618000_ExportRevenue10Member" unitRef="IDR" xsi:nil="true" id="IXF1618000E02_0489_00019_01_0001"/> </td> 
+             <td class="rowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Export revenue 10 </td> 
+            </tr> 
+            <tr> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Pendapatan ekspor lainnya </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonNumeric name="idx-cor:ServiceOrProductName" contextRef="CurrentYearDuration_1618000_OtherExportRevenueMember" xsi:nil="true" escape="false" id="IXF1618000E02_1377_00031_00_0001"/> </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonFraction name="idx-cor:SalesAndRevenue" contextRef="CurrentYearDuration_1618000_OtherExportRevenueMember" unitRef="IDR" xsi:nil="true" id="IXF1618000E02_0489_00031_01_0001"/> </td> 
+             <td class="rowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Other export revenue </td> 
+            </tr> 
+            <tr> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Pendapatan ekspor </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonNumeric name="idx-cor:ServiceOrProductName" contextRef="CurrentYearDuration_1618000_ExportRevenueMember" xsi:nil="true" escape="false" id="IXF1618000E02_1377_00029_00_0001"/> </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonFraction name="idx-cor:SalesAndRevenue" contextRef="CurrentYearDuration_1618000_ExportRevenueMember" unitRef="IDR" id="IXF1618000E02_0489_00029_01_0001" format="ixt:numcommadot" decimals="-6" scale="6">7,803</ix:nonFraction> </td> 
+             <td class="rowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Export revenue </td> 
+            </tr> 
+            <tr> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Sumber pendapatan </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonNumeric name="idx-cor:ServiceOrProductName" contextRef="CurrentYearDuration" xsi:nil="true" escape="false" id="IXF1618000E02_1377_00002_00_0001"/> </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonFraction name="idx-cor:SalesAndRevenue" contextRef="CurrentYearDuration" unitRef="IDR" id="IXF1618000E02_0489_00002_01_0001" format="ixt:numcommadot" decimals="-6" scale="6">470,700</ix:nonFraction> </td> 
+             <td class="rowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Source of revenue </td> 
+            </tr> 
+           </tbody> 
+          </table> 
+         </div> 
+        </div> 
+       </div> </td> 
+      <td> 
+       <div> 
+        <div> 
+         <div> 
+          <table class="table01" style="font-family: Arial, Helvetica, sans-serif;font-size: 10pt;padding: 5px;border-spacing: 0px;text-align: center;width:auto;"> 
+           <tbody> 
+            <tr> 
+             <td class="titleLeft" colspan="2" style="font-family: Arial, Helvetica, sans-serif;font-size: 13.5pt;font-weight: bold;color: #000000;padding: 5px;border-spacing: 0px;vertical-align: top;text-align: left;">Catatan untuk sumber pendapatan </td> 
+             <td class="titleRight" style="font-family: Arial, Helvetica, sans-serif;font-size: 13.5pt;font-weight: bold;color: #000000;padding: 5px;border-spacing: 0px;vertical-align: top;text-align: right;text-align:right;" colspan="2">Notes for revenue by source </td> 
+            </tr> 
+            <tr> 
+             <td rowspan="2"/> 
+             <td class="colHeader01 dimensionalFormColumnHeader" style="width: 200px !important;padding: 1px;background-color: #b2bec9;color: #000000;text-decoration: underline;font-weight: bold;text-align: center;/* border-bottom: 1px solid #4e4d4d;*/            font-size: 8pt;min-width: 200px;max-width: 200px;;padding-left:1.5em">Nama produk atau jasa</td> 
+             <td class="colHeader01 dimensionalFormColumnHeader" style="width: 200px !important;padding: 1px;background-color: #b2bec9;color: #000000;text-decoration: underline;font-weight: bold;text-align: center;/* border-bottom: 1px solid #4e4d4d;*/            font-size: 8pt;min-width: 200px;max-width: 200px;;padding-left:1.5em">Penjualan dan pendapatan usaha</td> 
+             <td rowspan="2"/> 
+            </tr> 
+            <tr> 
+             <td class="colHeader02 dimensionalFormColumnHeader" style="background-color: #b2bec9;/* border-bottom: 1px solid #4e4d4d;*/;min-width: 200px;max-width: 200px;;padding-left:1.5em">Service or product name</td> 
+             <td class="colHeader02 dimensionalFormColumnHeader" style="background-color: #b2bec9;/* border-bottom: 1px solid #4e4d4d;*/;min-width: 200px;max-width: 200px;;padding-left:1.5em">Sales and revenue</td> 
+            </tr> 
+            <tr> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Pendapatan dari domestik 1 </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonNumeric name="idx-cor:ServiceOrProductName" contextRef="PriorYearDuration_1618000_DomesticRevenue1Member" id="IXF1618000E02_1377_00033_00_0001" escape="false">Kalsium Karbit</ix:nonNumeric> </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonFraction name="idx-cor:SalesAndRevenue" contextRef="PriorYearDuration_1618000_DomesticRevenue1Member" unitRef="IDR" id="IXF1618000E02_0489_00033_01_0001" format="ixt:numcommadot" decimals="-6" scale="6">377,732</ix:nonFraction> </td> 
+             <td class="rowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Domestic revenue 1 </td> 
+            </tr> 
+            <tr> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Pendapatan dari domestik 2 </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonNumeric name="idx-cor:ServiceOrProductName" contextRef="PriorYearDuration_1618000_DomesticRevenue2Member" id="IXF1618000E02_1377_00034_00_0001" escape="false">Air conditioner dan jasa</ix:nonNumeric> </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonFraction name="idx-cor:SalesAndRevenue" contextRef="PriorYearDuration_1618000_DomesticRevenue2Member" unitRef="IDR" id="IXF1618000E02_0489_00034_01_0001" format="ixt:numcommadot" decimals="-6" scale="6">57,982</ix:nonFraction> </td> 
+             <td class="rowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Domestic revenue 2 </td> 
+            </tr> 
+            <tr> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Pendapatan dari domestik 3 </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonNumeric name="idx-cor:ServiceOrProductName" contextRef="PriorYearDuration_1618000_DomesticRevenue3Member" id="IXF1618000E02_1377_00035_00_0001" escape="false">Mortar</ix:nonNumeric> </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonFraction name="idx-cor:SalesAndRevenue" contextRef="PriorYearDuration_1618000_DomesticRevenue3Member" unitRef="IDR" id="IXF1618000E02_0489_00035_01_0001" format="ixt:numcommadot" decimals="-6" scale="6">742</ix:nonFraction> </td> 
+             <td class="rowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Domestic revenue 3 </td> 
+            </tr> 
+            <tr> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Pendapatan dari domestik 4 </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonNumeric name="idx-cor:ServiceOrProductName" contextRef="PriorYearDuration_1618000_DomesticRevenue4Member" xsi:nil="true" escape="false" id="IXF1618000E02_1377_00036_00_0001"/> </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonFraction name="idx-cor:SalesAndRevenue" contextRef="PriorYearDuration_1618000_DomesticRevenue4Member" unitRef="IDR" xsi:nil="true" id="IXF1618000E02_0489_00036_01_0001"/> </td> 
+             <td class="rowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Domestic revenue 4 </td> 
+            </tr> 
+            <tr> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Pendapatan dari domestik 5 </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonNumeric name="idx-cor:ServiceOrProductName" contextRef="PriorYearDuration_1618000_DomesticRevenue5Member" xsi:nil="true" escape="false" id="IXF1618000E02_1377_00037_00_0001"/> </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonFraction name="idx-cor:SalesAndRevenue" contextRef="PriorYearDuration_1618000_DomesticRevenue5Member" unitRef="IDR" xsi:nil="true" id="IXF1618000E02_0489_00037_01_0001"/> </td> 
+             <td class="rowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Domestic revenue 5 </td> 
+            </tr> 
+            <tr> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Pendapatan dari domestik 6 </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonNumeric name="idx-cor:ServiceOrProductName" contextRef="PriorYearDuration_1618000_DomesticRevenue6Member" xsi:nil="true" escape="false" id="IXF1618000E02_1377_00038_00_0001"/> </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonFraction name="idx-cor:SalesAndRevenue" contextRef="PriorYearDuration_1618000_DomesticRevenue6Member" unitRef="IDR" xsi:nil="true" id="IXF1618000E02_0489_00038_01_0001"/> </td> 
+             <td class="rowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Domestic revenue 6 </td> 
+            </tr> 
+            <tr> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Pendapatan dari domestik 7 </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonNumeric name="idx-cor:ServiceOrProductName" contextRef="PriorYearDuration_1618000_DomesticRevenue7Member" xsi:nil="true" escape="false" id="IXF1618000E02_1377_00039_00_0001"/> </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonFraction name="idx-cor:SalesAndRevenue" contextRef="PriorYearDuration_1618000_DomesticRevenue7Member" unitRef="IDR" xsi:nil="true" id="IXF1618000E02_0489_00039_01_0001"/> </td> 
+             <td class="rowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Domestic revenue 7 </td> 
+            </tr> 
+            <tr> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Pendapatan dari domestik 8 </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonNumeric name="idx-cor:ServiceOrProductName" contextRef="PriorYearDuration_1618000_DomesticRevenue8Member" xsi:nil="true" escape="false" id="IXF1618000E02_1377_00040_00_0001"/> </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonFraction name="idx-cor:SalesAndRevenue" contextRef="PriorYearDuration_1618000_DomesticRevenue8Member" unitRef="IDR" xsi:nil="true" id="IXF1618000E02_0489_00040_01_0001"/> </td> 
+             <td class="rowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Domestic revenue 8 </td> 
+            </tr> 
+            <tr> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Pendapatan dari domestik 9 </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonNumeric name="idx-cor:ServiceOrProductName" contextRef="PriorYearDuration_1618000_DomesticRevenue9Member" xsi:nil="true" escape="false" id="IXF1618000E02_1377_00041_00_0001"/> </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonFraction name="idx-cor:SalesAndRevenue" contextRef="PriorYearDuration_1618000_DomesticRevenue9Member" unitRef="IDR" xsi:nil="true" id="IXF1618000E02_0489_00041_01_0001"/> </td> 
+             <td class="rowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Domestic revenue 9 </td> 
+            </tr> 
+            <tr> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Pendapatan dari domestik 10 </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonNumeric name="idx-cor:ServiceOrProductName" contextRef="PriorYearDuration_1618000_DomesticRevenue10Member" xsi:nil="true" escape="false" id="IXF1618000E02_1377_00032_00_0001"/> </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonFraction name="idx-cor:SalesAndRevenue" contextRef="PriorYearDuration_1618000_DomesticRevenue10Member" unitRef="IDR" xsi:nil="true" id="IXF1618000E02_0489_00032_01_0001"/> </td> 
+             <td class="rowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Domestic revenue 10 </td> 
+            </tr> 
+            <tr> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Pendapatan domestik lainnya </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonNumeric name="idx-cor:ServiceOrProductName" contextRef="PriorYearDuration_1618000_OtherDomesticRevenueMember" xsi:nil="true" escape="false" id="IXF1618000E02_1377_00054_00_0001"/> </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonFraction name="idx-cor:SalesAndRevenue" contextRef="PriorYearDuration_1618000_OtherDomesticRevenueMember" unitRef="IDR" xsi:nil="true" id="IXF1618000E02_0489_00054_01_0001"/> </td> 
+             <td class="rowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Other domestic revenue </td> 
+            </tr> 
+            <tr> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Pendapatan domestik </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonNumeric name="idx-cor:ServiceOrProductName" contextRef="PriorYearDuration_1618000_DomesticRevenueMember" xsi:nil="true" escape="false" id="IXF1618000E02_1377_00042_00_0001"/> </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonFraction name="idx-cor:SalesAndRevenue" contextRef="PriorYearDuration_1618000_DomesticRevenueMember" unitRef="IDR" id="IXF1618000E02_0489_00042_01_0001" format="ixt:numcommadot" decimals="-6" scale="6">436,456</ix:nonFraction> </td> 
+             <td class="rowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Domestic revenue </td> 
+            </tr> 
+            <tr> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Pendapatan dari ekspor 1 </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonNumeric name="idx-cor:ServiceOrProductName" contextRef="PriorYearDuration_1618000_ExportRevenue1Member" id="IXF1618000E02_1377_00044_00_0001" escape="false">Kalsium Karbit</ix:nonNumeric> </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonFraction name="idx-cor:SalesAndRevenue" contextRef="PriorYearDuration_1618000_ExportRevenue1Member" unitRef="IDR" id="IXF1618000E02_0489_00044_01_0001" format="ixt:numcommadot" decimals="-6" scale="6">50,420</ix:nonFraction> </td> 
+             <td class="rowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Export revenue 1 </td> 
+            </tr> 
+            <tr> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Pendapatan dari ekspor 2 </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonNumeric name="idx-cor:ServiceOrProductName" contextRef="PriorYearDuration_1618000_ExportRevenue2Member" xsi:nil="true" escape="false" id="IXF1618000E02_1377_00045_00_0001"/> </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonFraction name="idx-cor:SalesAndRevenue" contextRef="PriorYearDuration_1618000_ExportRevenue2Member" unitRef="IDR" xsi:nil="true" id="IXF1618000E02_0489_00045_01_0001"/> </td> 
+             <td class="rowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Export revenue 2 </td> 
+            </tr> 
+            <tr> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Pendapatan dari ekspor 3 </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonNumeric name="idx-cor:ServiceOrProductName" contextRef="PriorYearDuration_1618000_ExportRevenue3Member" xsi:nil="true" escape="false" id="IXF1618000E02_1377_00046_00_0001"/> </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonFraction name="idx-cor:SalesAndRevenue" contextRef="PriorYearDuration_1618000_ExportRevenue3Member" unitRef="IDR" xsi:nil="true" id="IXF1618000E02_0489_00046_01_0001"/> </td> 
+             <td class="rowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Export revenue 3 </td> 
+            </tr> 
+            <tr> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Pendapatan dari ekspor 4 </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonNumeric name="idx-cor:ServiceOrProductName" contextRef="PriorYearDuration_1618000_ExportRevenue4Member" xsi:nil="true" escape="false" id="IXF1618000E02_1377_00047_00_0001"/> </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonFraction name="idx-cor:SalesAndRevenue" contextRef="PriorYearDuration_1618000_ExportRevenue4Member" unitRef="IDR" xsi:nil="true" id="IXF1618000E02_0489_00047_01_0001"/> </td> 
+             <td class="rowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Export revenue 4 </td> 
+            </tr> 
+            <tr> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Pendapatan dari ekspor 5 </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonNumeric name="idx-cor:ServiceOrProductName" contextRef="PriorYearDuration_1618000_ExportRevenue5Member" xsi:nil="true" escape="false" id="IXF1618000E02_1377_00048_00_0001"/> </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonFraction name="idx-cor:SalesAndRevenue" contextRef="PriorYearDuration_1618000_ExportRevenue5Member" unitRef="IDR" xsi:nil="true" id="IXF1618000E02_0489_00048_01_0001"/> </td> 
+             <td class="rowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Export revenue 5 </td> 
+            </tr> 
+            <tr> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Pendapatan dari ekspor 6 </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonNumeric name="idx-cor:ServiceOrProductName" contextRef="PriorYearDuration_1618000_ExportRevenue6Member" xsi:nil="true" escape="false" id="IXF1618000E02_1377_00049_00_0001"/> </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonFraction name="idx-cor:SalesAndRevenue" contextRef="PriorYearDuration_1618000_ExportRevenue6Member" unitRef="IDR" xsi:nil="true" id="IXF1618000E02_0489_00049_01_0001"/> </td> 
+             <td class="rowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Export revenue 6 </td> 
+            </tr> 
+            <tr> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Pendapatan dari ekspor 7 </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonNumeric name="idx-cor:ServiceOrProductName" contextRef="PriorYearDuration_1618000_ExportRevenue7Member" xsi:nil="true" escape="false" id="IXF1618000E02_1377_00050_00_0001"/> </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonFraction name="idx-cor:SalesAndRevenue" contextRef="PriorYearDuration_1618000_ExportRevenue7Member" unitRef="IDR" xsi:nil="true" id="IXF1618000E02_0489_00050_01_0001"/> </td> 
+             <td class="rowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Export revenue 7 </td> 
+            </tr> 
+            <tr> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Pendapatan dari ekspor 8 </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonNumeric name="idx-cor:ServiceOrProductName" contextRef="PriorYearDuration_1618000_ExportRevenue8Member" xsi:nil="true" escape="false" id="IXF1618000E02_1377_00051_00_0001"/> </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonFraction name="idx-cor:SalesAndRevenue" contextRef="PriorYearDuration_1618000_ExportRevenue8Member" unitRef="IDR" xsi:nil="true" id="IXF1618000E02_0489_00051_01_0001"/> </td> 
+             <td class="rowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Export revenue 8 </td> 
+            </tr> 
+            <tr> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Pendapatan dari ekspor 9 </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonNumeric name="idx-cor:ServiceOrProductName" contextRef="PriorYearDuration_1618000_ExportRevenue9Member" xsi:nil="true" escape="false" id="IXF1618000E02_1377_00052_00_0001"/> </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonFraction name="idx-cor:SalesAndRevenue" contextRef="PriorYearDuration_1618000_ExportRevenue9Member" unitRef="IDR" xsi:nil="true" id="IXF1618000E02_0489_00052_01_0001"/> </td> 
+             <td class="rowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Export revenue 9 </td> 
+            </tr> 
+            <tr> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Pendapatan dari ekspor 10 </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonNumeric name="idx-cor:ServiceOrProductName" contextRef="PriorYearDuration_1618000_ExportRevenue10Member" xsi:nil="true" escape="false" id="IXF1618000E02_1377_00043_00_0001"/> </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonFraction name="idx-cor:SalesAndRevenue" contextRef="PriorYearDuration_1618000_ExportRevenue10Member" unitRef="IDR" xsi:nil="true" id="IXF1618000E02_0489_00043_01_0001"/> </td> 
+             <td class="rowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Export revenue 10 </td> 
+            </tr> 
+            <tr> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Pendapatan ekspor lainnya </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonNumeric name="idx-cor:ServiceOrProductName" contextRef="PriorYearDuration_1618000_OtherExportRevenueMember" xsi:nil="true" escape="false" id="IXF1618000E02_1377_00055_00_0001"/> </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonFraction name="idx-cor:SalesAndRevenue" contextRef="PriorYearDuration_1618000_OtherExportRevenueMember" unitRef="IDR" xsi:nil="true" id="IXF1618000E02_0489_00055_01_0001"/> </td> 
+             <td class="rowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Other export revenue </td> 
+            </tr> 
+            <tr> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Pendapatan ekspor </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonNumeric name="idx-cor:ServiceOrProductName" contextRef="PriorYearDuration_1618000_ExportRevenueMember" xsi:nil="true" escape="false" id="IXF1618000E02_1377_00053_00_0001"/> </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonFraction name="idx-cor:SalesAndRevenue" contextRef="PriorYearDuration_1618000_ExportRevenueMember" unitRef="IDR" id="IXF1618000E02_0489_00053_01_0001" format="ixt:numcommadot" decimals="-6" scale="6">50,420</ix:nonFraction> </td> 
+             <td class="rowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Export revenue </td> 
+            </tr> 
+            <tr> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Sumber pendapatan </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonNumeric name="idx-cor:ServiceOrProductName" contextRef="PriorYearDuration" xsi:nil="true" escape="false" id="IXF1618000E02_1377_00006_00_0001"/> </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonFraction name="idx-cor:SalesAndRevenue" contextRef="PriorYearDuration" unitRef="IDR" id="IXF1618000E02_0489_00006_01_0001" format="ixt:numcommadot" decimals="-6" scale="6">486,876</ix:nonFraction> </td> 
+             <td class="rowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Source of revenue </td> 
+            </tr> 
+           </tbody> 
+          </table> 
+         </div> 
+        </div> 
+       </div> </td> 
+     </tr> 
+    </tbody> 
+   </table> 
+  </div> 
+ </body> 
+</html>

@@ -1,0 +1,476 @@
+<?xml version="1.0"?>
+<!--?xml version="1.0"?--><!-- All Rights Reserved, Copyright (c) FUJITSU 2012 --><html xmlns="http://www.w3.org/1999/xhtml" xmlns:rpi="http://www.fujitsu.com/raportado/ixbrl" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:ix="http://www.xbrl.org/2008/inlineXBRL" xmlns:ixt="http://www.xbrl.org/inlineXBRL/transformation/2010-04-20" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:ref="http://www.xbrl.org/2006/ref" xmlns:num="http://www.xbrl.org/dtr/type/numeric" xmlns:nonnum="http://www.xbrl.org/dtr/type/non-numeric" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:negated="http://www.xbrl.org/2009/role/negated" xmlns:idx-cor="http://www.idx.co.id/xbrl/taxonomy/2020-01-01/cor" xmlns:idx-dei="http://www.idx.co.id/xbrl/taxonomy/2020-01-01/dei" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:xlink="http://www.w3.org/1999/xlink"> 
+ <!--1616000.html--> 
+ <head> 
+  <title>Interstage XWand WebForm</title> 
+  <!-- following style tag will be converted to be inline styling HTML --> 
+  <!-- following style tag will not be converted to be inline styling HTML --> 
+  <style type="text/css"> @page { size: 43in 27in; margin: 0.15in; padding: 1em; } .ix_negated { background-color: yellow; } input[type='radio'][name^='IX'] { width: auto; } input[name^='IX'] { width: 80%; } select[name^='IX'] { width: 80%; } </style> 
+  <script type="text/javascript"> // var specialKeys = new Array(); specialKeys.push(8); // backspace //specialKeys.push(44); // comma (,) //specialKeys.push(46); // dot (.) var IsNumeric = function IsNumeric(e) { var keyCode = e.which ? e.which : e.keyCode; var allow = (keyCode &gt;= 48 &amp;&amp; keyCode &lt;= 57) || specialKeys.indexOf(keyCode) != -1; if (!allow) { e.preventDefault(); } }; function onBodyLoaded() { var moneteryItemTypeInputs = document.getElementsByClassName( "ix_monetary" ); var formatNumber = function (e) { let value = e.srcElement.value; if (value == '') return; value = value.replace(/\D/g, ''); value = new Number(value).toLocaleString('en-US'); e.srcElement.value = value; } for (var i = 0; i &lt; moneteryItemTypeInputs.length; i++) { var monetaryItemTypeInput = moneteryItemTypeInputs.item(i); monetaryItemTypeInput.addEventListener("keypress", IsNumeric); monetaryItemTypeInput.addEventListener('keyup', formatNumber); monetaryItemTypeInput.value = monetaryItemTypeInput.value.replace(/\.0*/, ''); } } // </script> 
+ </head> 
+ <body onload="onBodyLoaded()"> 
+  <p class="titleLeft" style="font-family: Arial, Helvetica, sans-serif;font-size: 13.5pt;font-weight: bold;color: #000000;padding: 5px;border-spacing: 0px;vertical-align: top;text-align: left;">[1616000_BD] Notes to the financial statements - Revenue By Parties (breakdown) - General Industry </p> 
+  <div name="FORM_CONTAINER_DIMENSIONAL_SIDE_BY_SIDE" class="prepareTemplateFormContainer" href="http://www.idx.co.id/role/IDX-rt_role-2020-01-01_1616000_BD"> 
+   <table> 
+    <tbody> 
+     <tr> 
+      <td> <p class="titleLeft" style="font-family: Arial, Helvetica, sans-serif;font-size: 13.5pt;font-weight: bold;color: #000000;padding: 5px;border-spacing: 0px;vertical-align: top;text-align: left;">  2023-12-31</p> </td> 
+      <td> <p class="titleRight" style="font-family: Arial, Helvetica, sans-serif;font-size: 13.5pt;font-weight: bold;color: #000000;padding: 5px;border-spacing: 0px;vertical-align: top;text-align: right;">  2022-12-31</p> </td> 
+     </tr> 
+     <tr> 
+      <td> 
+       <div> 
+        <div> 
+         <div> 
+          <table class="table01" style="font-family: Arial, Helvetica, sans-serif;font-size: 10pt;padding: 5px;border-spacing: 0px;text-align: center;width:auto;"> 
+           <tbody> 
+            <tr> 
+             <td class="titleLeft" colspan="2" style="font-family: Arial, Helvetica, sans-serif;font-size: 13.5pt;font-weight: bold;color: #000000;padding: 5px;border-spacing: 0px;vertical-align: top;text-align: left;">Catatan untuk pendapatan berdasarkan pihak </td> 
+             <td class="titleRight" style="font-family: Arial, Helvetica, sans-serif;font-size: 13.5pt;font-weight: bold;color: #000000;padding: 5px;border-spacing: 0px;vertical-align: top;text-align: right;text-align:right;" colspan="2">Notes for revenue by parties </td> 
+            </tr> 
+            <tr> 
+             <td rowspan="2"/> 
+             <td class="colHeader01 dimensionalFormColumnHeader" style="width: 200px !important;padding: 1px;background-color: #b2bec9;color: #000000;text-decoration: underline;font-weight: bold;text-align: center;/* border-bottom: 1px solid #4e4d4d;*/            font-size: 8pt;min-width: 200px;max-width: 200px;;padding-left:1.5em">Nama pihak</td> 
+             <td class="colHeader01 dimensionalFormColumnHeader" style="width: 200px !important;padding: 1px;background-color: #b2bec9;color: #000000;text-decoration: underline;font-weight: bold;text-align: center;/* border-bottom: 1px solid #4e4d4d;*/            font-size: 8pt;min-width: 200px;max-width: 200px;;padding-left:1.5em">Penjualan dan pendapatan usaha</td> 
+             <td rowspan="2"/> 
+            </tr> 
+            <tr> 
+             <td class="colHeader02 dimensionalFormColumnHeader" style="background-color: #b2bec9;/* border-bottom: 1px solid #4e4d4d;*/;min-width: 200px;max-width: 200px;;padding-left:1.5em">Party name</td> 
+             <td class="colHeader02 dimensionalFormColumnHeader" style="background-color: #b2bec9;/* border-bottom: 1px solid #4e4d4d;*/;min-width: 200px;max-width: 200px;;padding-left:1.5em">Sales and revenue</td> 
+            </tr> 
+            <tr> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Pihak berelasi 1 </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonNumeric name="idx-cor:PartyName" contextRef="CurrentYearDuration_1616000_RelatedParty1Member" id="IXF1616000E02_1378_00012_00_0001" escape="false">PT Sri Rejeki Isman Tbk</ix:nonNumeric> </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonFraction name="idx-cor:SalesAndRevenue" contextRef="CurrentYearDuration_1616000_RelatedParty1Member" unitRef="IDR" id="IXF1616000E02_0489_00012_01_0001" format="ixt:numcommadot" decimals="-0" scale="0">24,011,193,890</ix:nonFraction> </td> 
+             <td class="rowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Related party 1 </td> 
+            </tr> 
+            <tr> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Pihak berelasi 2 </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonNumeric name="idx-cor:PartyName" contextRef="CurrentYearDuration_1616000_RelatedParty2Member" id="IXF1616000E02_1378_00013_00_0001" escape="false">PT Primayudha Mandirijaya</ix:nonNumeric> </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonFraction name="idx-cor:SalesAndRevenue" contextRef="CurrentYearDuration_1616000_RelatedParty2Member" unitRef="IDR" id="IXF1616000E02_0489_00013_01_0001" format="ixt:numcommadot" decimals="-0" scale="0">10,462,325,352</ix:nonFraction> </td> 
+             <td class="rowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Related party 2 </td> 
+            </tr> 
+            <tr> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Pihak berelasi 3 </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonNumeric name="idx-cor:PartyName" contextRef="CurrentYearDuration_1616000_RelatedParty3Member" id="IXF1616000E02_1378_00014_00_0001" escape="false">PT Bitratex Industies</ix:nonNumeric> </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonFraction name="idx-cor:SalesAndRevenue" contextRef="CurrentYearDuration_1616000_RelatedParty3Member" unitRef="IDR" id="IXF1616000E02_0489_00014_01_0001" format="ixt:numcommadot" decimals="-0" scale="0">8,954,187,034</ix:nonFraction> </td> 
+             <td class="rowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Related party 3 </td> 
+            </tr> 
+            <tr> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Pihak berelasi 4 </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonNumeric name="idx-cor:PartyName" contextRef="CurrentYearDuration_1616000_RelatedParty4Member" id="IXF1616000E02_1378_00015_00_0001" escape="false">PT Sari Warna Kebakkeramat</ix:nonNumeric> </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonFraction name="idx-cor:SalesAndRevenue" contextRef="CurrentYearDuration_1616000_RelatedParty4Member" unitRef="IDR" id="IXF1616000E02_0489_00015_01_0001" format="ixt:numcommadot" decimals="-0" scale="0">2,613,635,400</ix:nonFraction> </td> 
+             <td class="rowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Related party 4 </td> 
+            </tr> 
+            <tr> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Pihak berelasi 5 </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonNumeric name="idx-cor:PartyName" contextRef="CurrentYearDuration_1616000_RelatedParty5Member" id="IXF1616000E02_1378_00016_00_0001" escape="false">PT Sinar Pantja Djaja</ix:nonNumeric> </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonFraction name="idx-cor:SalesAndRevenue" contextRef="CurrentYearDuration_1616000_RelatedParty5Member" unitRef="IDR" id="IXF1616000E02_0489_00016_01_0001" format="ixt:numcommadot" decimals="-0" scale="0">8,033,240,937</ix:nonFraction> </td> 
+             <td class="rowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Related party 5 </td> 
+            </tr> 
+            <tr> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Pihak berelasi 6 </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonNumeric name="idx-cor:PartyName" contextRef="CurrentYearDuration_1616000_RelatedParty6Member" id="IXF1616000E02_1378_00017_00_0001" escape="false">PT Adi Kencana</ix:nonNumeric> </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonFraction name="idx-cor:SalesAndRevenue" contextRef="CurrentYearDuration_1616000_RelatedParty6Member" unitRef="IDR" id="IXF1616000E02_0489_00017_01_0001" format="ixt:numcommadot" decimals="-0" scale="0">9,416,144,251</ix:nonFraction> </td> 
+             <td class="rowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Related party 6 </td> 
+            </tr> 
+            <tr> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Pihak berelasi 7 </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonNumeric name="idx-cor:PartyName" contextRef="CurrentYearDuration_1616000_RelatedParty7Member" id="IXF1616000E02_1378_00018_00_0001" escape="false">PT Garuda Prima Sentosa</ix:nonNumeric> </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonFraction name="idx-cor:SalesAndRevenue" contextRef="CurrentYearDuration_1616000_RelatedParty7Member" unitRef="IDR" id="IXF1616000E02_0489_00018_01_0001" format="ixt:numcommadot" decimals="-0" scale="0">5,186,833,882</ix:nonFraction> </td> 
+             <td class="rowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Related party 7 </td> 
+            </tr> 
+            <tr> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Pihak berelasi 8 </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonNumeric name="idx-cor:PartyName" contextRef="CurrentYearDuration_1616000_RelatedParty8Member" id="IXF1616000E02_1378_00019_00_0001" escape="false">PT Sari Warna Kudus</ix:nonNumeric> </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonFraction name="idx-cor:SalesAndRevenue" contextRef="CurrentYearDuration_1616000_RelatedParty8Member" unitRef="IDR" id="IXF1616000E02_0489_00019_01_0001" format="ixt:numcommadot" decimals="-0" scale="0">3,701,878,265</ix:nonFraction> </td> 
+             <td class="rowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Related party 8 </td> 
+            </tr> 
+            <tr> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Pihak berelasi 9 </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonNumeric name="idx-cor:PartyName" contextRef="CurrentYearDuration_1616000_RelatedParty9Member" id="IXF1616000E02_1378_00020_00_0001" escape="false">PT Sari Warna Boyolali</ix:nonNumeric> </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonFraction name="idx-cor:SalesAndRevenue" contextRef="CurrentYearDuration_1616000_RelatedParty9Member" unitRef="IDR" id="IXF1616000E02_0489_00020_01_0001" format="ixt:numcommadot" decimals="-0" scale="0">3,279,942,700</ix:nonFraction> </td> 
+             <td class="rowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Related party 9 </td> 
+            </tr> 
+            <tr> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Pihak berelasi 10 </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonNumeric name="idx-cor:PartyName" contextRef="CurrentYearDuration_1616000_RelatedParty10Member" xsi:nil="true" escape="false" id="IXF1616000E02_1378_00011_00_0001"/> </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonFraction name="idx-cor:SalesAndRevenue" contextRef="CurrentYearDuration_1616000_RelatedParty10Member" unitRef="IDR" xsi:nil="true" id="IXF1616000E02_0489_00011_01_0001"/> </td> 
+             <td class="rowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Related party 10 </td> 
+            </tr> 
+            <tr> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Pihak berelasi lainnya </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonNumeric name="idx-cor:PartyName" contextRef="CurrentYearDuration_1616000_OtherRelatedPartiesMember" xsi:nil="true" escape="false" id="IXF1616000E02_1378_00008_00_0001"/> </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonFraction name="idx-cor:SalesAndRevenue" contextRef="CurrentYearDuration_1616000_OtherRelatedPartiesMember" unitRef="IDR" xsi:nil="true" id="IXF1616000E02_0489_00008_01_0001"/> </td> 
+             <td class="rowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Other related parties </td> 
+            </tr> 
+            <tr> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Pihak berelasi </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonNumeric name="idx-cor:PartyName" contextRef="CurrentYearDuration_1616000_RelatedPartiesMember" xsi:nil="true" escape="false" id="IXF1616000E02_1378_00010_00_0001"/> </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonFraction name="idx-cor:SalesAndRevenue" contextRef="CurrentYearDuration_1616000_RelatedPartiesMember" unitRef="IDR" id="IXF1616000E02_0489_00010_01_0001" format="ixt:numcommadot" decimals="-0" scale="0">75,659,381,711</ix:nonFraction> </td> 
+             <td class="rowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Related parties </td> 
+            </tr> 
+            <tr> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Pihak ketiga 1 </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonNumeric name="idx-cor:PartyName" contextRef="CurrentYearDuration_1616000_ThirdParty1Member" id="IXF1616000E02_1378_00023_00_0001" escape="false">PT RAJAWALI RAHARDJA MANDIRI</ix:nonNumeric> </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonFraction name="idx-cor:SalesAndRevenue" contextRef="CurrentYearDuration_1616000_ThirdParty1Member" unitRef="IDR" id="IXF1616000E02_0489_00023_01_0001" format="ixt:numcommadot" decimals="-0" scale="0">35,914,663,476</ix:nonFraction> </td> 
+             <td class="rowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Third party 1 </td> 
+            </tr> 
+            <tr> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Pihak ketiga 2 </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonNumeric name="idx-cor:PartyName" contextRef="CurrentYearDuration_1616000_ThirdParty2Member" id="IXF1616000E02_1378_00024_00_0001" escape="false">PT SO GOOD FOOD</ix:nonNumeric> </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonFraction name="idx-cor:SalesAndRevenue" contextRef="CurrentYearDuration_1616000_ThirdParty2Member" unitRef="IDR" id="IXF1616000E02_0489_00024_01_0001" format="ixt:numcommadot" decimals="-0" scale="0">29,092,015,531</ix:nonFraction> </td> 
+             <td class="rowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Third party 2 </td> 
+            </tr> 
+            <tr> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Pihak ketiga 3 </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonNumeric name="idx-cor:PartyName" contextRef="CurrentYearDuration_1616000_ThirdParty3Member" id="IXF1616000E02_1378_00025_00_0001" escape="false">PT SRI REJEKI ISMAN TBK</ix:nonNumeric> </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonFraction name="idx-cor:SalesAndRevenue" contextRef="CurrentYearDuration_1616000_ThirdParty3Member" unitRef="IDR" id="IXF1616000E02_0489_00025_01_0001" format="ixt:numcommadot" decimals="-0" scale="0">18,556,334,722</ix:nonFraction> </td> 
+             <td class="rowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Third party 3 </td> 
+            </tr> 
+            <tr> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Pihak ketiga 4 </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonNumeric name="idx-cor:PartyName" contextRef="CurrentYearDuration_1616000_ThirdParty4Member" id="IXF1616000E02_1378_00026_00_0001" escape="false">PT CHAROEN POKPHAND INDONESIA Tbk</ix:nonNumeric> </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonFraction name="idx-cor:SalesAndRevenue" contextRef="CurrentYearDuration_1616000_ThirdParty4Member" unitRef="IDR" id="IXF1616000E02_0489_00026_01_0001" format="ixt:numcommadot" decimals="-0" scale="0">11,380,370,160</ix:nonFraction> </td> 
+             <td class="rowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Third party 4 </td> 
+            </tr> 
+            <tr> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Pihak ketiga 5 </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonNumeric name="idx-cor:PartyName" contextRef="CurrentYearDuration_1616000_ThirdParty5Member" id="IXF1616000E02_1378_00027_00_0001" escape="false">PT MUNCUL PUTRA OFFSET</ix:nonNumeric> </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonFraction name="idx-cor:SalesAndRevenue" contextRef="CurrentYearDuration_1616000_ThirdParty5Member" unitRef="IDR" id="IXF1616000E02_0489_00027_01_0001" format="ixt:numcommadot" decimals="-0" scale="0">9,815,009,839</ix:nonFraction> </td> 
+             <td class="rowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Third party 5 </td> 
+            </tr> 
+            <tr> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Pihak ketiga 6 </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonNumeric name="idx-cor:PartyName" contextRef="CurrentYearDuration_1616000_ThirdParty6Member" id="IXF1616000E02_1378_00028_00_0001" escape="false">PT SARI WARNA ASLI TEXTILE INDUSTRY</ix:nonNumeric> </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonFraction name="idx-cor:SalesAndRevenue" contextRef="CurrentYearDuration_1616000_ThirdParty6Member" unitRef="IDR" id="IXF1616000E02_0489_00028_01_0001" format="ixt:numcommadot" decimals="-0" scale="0">9,672,593,669</ix:nonFraction> </td> 
+             <td class="rowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Third party 6 </td> 
+            </tr> 
+            <tr> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Pihak ketiga 7 </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonNumeric name="idx-cor:PartyName" contextRef="CurrentYearDuration_1616000_ThirdParty7Member" id="IXF1616000E02_1378_00029_00_0001" escape="false">PT ADIKENCANA MAHKOTABUANA</ix:nonNumeric> </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonFraction name="idx-cor:SalesAndRevenue" contextRef="CurrentYearDuration_1616000_ThirdParty7Member" unitRef="IDR" id="IXF1616000E02_0489_00029_01_0001" format="ixt:numcommadot" decimals="-0" scale="0">9,364,768,886</ix:nonFraction> </td> 
+             <td class="rowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Third party 7 </td> 
+            </tr> 
+            <tr> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Pihak ketiga 8 </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonNumeric name="idx-cor:PartyName" contextRef="CurrentYearDuration_1616000_ThirdParty8Member" id="IXF1616000E02_1378_00030_00_0001" escape="false">PT PRIMAYUDHA MANDIRIJAYA</ix:nonNumeric> </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonFraction name="idx-cor:SalesAndRevenue" contextRef="CurrentYearDuration_1616000_ThirdParty8Member" unitRef="IDR" id="IXF1616000E02_0489_00030_01_0001" format="ixt:numcommadot" decimals="-0" scale="0">7,719,898,774</ix:nonFraction> </td> 
+             <td class="rowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Third party 8 </td> 
+            </tr> 
+            <tr> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Pihak ketiga 9 </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonNumeric name="idx-cor:PartyName" contextRef="CurrentYearDuration_1616000_ThirdParty9Member" id="IXF1616000E02_1378_00031_00_0001" escape="false">PT BITRATEX INDUSTRIES</ix:nonNumeric> </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonFraction name="idx-cor:SalesAndRevenue" contextRef="CurrentYearDuration_1616000_ThirdParty9Member" unitRef="IDR" id="IXF1616000E02_0489_00031_01_0001" format="ixt:numcommadot" decimals="-0" scale="0">6,767,578,766</ix:nonFraction> </td> 
+             <td class="rowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Third party 9 </td> 
+            </tr> 
+            <tr> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Pihak ketiga 10 </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonNumeric name="idx-cor:PartyName" contextRef="CurrentYearDuration_1616000_ThirdParty10Member" id="IXF1616000E02_1378_00022_00_0001" escape="false">PT SINAR PANTJA DJAJA</ix:nonNumeric> </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonFraction name="idx-cor:SalesAndRevenue" contextRef="CurrentYearDuration_1616000_ThirdParty10Member" unitRef="IDR" id="IXF1616000E02_0489_00022_01_0001" format="ixt:numcommadot" decimals="-0" scale="0">6,463,990,856</ix:nonFraction> </td> 
+             <td class="rowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Third party 10 </td> 
+            </tr> 
+            <tr> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Pihak ketiga lainnya </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonNumeric name="idx-cor:PartyName" contextRef="CurrentYearDuration_1616000_OtherThirdPartiesMember" xsi:nil="true" escape="false" id="IXF1616000E02_1378_00009_00_0001"/> </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonFraction name="idx-cor:SalesAndRevenue" contextRef="CurrentYearDuration_1616000_OtherThirdPartiesMember" unitRef="IDR" id="IXF1616000E02_0489_00009_01_0001" format="ixt:numcommadot" decimals="-0" scale="0">24,861,361,238</ix:nonFraction> </td> 
+             <td class="rowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Other third parties </td> 
+            </tr> 
+            <tr> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Pihak ketiga </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonNumeric name="idx-cor:PartyName" contextRef="CurrentYearDuration_1616000_ThirdPartiesMember" xsi:nil="true" escape="false" id="IXF1616000E02_1378_00021_00_0001"/> </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonFraction name="idx-cor:SalesAndRevenue" contextRef="CurrentYearDuration_1616000_ThirdPartiesMember" unitRef="IDR" id="IXF1616000E02_0489_00021_01_0001" format="ixt:numcommadot" decimals="-0" scale="0">169,608,585,917</ix:nonFraction> </td> 
+             <td class="rowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Third parties </td> 
+            </tr> 
+            <tr> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Tipe pihak </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonNumeric name="idx-cor:PartyName" contextRef="CurrentYearDuration" xsi:nil="true" escape="false" id="IXF1616000E02_1378_00002_00_0001"/> </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonFraction name="idx-cor:SalesAndRevenue" contextRef="CurrentYearDuration" unitRef="IDR" id="IXF1616000E02_0489_00002_01_0001" format="ixt:numcommadot" decimals="-0" scale="0">245,267,967,628</ix:nonFraction> </td> 
+             <td class="rowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Type of parties </td> 
+            </tr> 
+           </tbody> 
+          </table> 
+         </div> 
+        </div> 
+       </div> </td> 
+      <td> 
+       <div> 
+        <div> 
+         <div> 
+          <table class="table01" style="font-family: Arial, Helvetica, sans-serif;font-size: 10pt;padding: 5px;border-spacing: 0px;text-align: center;width:auto;"> 
+           <tbody> 
+            <tr> 
+             <td class="titleLeft" colspan="2" style="font-family: Arial, Helvetica, sans-serif;font-size: 13.5pt;font-weight: bold;color: #000000;padding: 5px;border-spacing: 0px;vertical-align: top;text-align: left;">Catatan untuk pendapatan berdasarkan pihak </td> 
+             <td class="titleRight" style="font-family: Arial, Helvetica, sans-serif;font-size: 13.5pt;font-weight: bold;color: #000000;padding: 5px;border-spacing: 0px;vertical-align: top;text-align: right;text-align:right;" colspan="2">Notes for revenue by parties </td> 
+            </tr> 
+            <tr> 
+             <td rowspan="2"/> 
+             <td class="colHeader01 dimensionalFormColumnHeader" style="width: 200px !important;padding: 1px;background-color: #b2bec9;color: #000000;text-decoration: underline;font-weight: bold;text-align: center;/* border-bottom: 1px solid #4e4d4d;*/            font-size: 8pt;min-width: 200px;max-width: 200px;;padding-left:1.5em">Nama pihak</td> 
+             <td class="colHeader01 dimensionalFormColumnHeader" style="width: 200px !important;padding: 1px;background-color: #b2bec9;color: #000000;text-decoration: underline;font-weight: bold;text-align: center;/* border-bottom: 1px solid #4e4d4d;*/            font-size: 8pt;min-width: 200px;max-width: 200px;;padding-left:1.5em">Penjualan dan pendapatan usaha</td> 
+             <td rowspan="2"/> 
+            </tr> 
+            <tr> 
+             <td class="colHeader02 dimensionalFormColumnHeader" style="background-color: #b2bec9;/* border-bottom: 1px solid #4e4d4d;*/;min-width: 200px;max-width: 200px;;padding-left:1.5em">Party name</td> 
+             <td class="colHeader02 dimensionalFormColumnHeader" style="background-color: #b2bec9;/* border-bottom: 1px solid #4e4d4d;*/;min-width: 200px;max-width: 200px;;padding-left:1.5em">Sales and revenue</td> 
+            </tr> 
+            <tr> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Pihak berelasi 1 </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonNumeric name="idx-cor:PartyName" contextRef="PriorYearDuration_1616000_RelatedParty1Member" id="IXF1616000E02_1378_00036_00_0001" escape="false">PT Sri Rejeki Isman Tbk</ix:nonNumeric> </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonFraction name="idx-cor:SalesAndRevenue" contextRef="PriorYearDuration_1616000_RelatedParty1Member" unitRef="IDR" id="IXF1616000E02_0489_00036_01_0001" format="ixt:numcommadot" decimals="-0" scale="0">22,681,317,986</ix:nonFraction> </td> 
+             <td class="rowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Related party 1 </td> 
+            </tr> 
+            <tr> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Pihak berelasi 2 </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonNumeric name="idx-cor:PartyName" contextRef="PriorYearDuration_1616000_RelatedParty2Member" id="IXF1616000E02_1378_00037_00_0001" escape="false">PT Primayudha Mandirijaya</ix:nonNumeric> </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonFraction name="idx-cor:SalesAndRevenue" contextRef="PriorYearDuration_1616000_RelatedParty2Member" unitRef="IDR" id="IXF1616000E02_0489_00037_01_0001" format="ixt:numcommadot" decimals="-0" scale="0">11,716,360,001</ix:nonFraction> </td> 
+             <td class="rowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Related party 2 </td> 
+            </tr> 
+            <tr> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Pihak berelasi 3 </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonNumeric name="idx-cor:PartyName" contextRef="PriorYearDuration_1616000_RelatedParty3Member" id="IXF1616000E02_1378_00038_00_0001" escape="false">PT Bitratex Industies</ix:nonNumeric> </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonFraction name="idx-cor:SalesAndRevenue" contextRef="PriorYearDuration_1616000_RelatedParty3Member" unitRef="IDR" id="IXF1616000E02_0489_00038_01_0001" format="ixt:numcommadot" decimals="-0" scale="0">11,062,771,110</ix:nonFraction> </td> 
+             <td class="rowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Related party 3 </td> 
+            </tr> 
+            <tr> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Pihak berelasi 4 </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonNumeric name="idx-cor:PartyName" contextRef="PriorYearDuration_1616000_RelatedParty4Member" id="IXF1616000E02_1378_00039_00_0001" escape="false">PT Sari Warna Kebakkeramat</ix:nonNumeric> </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonFraction name="idx-cor:SalesAndRevenue" contextRef="PriorYearDuration_1616000_RelatedParty4Member" unitRef="IDR" id="IXF1616000E02_0489_00039_01_0001" format="ixt:numcommadot" decimals="-0" scale="0">9,990,491,558</ix:nonFraction> </td> 
+             <td class="rowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Related party 4 </td> 
+            </tr> 
+            <tr> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Pihak berelasi 5 </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonNumeric name="idx-cor:PartyName" contextRef="PriorYearDuration_1616000_RelatedParty5Member" id="IXF1616000E02_1378_00040_00_0001" escape="false">PT Sinar Pantja Djaja</ix:nonNumeric> </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonFraction name="idx-cor:SalesAndRevenue" contextRef="PriorYearDuration_1616000_RelatedParty5Member" unitRef="IDR" id="IXF1616000E02_0489_00040_01_0001" format="ixt:numcommadot" decimals="-0" scale="0">8,548,729,588</ix:nonFraction> </td> 
+             <td class="rowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Related party 5 </td> 
+            </tr> 
+            <tr> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Pihak berelasi 6 </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonNumeric name="idx-cor:PartyName" contextRef="PriorYearDuration_1616000_RelatedParty6Member" id="IXF1616000E02_1378_00041_00_0001" escape="false">PT Adi Kencana</ix:nonNumeric> </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonFraction name="idx-cor:SalesAndRevenue" contextRef="PriorYearDuration_1616000_RelatedParty6Member" unitRef="IDR" id="IXF1616000E02_0489_00041_01_0001" format="ixt:numcommadot" decimals="-0" scale="0">8,778,010,724</ix:nonFraction> </td> 
+             <td class="rowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Related party 6 </td> 
+            </tr> 
+            <tr> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Pihak berelasi 7 </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonNumeric name="idx-cor:PartyName" contextRef="PriorYearDuration_1616000_RelatedParty7Member" id="IXF1616000E02_1378_00042_00_0001" escape="false">PT Garuda Prima Sentosa</ix:nonNumeric> </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonFraction name="idx-cor:SalesAndRevenue" contextRef="PriorYearDuration_1616000_RelatedParty7Member" unitRef="IDR" id="IXF1616000E02_0489_00042_01_0001" format="ixt:numcommadot" decimals="-0" scale="0">8,643,856,981</ix:nonFraction> </td> 
+             <td class="rowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Related party 7 </td> 
+            </tr> 
+            <tr> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Pihak berelasi 8 </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonNumeric name="idx-cor:PartyName" contextRef="PriorYearDuration_1616000_RelatedParty8Member" id="IXF1616000E02_1378_00043_00_0001" escape="false">PT Sari Warna Kudus</ix:nonNumeric> </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonFraction name="idx-cor:SalesAndRevenue" contextRef="PriorYearDuration_1616000_RelatedParty8Member" unitRef="IDR" id="IXF1616000E02_0489_00043_01_0001" format="ixt:numcommadot" decimals="-0" scale="0">2,994,480,853</ix:nonFraction> </td> 
+             <td class="rowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Related party 8 </td> 
+            </tr> 
+            <tr> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Pihak berelasi 9 </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonNumeric name="idx-cor:PartyName" contextRef="PriorYearDuration_1616000_RelatedParty9Member" id="IXF1616000E02_1378_00044_00_0001" escape="false">PT Sari Warna Boyolali</ix:nonNumeric> </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonFraction name="idx-cor:SalesAndRevenue" contextRef="PriorYearDuration_1616000_RelatedParty9Member" unitRef="IDR" id="IXF1616000E02_0489_00044_01_0001" format="ixt:numcommadot" decimals="-0" scale="0">237,683,121</ix:nonFraction> </td> 
+             <td class="rowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Related party 9 </td> 
+            </tr> 
+            <tr> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Pihak berelasi 10 </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonNumeric name="idx-cor:PartyName" contextRef="PriorYearDuration_1616000_RelatedParty10Member" xsi:nil="true" escape="false" id="IXF1616000E02_1378_00035_00_0001"/> </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonFraction name="idx-cor:SalesAndRevenue" contextRef="PriorYearDuration_1616000_RelatedParty10Member" unitRef="IDR" xsi:nil="true" id="IXF1616000E02_0489_00035_01_0001"/> </td> 
+             <td class="rowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Related party 10 </td> 
+            </tr> 
+            <tr> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Pihak berelasi lainnya </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonNumeric name="idx-cor:PartyName" contextRef="PriorYearDuration_1616000_OtherRelatedPartiesMember" xsi:nil="true" escape="false" id="IXF1616000E02_1378_00032_00_0001"/> </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonFraction name="idx-cor:SalesAndRevenue" contextRef="PriorYearDuration_1616000_OtherRelatedPartiesMember" unitRef="IDR" xsi:nil="true" id="IXF1616000E02_0489_00032_01_0001"/> </td> 
+             <td class="rowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Other related parties </td> 
+            </tr> 
+            <tr> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Pihak berelasi </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonNumeric name="idx-cor:PartyName" contextRef="PriorYearDuration_1616000_RelatedPartiesMember" xsi:nil="true" escape="false" id="IXF1616000E02_1378_00034_00_0001"/> </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonFraction name="idx-cor:SalesAndRevenue" contextRef="PriorYearDuration_1616000_RelatedPartiesMember" unitRef="IDR" id="IXF1616000E02_0489_00034_01_0001" format="ixt:numcommadot" decimals="-0" scale="0">84,653,701,922</ix:nonFraction> </td> 
+             <td class="rowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Related parties </td> 
+            </tr> 
+            <tr> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Pihak ketiga 1 </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonNumeric name="idx-cor:PartyName" contextRef="PriorYearDuration_1616000_ThirdParty1Member" id="IXF1616000E02_1378_00047_00_0001" escape="false">PT So Good Food</ix:nonNumeric> </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonFraction name="idx-cor:SalesAndRevenue" contextRef="PriorYearDuration_1616000_ThirdParty1Member" unitRef="IDR" id="IXF1616000E02_0489_00047_01_0001" format="ixt:numcommadot" decimals="-0" scale="0">33,993,459,766</ix:nonFraction> </td> 
+             <td class="rowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Third party 1 </td> 
+            </tr> 
+            <tr> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Pihak ketiga 2 </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonNumeric name="idx-cor:PartyName" contextRef="PriorYearDuration_1616000_ThirdParty2Member" id="IXF1616000E02_1378_00048_00_0001" escape="false">PT Rajawali Raharja Mandiri</ix:nonNumeric> </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonFraction name="idx-cor:SalesAndRevenue" contextRef="PriorYearDuration_1616000_ThirdParty2Member" unitRef="IDR" id="IXF1616000E02_0489_00048_01_0001" format="ixt:numcommadot" decimals="-0" scale="0">26,391,999,882</ix:nonFraction> </td> 
+             <td class="rowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Third party 2 </td> 
+            </tr> 
+            <tr> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Pihak ketiga 3 </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonNumeric name="idx-cor:PartyName" contextRef="PriorYearDuration_1616000_ThirdParty3Member" id="IXF1616000E02_1378_00049_00_0001" escape="false">PT Muncul Putra Offset</ix:nonNumeric> </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonFraction name="idx-cor:SalesAndRevenue" contextRef="PriorYearDuration_1616000_ThirdParty3Member" unitRef="IDR" id="IXF1616000E02_0489_00049_01_0001" format="ixt:numcommadot" decimals="-0" scale="0">12,233,659,693</ix:nonFraction> </td> 
+             <td class="rowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Third party 3 </td> 
+            </tr> 
+            <tr> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Pihak ketiga 4 </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonNumeric name="idx-cor:PartyName" contextRef="PriorYearDuration_1616000_ThirdParty4Member" id="IXF1616000E02_1378_00050_00_0001" escape="false">PT Putra Taro Paloma</ix:nonNumeric> </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonFraction name="idx-cor:SalesAndRevenue" contextRef="PriorYearDuration_1616000_ThirdParty4Member" unitRef="IDR" id="IXF1616000E02_0489_00050_01_0001" format="ixt:numcommadot" decimals="-0" scale="0">11,122,978,960</ix:nonFraction> </td> 
+             <td class="rowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Third party 4 </td> 
+            </tr> 
+            <tr> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Pihak ketiga 5 </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonNumeric name="idx-cor:PartyName" contextRef="PriorYearDuration_1616000_ThirdParty5Member" id="IXF1616000E02_1378_00051_00_0001" escape="false">PT Charoen Pokphan Indonesia Tbk</ix:nonNumeric> </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonFraction name="idx-cor:SalesAndRevenue" contextRef="PriorYearDuration_1616000_ThirdParty5Member" unitRef="IDR" id="IXF1616000E02_0489_00051_01_0001" format="ixt:numcommadot" decimals="-0" scale="0">19,514,840,690</ix:nonFraction> </td> 
+             <td class="rowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Third party 5 </td> 
+            </tr> 
+            <tr> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Pihak ketiga 6 </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonNumeric name="idx-cor:PartyName" contextRef="PriorYearDuration_1616000_ThirdParty6Member" id="IXF1616000E02_1378_00052_00_0001" escape="false">PT Tiga Pilar Sejahtera</ix:nonNumeric> </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonFraction name="idx-cor:SalesAndRevenue" contextRef="PriorYearDuration_1616000_ThirdParty6Member" unitRef="IDR" id="IXF1616000E02_0489_00052_01_0001" format="ixt:numcommadot" decimals="-0" scale="0">8,825,045,616</ix:nonFraction> </td> 
+             <td class="rowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Third party 6 </td> 
+            </tr> 
+            <tr> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Pihak ketiga 7 </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonNumeric name="idx-cor:PartyName" contextRef="PriorYearDuration_1616000_ThirdParty7Member" id="IXF1616000E02_1378_00053_00_0001" escape="false">H Basuni</ix:nonNumeric> </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonFraction name="idx-cor:SalesAndRevenue" contextRef="PriorYearDuration_1616000_ThirdParty7Member" unitRef="IDR" id="IXF1616000E02_0489_00053_01_0001" format="ixt:numcommadot" decimals="-0" scale="0">6,258,359,485</ix:nonFraction> </td> 
+             <td class="rowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Third party 7 </td> 
+            </tr> 
+            <tr> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Pihak ketiga 8 </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonNumeric name="idx-cor:PartyName" contextRef="PriorYearDuration_1616000_ThirdParty8Member" id="IXF1616000E02_1378_00054_00_0001" escape="false">Inditex Trading FZE</ix:nonNumeric> </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonFraction name="idx-cor:SalesAndRevenue" contextRef="PriorYearDuration_1616000_ThirdParty8Member" unitRef="IDR" id="IXF1616000E02_0489_00054_01_0001" format="ixt:numcommadot" decimals="-0" scale="0">6,003,268,740</ix:nonFraction> </td> 
+             <td class="rowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Third party 8 </td> 
+            </tr> 
+            <tr> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Pihak ketiga 9 </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonNumeric name="idx-cor:PartyName" contextRef="PriorYearDuration_1616000_ThirdParty9Member" id="IXF1616000E02_1378_00055_00_0001" escape="false">PT Getsemani Sinergi Indonesia</ix:nonNumeric> </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonFraction name="idx-cor:SalesAndRevenue" contextRef="PriorYearDuration_1616000_ThirdParty9Member" unitRef="IDR" id="IXF1616000E02_0489_00055_01_0001" format="ixt:numcommadot" decimals="-0" scale="0">3,566,102,559</ix:nonFraction> </td> 
+             <td class="rowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Third party 9 </td> 
+            </tr> 
+            <tr> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Pihak ketiga 10 </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonNumeric name="idx-cor:PartyName" contextRef="PriorYearDuration_1616000_ThirdParty10Member" id="IXF1616000E02_1378_00046_00_0001" escape="false">PT Top Asli</ix:nonNumeric> </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonFraction name="idx-cor:SalesAndRevenue" contextRef="PriorYearDuration_1616000_ThirdParty10Member" unitRef="IDR" id="IXF1616000E02_0489_00046_01_0001" format="ixt:numcommadot" decimals="-0" scale="0">5,288,449,856</ix:nonFraction> </td> 
+             <td class="rowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Third party 10 </td> 
+            </tr> 
+            <tr> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Pihak ketiga lainnya </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonNumeric name="idx-cor:PartyName" contextRef="PriorYearDuration_1616000_OtherThirdPartiesMember" id="IXF1616000E02_1378_00033_00_0001" escape="false">Lain-lain</ix:nonNumeric> </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonFraction name="idx-cor:SalesAndRevenue" contextRef="PriorYearDuration_1616000_OtherThirdPartiesMember" unitRef="IDR" id="IXF1616000E02_0489_00033_01_0001" format="ixt:numcommadot" decimals="-0" scale="0">97,827,526,718</ix:nonFraction> </td> 
+             <td class="rowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Other third parties </td> 
+            </tr> 
+            <tr> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Pihak ketiga </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonNumeric name="idx-cor:PartyName" contextRef="PriorYearDuration_1616000_ThirdPartiesMember" xsi:nil="true" escape="false" id="IXF1616000E02_1378_00045_00_0001"/> </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonFraction name="idx-cor:SalesAndRevenue" contextRef="PriorYearDuration_1616000_ThirdPartiesMember" unitRef="IDR" id="IXF1616000E02_0489_00045_01_0001" format="ixt:numcommadot" decimals="-0" scale="0">231,025,691,965</ix:nonFraction> </td> 
+             <td class="rowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Third parties </td> 
+            </tr> 
+            <tr> 
+             <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Tipe pihak </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonNumeric name="idx-cor:PartyName" contextRef="PriorYearDuration" xsi:nil="true" escape="false" id="IXF1616000E02_1378_00006_00_0001"/> </td> 
+             <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+              <ix:nonFraction name="idx-cor:SalesAndRevenue" contextRef="PriorYearDuration" unitRef="IDR" id="IXF1616000E02_0489_00006_01_0001" format="ixt:numcommadot" decimals="-0" scale="0">315,679,393,887</ix:nonFraction> </td> 
+             <td class="rowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;white-space:nowrap;">Type of parties </td> 
+            </tr> 
+           </tbody> 
+          </table> 
+         </div> 
+        </div> 
+       </div> </td> 
+     </tr> 
+    </tbody> 
+   </table> 
+  </div> 
+ </body> 
+</html>

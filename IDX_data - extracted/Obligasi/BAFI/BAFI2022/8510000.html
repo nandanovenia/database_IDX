@@ -1,0 +1,965 @@
+<!--?xml version="1.0" encoding="UTF-8"?-->
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:rpi="http://www.fujitsu.com/raportado/ixbrl" xmlns:ix="http://www.xbrl.org/2008/inlineXBRL" xmlns:ixt="http://www.xbrl.org/inlineXBRL/transformation/2010-04-20" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:idx-cor="http://www.idx.co.id/xbrl/taxonomy/2014-04-30/cor" xmlns:idx-dei="http://www.idx.co.id/xbrl/taxonomy/2014-04-30/dei" xmlns:test2012-12-31="http://www.idx.co.id/xbrl/samples/TEST/2012-12-31" xmlns:ref="http://www.xbrl.org/2006/ref" xmlns:num="http://www.xbrl.org/dtr/type/numeric" xmlns:nonnum="http://www.xbrl.org/dtr/type/non-numeric" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:idx-rt="http://www.idx.co.id/xbrl/taxonomy/2014-04-30/rt" xmlns:idx-dei-cm="http://www.idx.co.id/xbrl/taxonomy/2014-04-30/dei/cm" xmlns:negated="http://www.xbrl.org/2009/role/negated" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+ <!--1000000.html-->
+ <head> 
+  <style type="text/css">
+p.MsoNormal {
+font-family: "Arial","sans-serif"; font-size: 9pt; margin: 0mm 0mm 0pt; text-align: justify; text-justify: inter-ideograph;
+}
+li.MsoNormal {
+font-family: "Arial","sans-serif"; font-size: 9pt; margin: 0mm 0mm 0pt; text-align: justify; text-justify: inter-ideograph;
+}
+div.MsoNormal {
+font-family: "Arial","sans-serif"; font-size: 9pt; margin: 0mm 0mm 0pt; text-align: justify; text-justify: inter-ideograph;
+}
+td.MsoNormal {
+font-family: "Arial","sans-serif"; font-size: 9pt; margin: 0mm 0mm 0pt; text-align: justify; text-justify: inter-ideograph;
+}
+p.MsoHeader {
+font-family: "Arial","sans-serif"; font-size: 9pt; layout-grid-mode: char; margin: 0mm 0mm 0pt; text-align: justify; text-justify: inter-ideograph;
+}
+li.MsoHeader {
+font-family: "Arial","sans-serif"; font-size: 9pt; layout-grid-mode: char; margin: 0mm 0mm 0pt; text-align: justify; text-justify: inter-ideograph;
+}
+div.MsoHeader {
+font-family: "Arial","sans-serif"; font-size: 9pt; layout-grid-mode: char; margin: 0mm 0mm 0pt; text-align: justify; text-justify: inter-ideograph;
+}
+p.MsoFooter {
+font-family: "Arial","sans-serif"; font-size: 9pt; layout-grid-mode: char; margin: 0mm 0mm 0pt; text-align: justify; text-justify: inter-ideograph;
+}
+li.MsoFooter {
+font-family: "Arial","sans-serif"; font-size: 9pt; layout-grid-mode: char; margin: 0mm 0mm 0pt; text-align: justify; text-justify: inter-ideograph;
+}
+div.MsoFooter {
+font-family: "Arial","sans-serif"; font-size: 9pt; layout-grid-mode: char; margin: 0mm 0mm 0pt; text-align: justify; text-justify: inter-ideograph;
+}
+p.MsoAcetate {
+font-family: "Arial","sans-serif"; font-size: 9pt; margin: 0mm 0mm 0pt; text-align: justify; text-justify: inter-ideograph;
+}
+li.MsoAcetate {
+font-family: "Arial","sans-serif"; font-size: 9pt; margin: 0mm 0mm 0pt; text-align: justify; text-justify: inter-ideograph;
+}
+div.MsoAcetate {
+font-family: "Arial","sans-serif"; font-size: 9pt; margin: 0mm 0mm 0pt; text-align: justify; text-justify: inter-ideograph;
+}
+span.MsoPlaceholderText {
+color: gray;
+}
+span.a {
+font-family: "Arial","sans-serif";
+}
+span.a0 {
+font-family: "Arial","sans-serif";
+}
+span.a1 {
+font-family: "Arial","sans-serif";
+}
+.MsoChpDefault {
+font-family: "Century","serif";
+}
+.MsoPapDefault {
+text-align: justify; text-justify: inter-ideograph;
+}
+
+	.titleLeft { font-family: Arial,Helvetica,sans-serif; font-size: 13.5pt; font-weight:bold; color: #000000; padding:2px; border-spacing:0px; vertical-align:top; text-align:left; }
+	.titleRight { font-family: Arial,Helvetica,sans-serif; font-size: 13.5pt; font-weight:bold; color: #000000; padding:2px; border-spacing:0px; vertical-align:top; text-align:right; }
+
+	.table01 { font-family: Arial,Helvetica,sans-serif; font-size: 10pt; padding:5px; border-spacing:0px; }
+	.colHeader01 { padding:1px; background-color:#FFFFFF; color:#000000; text-decoration:underline; font-weight:bold; text-align:center; border-left:3px solid white; border-right:3px solid white; font-size: 8pt;}
+	.rowHeaderLeft { padding:1px; border-bottom:1px solid #CCCCCC; text-align:left; color:#000000; vertical-align:top; font-size: 10pt;}
+	.rowHeaderRight { padding:1px; border-bottom:1px solid #CCCCCC; text-align:right; color:#000000; vertical-align:top; font-size: 10pt;}
+	.valueCell { padding:1px; border-bottom:1px solid #CCCCCC; text-align:left; vertical-align:top; font-size: 10pt; background-color: #CAECFD; border-left:3px solid white; border-right:3px solid white;}
+@page{ 
+	size: 8.3in 11.7in;
+	margin: 0.30in;
+	padding: 1.5em;
+}
+</style> 
+  <title>Interstage XWand WebForm</title>
+ </head> 
+ <!--8510000.html-->    
+ <body> 
+  <p class="titleLeft">[8510000] Statement of cash flows, direct method - Financing Industry</p> 
+  <div> 
+   <div> 
+    <div> 
+     <table class="table01" style="width:100%;"> 
+      <tbody> 
+       <tr> 
+        <td class="titleLeft" colspan="2">Laporan arus kas </td> 
+        <td class="titleRight" colspan="2" style="text-align:right;">Statement of cash flows </td> 
+       </tr> 
+       <tr> 
+        <td></td> 
+        <td class="colHeader01" style="width:20%;"> <span>31 December 2022</span> </td> 
+        <td class="colHeader01" style="width:20%;"> <span>31 December 2021</span> </td> 
+       </tr> 
+       <tr> 
+        <td class="rowHeaderLeft" style="width:30%;;font-weight:bold;font-weight:bold;">Arus kas dari aktivitas operasi </td> 
+        <td class="valueCell" style="text-align:right;;background-color:#b8b8b8;vertical-align:middle"></td> 
+        <td class="valueCell" style="text-align:right;;background-color:#b8b8b8;vertical-align:middle"></td> 
+        <td class="rowHeaderRight" style="width:30%;;font-weight:bold;font-weight:bold;">Cash flows from operating activities </td> 
+       </tr> 
+       <tr> 
+        <td class="rowHeaderLeft" style="width:30%;;padding-left:1.5em;font-weight:bold;font-weight:bold;">Penerimaan kas dari aktivitas operasi </td> 
+        <td class="valueCell" style="text-align:right;;background-color:#b8b8b8;vertical-align:middle"></td> 
+        <td class="valueCell" style="text-align:right;;background-color:#b8b8b8;vertical-align:middle"></td> 
+        <td class="rowHeaderRight fixedFormRowHeaderRight" style="width:30%;;padding-right:1.5em;text-align: right;border-bottom:1px solid #CCCCCC;;font-weight:bold;font-weight:bold;">Cash receipts from operating activities </td> 
+       </tr> 
+       <tr style="display:none;"> 
+        <td class="rowHeaderLeft" style="width:30%;;padding-left:3.0em">Penerimaan dari sewa pembiayaan</td> 
+        <td class="valueCell" style="text-align:right;;vertical-align:middle"> 
+         <ix:nonfraction contextref="CurrentYearDuration" id="IX02_0904_00002_01_0001" name="idx-cor:ReceiptsFromFinanceLeases" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="valueCell" style="text-align:right;;vertical-align:middle"> 
+         <ix:nonfraction contextref="PriorYearDuration" id="IX02_0904_00006_01_0001" name="idx-cor:ReceiptsFromFinanceLeases" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="rowHeaderRight fixedFormRowHeaderRight" style="width:30%;;padding-right:3.0em;text-align: right;border-bottom:1px solid #CCCCCC;">Receipts from finance leases</td> 
+       </tr> 
+       <tr> 
+        <td class="rowHeaderLeft" style="width:30%;;padding-left:3.0em">Penerimaan dari pembiayaan konsumen</td> 
+        <td class="valueCell" style="text-align:right;;vertical-align:middle"> 
+         <ix:nonfraction contextref="CurrentYearDuration" decimals="-3" format="ixt:numcommadot" id="IX02_0902_00002_01_0001" name="idx-cor:ReceiptsFromConsumerFinancing" scale="3" unitref="IDR">
+           11,936,762,190 
+         </ix:nonfraction> </td> 
+        <td class="valueCell" style="text-align:right;;vertical-align:middle"> 
+         <ix:nonfraction contextref="PriorYearDuration" decimals="-3" format="ixt:numcommadot" id="IX02_0902_00006_01_0001" name="idx-cor:ReceiptsFromConsumerFinancing" scale="3" unitref="IDR">
+           10,898,181,534 
+         </ix:nonfraction> </td> 
+        <td class="rowHeaderRight fixedFormRowHeaderRight" style="width:30%;;padding-right:3.0em;text-align: right;border-bottom:1px solid #CCCCCC;">Receipts from consumer financing</td> 
+       </tr> 
+       <tr style="display:none;"> 
+        <td class="rowHeaderLeft" style="width:30%;;padding-left:3.0em">Penerimaan dari anjak piutang</td> 
+        <td class="valueCell" style="text-align:right;;vertical-align:middle"> 
+         <ix:nonfraction contextref="CurrentYearDuration" id="IX02_0903_00002_01_0001" name="idx-cor:ReceiptsFromFactoring" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="valueCell" style="text-align:right;;vertical-align:middle"> 
+         <ix:nonfraction contextref="PriorYearDuration" id="IX02_0903_00006_01_0001" name="idx-cor:ReceiptsFromFactoring" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="rowHeaderRight fixedFormRowHeaderRight" style="width:30%;;padding-right:3.0em;text-align: right;border-bottom:1px solid #CCCCCC;">Receipts from factoring</td> 
+       </tr> 
+       <tr> 
+        <td class="rowHeaderLeft" style="width:30%;;padding-left:1.5em;font-weight:bold;font-weight:bold;">Pembayaran kas dari aktivitas operasi </td> 
+        <td class="valueCell" style="text-align:right;;background-color:#b8b8b8;vertical-align:middle"></td> 
+        <td class="valueCell" style="text-align:right;;background-color:#b8b8b8;vertical-align:middle"></td> 
+        <td class="rowHeaderRight fixedFormRowHeaderRight" style="width:30%;;padding-right:1.5em;text-align: right;border-bottom:1px solid #CCCCCC;;font-weight:bold;font-weight:bold;">Cash payments from operating activities </td> 
+       </tr> 
+       <tr style="display:none;"> 
+        <td class="rowHeaderLeft" style="width:30%;;padding-left:3.0em">Pembayaran untuk sewa pembiayaan</td> 
+        <td class="valueCell" style="text-align:right;;background-color:#fdff67;vertical-align:middle"> 
+         <ix:nonfraction contextref="CurrentYearDuration" id="IX02_0839_00002_01_0001" name="idx-cor:PaymentsForFinanceLeases" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="valueCell" style="text-align:right;;background-color:#fdff67;vertical-align:middle"> 
+         <ix:nonfraction contextref="PriorYearDuration" id="IX02_0839_00006_01_0001" name="idx-cor:PaymentsForFinanceLeases" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="rowHeaderRight fixedFormRowHeaderRight" style="width:30%;;padding-right:3.0em;text-align: right;border-bottom:1px solid #CCCCCC;">Payments for finance leases</td> 
+       </tr> 
+       <tr> 
+        <td class="rowHeaderLeft" style="width:30%;;padding-left:3.0em">Pembayaran untuk pembiayaan konsumen</td> 
+        <td class="valueCell" style="text-align:right;;background-color:#fdff67;vertical-align:middle"> ( 
+         <ix:nonfraction contextref="CurrentYearDuration" decimals="-3" format="ixt:numcommadot" id="IX02_0836_00002_01_0001" name="idx-cor:PaymentsForConsumerFinancing" scale="3" unitref="IDR">
+           11,391,555,284 
+         </ix:nonfraction>) </td> 
+        <td class="valueCell" style="text-align:right;;background-color:#fdff67;vertical-align:middle"> ( 
+         <ix:nonfraction contextref="PriorYearDuration" decimals="-3" format="ixt:numcommadot" id="IX02_0836_00006_01_0001" name="idx-cor:PaymentsForConsumerFinancing" scale="3" unitref="IDR">
+           9,987,405,516 
+         </ix:nonfraction>) </td> 
+        <td class="rowHeaderRight fixedFormRowHeaderRight" style="width:30%;;padding-right:3.0em;text-align: right;border-bottom:1px solid #CCCCCC;">Payments for consumer financing</td> 
+       </tr> 
+       <tr style="display:none;"> 
+        <td class="rowHeaderLeft" style="width:30%;;padding-left:3.0em">Pembayaran untuk anjak piutang</td> 
+        <td class="valueCell" style="text-align:right;;background-color:#fdff67;vertical-align:middle"> 
+         <ix:nonfraction contextref="CurrentYearDuration" id="IX02_0838_00002_01_0001" name="idx-cor:PaymentsForFactoring" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="valueCell" style="text-align:right;;background-color:#fdff67;vertical-align:middle"> 
+         <ix:nonfraction contextref="PriorYearDuration" id="IX02_0838_00006_01_0001" name="idx-cor:PaymentsForFactoring" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="rowHeaderRight fixedFormRowHeaderRight" style="width:30%;;padding-right:3.0em;text-align: right;border-bottom:1px solid #CCCCCC;">Payments for factoring</td> 
+       </tr> 
+       <tr> 
+        <td class="rowHeaderLeft" style="width:30%;;padding-left:3.0em">Pembayaran beban umum dan administrasi</td> 
+        <td class="valueCell" style="text-align:right;;background-color:#fdff67;vertical-align:middle"> ( 
+         <ix:nonfraction contextref="CurrentYearDuration" decimals="-3" format="ixt:numcommadot" id="IX02_0363_00002_01_0007" name="idx-cor:PaymentsForGeneralAndAdministrativeExpense" scale="3" unitref="IDR">
+           717,991,253 
+         </ix:nonfraction>) </td> 
+        <td class="valueCell" style="text-align:right;;background-color:#fdff67;vertical-align:middle"> ( 
+         <ix:nonfraction contextref="PriorYearDuration" decimals="-3" format="ixt:numcommadot" id="IX02_0363_00006_01_0007" name="idx-cor:PaymentsForGeneralAndAdministrativeExpense" scale="3" unitref="IDR">
+           591,445,613 
+         </ix:nonfraction>) </td> 
+        <td class="rowHeaderRight fixedFormRowHeaderRight" style="width:30%;;padding-right:3.0em;text-align: right;border-bottom:1px solid #CCCCCC;">Payments for general and administrative expense</td> 
+       </tr> 
+       <tr> 
+        <td class="rowHeaderLeft" style="width:30%;;padding-left:1.5em;font-weight:bold;">Kas diperoleh dari (digunakan untuk) operasi</td> 
+        <td class="valueCell" style="text-align:right;;background-color:#00B0F0;vertical-align:middle"> ( 
+         <ix:nonfraction contextref="CurrentYearDuration" decimals="-3" format="ixt:numcommadot" id="IX02_0038_00002_01_0004" name="idx-cor:CashGeneratedFromUsedInOperations" scale="3" sign="-" unitref="IDR">
+           172,784,347 
+         </ix:nonfraction>) </td> 
+        <td class="valueCell" style="text-align:right;;background-color:#00B0F0;vertical-align:middle"> 
+         <ix:nonfraction contextref="PriorYearDuration" decimals="-3" format="ixt:numcommadot" id="IX02_0038_00006_01_0004" name="idx-cor:CashGeneratedFromUsedInOperations" scale="3" unitref="IDR">
+           319,330,405 
+         </ix:nonfraction> </td> 
+        <td class="rowHeaderRight fixedFormRowHeaderRight" style="width:30%;;padding-right:1.5em;text-align: right;border-bottom:1px solid #CCCCCC;;font-weight:bold;">Cash generated from (used in) operations</td> 
+       </tr> 
+       <tr style="display:none;"> 
+        <td class="rowHeaderLeft" style="width:30%;;padding-left:1.5em">Penerimaan dari kerjasama penerusan pinjaman dan pembiayaan bersama</td> 
+        <td class="valueCell" style="text-align:right;;vertical-align:middle"> 
+         <ix:nonfraction contextref="CurrentYearDuration" id="IX02_0908_00002_01_0001" name="idx-cor:ReceiptsFromLoanChannelingAndJointFinancingCooperation" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="valueCell" style="text-align:right;;vertical-align:middle"> 
+         <ix:nonfraction contextref="PriorYearDuration" id="IX02_0908_00006_01_0001" name="idx-cor:ReceiptsFromLoanChannelingAndJointFinancingCooperation" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="rowHeaderRight fixedFormRowHeaderRight" style="width:30%;;padding-right:1.5em;text-align: right;border-bottom:1px solid #CCCCCC;">Received from loan channeling and joint financing cooperation</td> 
+       </tr> 
+       <tr style="display:none;"> 
+        <td class="rowHeaderLeft" style="width:30%;;padding-left:1.5em">Pembayaran untuk kerjasama penerusan pinjaman dan pembiayaan bersama</td> 
+        <td class="valueCell" style="text-align:right;;background-color:#fdff67;vertical-align:middle"> 
+         <ix:nonfraction contextref="CurrentYearDuration" id="IX02_0842_00002_01_0001" name="idx-cor:PaymentsForLoanChannelingAndJointFinancingCooperation" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="valueCell" style="text-align:right;;background-color:#fdff67;vertical-align:middle"> 
+         <ix:nonfraction contextref="PriorYearDuration" id="IX02_0842_00006_01_0001" name="idx-cor:PaymentsForLoanChannelingAndJointFinancingCooperation" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="rowHeaderRight fixedFormRowHeaderRight" style="width:30%;;padding-right:1.5em;text-align: right;border-bottom:1px solid #CCCCCC;">Payments for loan channeling and joint financing cooperation</td> 
+       </tr> 
+       <tr> 
+        <td class="rowHeaderLeft" style="width:30%;;padding-left:1.5em">Penerimaan bunga dari aktivitas operasi</td> 
+        <td class="valueCell" style="text-align:right;;vertical-align:middle"> 
+         <ix:nonfraction contextref="CurrentYearDuration" decimals="-3" format="ixt:numcommadot" id="IX02_0190_00002_01_0007" name="idx-cor:InterestsReceivedFromOperatingActivities" scale="3" unitref="IDR">
+           768,067,565 
+         </ix:nonfraction> </td> 
+        <td class="valueCell" style="text-align:right;;vertical-align:middle"> 
+         <ix:nonfraction contextref="PriorYearDuration" decimals="-3" format="ixt:numcommadot" id="IX02_0190_00006_01_0007" name="idx-cor:InterestsReceivedFromOperatingActivities" scale="3" unitref="IDR">
+           677,292,220 
+         </ix:nonfraction> </td> 
+        <td class="rowHeaderRight fixedFormRowHeaderRight" style="width:30%;;padding-right:1.5em;text-align: right;border-bottom:1px solid #CCCCCC;">Interests received from operating activities</td> 
+       </tr> 
+       <tr style="display:none;"> 
+        <td class="rowHeaderLeft" style="width:30%;;padding-left:1.5em">Pembayaran bunga dari aktivitas operasi</td> 
+        <td class="valueCell" style="text-align:right;;background-color:#fdff67;vertical-align:middle"> 
+         <ix:nonfraction contextref="CurrentYearDuration" id="IX02_0187_00002_01_0007" name="idx-cor:InterestsPaidFromOperatingActivities" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="valueCell" style="text-align:right;;background-color:#fdff67;vertical-align:middle"> 
+         <ix:nonfraction contextref="PriorYearDuration" id="IX02_0187_00006_01_0007" name="idx-cor:InterestsPaidFromOperatingActivities" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="rowHeaderRight fixedFormRowHeaderRight" style="width:30%;;padding-right:1.5em;text-align: right;border-bottom:1px solid #CCCCCC;">Interests paid from operating activities</td> 
+       </tr> 
+       <tr> 
+        <td class="rowHeaderLeft" style="width:30%;;padding-left:1.5em">Pembayaran pajak penghasilan badan</td> 
+        <td class="valueCell" style="text-align:right;;background-color:#fdff67;vertical-align:middle"> ( 
+         <ix:nonfraction contextref="CurrentYearDuration" decimals="-3" format="ixt:numcommadot" id="IX02_0362_00002_01_0008" name="idx-cor:PaymentsForCorporateIncomeTax" scale="3" unitref="IDR">
+           265,747,334 
+         </ix:nonfraction>) </td> 
+        <td class="valueCell" style="text-align:right;;background-color:#fdff67;vertical-align:middle"> ( 
+         <ix:nonfraction contextref="PriorYearDuration" decimals="-3" format="ixt:numcommadot" id="IX02_0362_00006_01_0008" name="idx-cor:PaymentsForCorporateIncomeTax" scale="3" unitref="IDR">
+           124,717,208 
+         </ix:nonfraction>) </td> 
+        <td class="rowHeaderRight fixedFormRowHeaderRight" style="width:30%;;padding-right:1.5em;text-align: right;border-bottom:1px solid #CCCCCC;">Payments for corporate income tax</td> 
+       </tr> 
+       <tr style="display:none;"> 
+        <td class="rowHeaderLeft" style="width:30%;;padding-left:1.5em">Penerimaan pengembalian (pembayaran) pajak penghasilan dari aktivitas operasi</td> 
+        <td class="valueCell" style="text-align:right;;vertical-align:middle"> 
+         <ix:nonfraction contextref="CurrentYearDuration" id="IX02_0176_00002_01_0007" name="idx-cor:IncomeTaxesRefundedPaidFromOperatingActivities" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="valueCell" style="text-align:right;;vertical-align:middle"> 
+         <ix:nonfraction contextref="PriorYearDuration" id="IX02_0176_00006_01_0007" name="idx-cor:IncomeTaxesRefundedPaidFromOperatingActivities" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="rowHeaderRight fixedFormRowHeaderRight" style="width:30%;;padding-right:1.5em;text-align: right;border-bottom:1px solid #CCCCCC;">Income taxes refunded (paid) from operating activities</td> 
+       </tr> 
+       <tr style="display:none;"> 
+        <td class="rowHeaderLeft" style="width:30%;;padding-left:1.5em">Pengembalian (penempatan) uang jaminan</td> 
+        <td class="valueCell" style="text-align:right;;vertical-align:middle"> 
+         <ix:nonfraction contextref="CurrentYearDuration" id="IX02_1004_00002_01_0009" name="idx-cor:RepaymentPlacementOfRefundableDeposits" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="valueCell" style="text-align:right;;vertical-align:middle"> 
+         <ix:nonfraction contextref="PriorYearDuration" id="IX02_1004_00006_01_0009" name="idx-cor:RepaymentPlacementOfRefundableDeposits" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="rowHeaderRight fixedFormRowHeaderRight" style="width:30%;;padding-right:1.5em;text-align: right;border-bottom:1px solid #CCCCCC;">Repayment (placement) of refundable deposits</td> 
+       </tr> 
+       <tr style="display:none;"> 
+        <td class="rowHeaderLeft" style="width:30%;;padding-left:1.5em">Penerimaan bunga pinjaman diberikan</td> 
+        <td class="valueCell" style="text-align:right;;vertical-align:middle"> 
+         <ix:nonfraction contextref="CurrentYearDuration" id="IX02_1007_00002_01_0001" name="idx-cor:ReceiptsOfInterestFromLoanReceivable" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="valueCell" style="text-align:right;;vertical-align:middle"> 
+         <ix:nonfraction contextref="PriorYearDuration" id="IX02_1007_00006_01_0001" name="idx-cor:ReceiptsOfInterestFromLoanReceivable" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="rowHeaderRight fixedFormRowHeaderRight" style="width:30%;;padding-right:1.5em;text-align: right;border-bottom:1px solid #CCCCCC;">Receipts of interest from loan receivable</td> 
+       </tr> 
+       <tr> 
+        <td class="rowHeaderLeft" style="width:30%;;padding-left:1.5em">Penerimaan (pengeluaran) kas lainnya dari aktivitas operasi</td> 
+        <td class="valueCell" style="text-align:right;;vertical-align:middle"> ( 
+         <ix:nonfraction contextref="CurrentYearDuration" decimals="-3" format="ixt:numcommadot" id="IX02_0288_00002_01_0010" name="idx-cor:OtherCashInflowsOutflowsFromOperatingActivities" scale="3" sign="-" unitref="IDR">
+           569,029,379 
+         </ix:nonfraction>) </td> 
+        <td class="valueCell" style="text-align:right;;vertical-align:middle"> ( 
+         <ix:nonfraction contextref="PriorYearDuration" decimals="-3" format="ixt:numcommadot" id="IX02_0288_00006_01_0010" name="idx-cor:OtherCashInflowsOutflowsFromOperatingActivities" scale="3" sign="-" unitref="IDR">
+           560,869,057 
+         </ix:nonfraction>) </td> 
+        <td class="rowHeaderRight fixedFormRowHeaderRight" style="width:30%;;padding-right:1.5em;text-align: right;border-bottom:1px solid #CCCCCC;">Other cash inflows (outflows) from operating activities</td> 
+       </tr> 
+       <tr> 
+        <td class="rowHeaderLeft" style="width:30%;;padding-left:1.5em;font-weight:bold;">Arus kas sebelum perubahan dalam aset dan liabilitas yang diperoleh dari (digunakan untuk) aktivitas operasi</td> 
+        <td class="valueCell" style="text-align:right;;background-color:#00B0F0;vertical-align:middle"> ( 
+         <ix:nonfraction contextref="CurrentYearDuration" decimals="-3" format="ixt:numcommadot" id="IX02_0238_00002_01_0003" name="idx-cor:NetCashFlowsReceivedFromUsedInOperatingActivitiesBeforeChangesInAssetsAndLiabilities" scale="3" sign="-" unitref="IDR">
+           239,493,495 
+         </ix:nonfraction>) </td> 
+        <td class="valueCell" style="text-align:right;;background-color:#00B0F0;vertical-align:middle"> 
+         <ix:nonfraction contextref="PriorYearDuration" decimals="-3" format="ixt:numcommadot" id="IX02_0238_00006_01_0003" name="idx-cor:NetCashFlowsReceivedFromUsedInOperatingActivitiesBeforeChangesInAssetsAndLiabilities" scale="3" unitref="IDR">
+           311,036,360 
+         </ix:nonfraction> </td> 
+        <td class="rowHeaderRight fixedFormRowHeaderRight" style="width:30%;;padding-right:1.5em;text-align: right;border-bottom:1px solid #CCCCCC;;font-weight:bold;">Net cash flows received from (used in) operating activities before changes in assets and liabilities</td> 
+       </tr> 
+       <tr style="display:none;"> 
+        <td class="rowHeaderLeft" style="width:30%;;padding-left:1.5em;font-weight:bold">Penurunan (kenaikan) aset operasi </td> 
+        <td class="valueCell" style="text-align:right;;background-color:#b8b8b8;vertical-align:middle"></td> 
+        <td class="valueCell" style="text-align:right;;background-color:#b8b8b8;vertical-align:middle"></td> 
+        <td class="rowHeaderRight fixedFormRowHeaderRight" style="width:30%;;padding-right:1.5em;text-align: right;border-bottom:1px solid #CCCCCC;;font-weight:bold">Decrease (increase) from operation assets </td> 
+       </tr> 
+       <tr style="display:none;"> 
+        <td class="rowHeaderLeft" style="width:30%;;padding-left:3.0em">Penurunan (kenaikan) efek-efek</td> 
+        <td class="valueCell" style="text-align:right;;vertical-align:middle"> 
+         <ix:nonfraction contextref="CurrentYearDuration" id="IX02_0011_00002_01_0003" name="idx-cor:DecreaseIncreaseFromSecurities" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="valueCell" style="text-align:right;;vertical-align:middle"> 
+         <ix:nonfraction contextref="PriorYearDuration" id="IX02_0011_00006_01_0003" name="idx-cor:DecreaseIncreaseFromSecurities" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="rowHeaderRight fixedFormRowHeaderRight" style="width:30%;;padding-right:3.0em;text-align: right;border-bottom:1px solid #CCCCCC;">Decrease (increase) from securities</td> 
+       </tr> 
+       <tr style="display:none;"> 
+        <td class="rowHeaderLeft" style="width:30%;;padding-left:3.0em">Penurunan (kenaikan) kredit</td> 
+        <td class="valueCell" style="text-align:right;;vertical-align:middle"> 
+         <ix:nonfraction contextref="CurrentYearDuration" id="IX02_0012_00002_01_0003" name="idx-cor:DecreaseIncreaseFromCredit" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="valueCell" style="text-align:right;;vertical-align:middle"> 
+         <ix:nonfraction contextref="PriorYearDuration" id="IX02_0012_00006_01_0003" name="idx-cor:DecreaseIncreaseFromCredit" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="rowHeaderRight fixedFormRowHeaderRight" style="width:30%;;padding-right:3.0em;text-align: right;border-bottom:1px solid #CCCCCC;">Decrease (increase) from credit</td> 
+       </tr> 
+       <tr style="display:none;"> 
+        <td class="rowHeaderLeft" style="width:30%;;padding-left:3.0em">Penurunan (kenaikan) aset lainnya</td> 
+        <td class="valueCell" style="text-align:right;;vertical-align:middle"> 
+         <ix:nonfraction contextref="CurrentYearDuration" id="IX02_0013_00002_01_0003" name="idx-cor:DecreaseIncreaseFromOtherAssets" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="valueCell" style="text-align:right;;vertical-align:middle"> 
+         <ix:nonfraction contextref="PriorYearDuration" id="IX02_0013_00006_01_0003" name="idx-cor:DecreaseIncreaseFromOtherAssets" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="rowHeaderRight fixedFormRowHeaderRight" style="width:30%;;padding-right:3.0em;text-align: right;border-bottom:1px solid #CCCCCC;">Decrease (increase) from other assets</td> 
+       </tr> 
+       <tr style="display:none;"> 
+        <td class="rowHeaderLeft" style="width:30%;;padding-left:1.5em;font-weight:bold">Kenaikan (penurunan) liabilitas </td> 
+        <td class="valueCell" style="text-align:right;;background-color:#b8b8b8;vertical-align:middle"></td> 
+        <td class="valueCell" style="text-align:right;;background-color:#b8b8b8;vertical-align:middle"></td> 
+        <td class="rowHeaderRight fixedFormRowHeaderRight" style="width:30%;;padding-right:1.5em;text-align: right;border-bottom:1px solid #CCCCCC;;font-weight:bold">Increase (decrease) from liabilities </td> 
+       </tr> 
+       <tr style="display:none;"> 
+        <td class="rowHeaderLeft" style="width:30%;;padding-left:3.0em">Kenaikan (penurunan) simpanan dan simpanan dari bank lain</td> 
+        <td class="valueCell" style="text-align:right;;vertical-align:middle"> 
+         <ix:nonfraction contextref="CurrentYearDuration" id="IX02_0014_00002_01_0003" name="idx-cor:IncreaseDecreaseFromDepositsAndDepositsFromOtherBanks" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="valueCell" style="text-align:right;;vertical-align:middle"> 
+         <ix:nonfraction contextref="PriorYearDuration" id="IX02_0014_00006_01_0003" name="idx-cor:IncreaseDecreaseFromDepositsAndDepositsFromOtherBanks" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="rowHeaderRight fixedFormRowHeaderRight" style="width:30%;;padding-right:3.0em;text-align: right;border-bottom:1px solid #CCCCCC;">Increase (decrease) from deposits and deposits from other banks</td> 
+       </tr> 
+       <tr style="display:none;"> 
+        <td class="rowHeaderLeft" style="width:30%;;padding-left:3.0em">Kenaikan (penurunan) liabilitas lainnya</td> 
+        <td class="valueCell" style="text-align:right;;vertical-align:middle"> 
+         <ix:nonfraction contextref="CurrentYearDuration" id="IX02_0015_00002_01_0003" name="idx-cor:IncreaseDecreaseFromOtherLiabilities" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="valueCell" style="text-align:right;;vertical-align:middle"> 
+         <ix:nonfraction contextref="PriorYearDuration" id="IX02_0015_00006_01_0003" name="idx-cor:IncreaseDecreaseFromOtherLiabilities" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="rowHeaderRight fixedFormRowHeaderRight" style="width:30%;;padding-right:3.0em;text-align: right;border-bottom:1px solid #CCCCCC;">Increase (decrease) from other liabilities</td> 
+       </tr> 
+       <tr> 
+        <td class="rowHeaderLeft" style="width:30%;;padding-left:1.5em;font-weight:bold;">Jumlah arus kas bersih yang diperoleh dari (digunakan untuk) aktivitas operasi</td> 
+        <td class="valueCell" style="text-align:right;;background-color:#00B0F0;vertical-align:middle"> ( 
+         <ix:nonfraction contextref="CurrentYearDuration" decimals="-3" format="ixt:numcommadot" id="IX02_0237_00002_01_0013" name="idx-cor:NetCashFlowsReceivedFromUsedInOperatingActivities" scale="3" sign="-" unitref="IDR">
+           239,493,495 
+         </ix:nonfraction>) </td> 
+        <td class="valueCell" style="text-align:right;;background-color:#00B0F0;vertical-align:middle"> 
+         <ix:nonfraction contextref="PriorYearDuration" decimals="-3" format="ixt:numcommadot" id="IX02_0237_00006_01_0013" name="idx-cor:NetCashFlowsReceivedFromUsedInOperatingActivities" scale="3" unitref="IDR">
+           311,036,360 
+         </ix:nonfraction> </td> 
+        <td class="rowHeaderRight fixedFormRowHeaderRight" style="width:30%;;padding-right:1.5em;text-align: right;border-bottom:1px solid #CCCCCC;;font-weight:bold;">Total net cash flows received from (used in) operating activities</td> 
+       </tr> 
+       <tr> 
+        <td class="rowHeaderLeft" style="width:30%;;font-weight:bold;font-weight:bold;">Arus kas dari aktivitas investasi </td> 
+        <td class="valueCell" style="text-align:right;;background-color:#b8b8b8;vertical-align:middle"></td> 
+        <td class="valueCell" style="text-align:right;;background-color:#b8b8b8;vertical-align:middle"></td> 
+        <td class="rowHeaderRight" style="width:30%;;font-weight:bold;font-weight:bold;">Cash flows from investing activities </td> 
+       </tr> 
+       <tr style="display:none;"> 
+        <td class="rowHeaderLeft" style="width:30%;;padding-left:1.5em">Penerimaan dari penjualan properti investasi</td> 
+        <td class="valueCell" style="text-align:right;;vertical-align:middle"> 
+         <ix:nonfraction contextref="CurrentYearDuration" id="IX02_0411_00002_01_0009" name="idx-cor:ProceedsFromDisposalOfInvestmentProperties" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="valueCell" style="text-align:right;;vertical-align:middle"> 
+         <ix:nonfraction contextref="PriorYearDuration" id="IX02_0411_00006_01_0009" name="idx-cor:ProceedsFromDisposalOfInvestmentProperties" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="rowHeaderRight fixedFormRowHeaderRight" style="width:30%;;padding-right:1.5em;text-align: right;border-bottom:1px solid #CCCCCC;">Proceeds from disposal of investment properties</td> 
+       </tr> 
+       <tr style="display:none;"> 
+        <td class="rowHeaderLeft" style="width:30%;;padding-left:1.5em">Pembayaran untuk perolehan properti investasi</td> 
+        <td class="valueCell" style="text-align:right;;background-color:#fdff67;vertical-align:middle"> 
+         <ix:nonfraction contextref="CurrentYearDuration" id="IX02_0340_00002_01_0009" name="idx-cor:PaymentsForAcquisitionOfInvestmentProperties" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="valueCell" style="text-align:right;;background-color:#fdff67;vertical-align:middle"> 
+         <ix:nonfraction contextref="PriorYearDuration" id="IX02_0340_00006_01_0009" name="idx-cor:PaymentsForAcquisitionOfInvestmentProperties" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="rowHeaderRight fixedFormRowHeaderRight" style="width:30%;;padding-right:1.5em;text-align: right;border-bottom:1px solid #CCCCCC;">Payments for acquisition of investment properties</td> 
+       </tr> 
+       <tr> 
+        <td class="rowHeaderLeft" style="width:30%;;padding-left:1.5em">Penerimaan dari penjualan aset tetap</td> 
+        <td class="valueCell" style="text-align:right;;vertical-align:middle"> 
+         <ix:nonfraction contextref="CurrentYearDuration" decimals="-3" format="ixt:numcommadot" id="IX02_0876_00002_01_0005" name="idx-cor:ProceedsFromDisposalOfPropertyAndEquipment" scale="3" unitref="IDR">
+           61,789 
+         </ix:nonfraction> </td> 
+        <td class="valueCell" style="text-align:right;;vertical-align:middle"> 
+         <ix:nonfraction contextref="PriorYearDuration" decimals="-3" format="ixt:numcommadot" id="IX02_0876_00006_01_0005" name="idx-cor:ProceedsFromDisposalOfPropertyAndEquipment" scale="3" unitref="IDR">
+           506,366 
+         </ix:nonfraction> </td> 
+        <td class="rowHeaderRight fixedFormRowHeaderRight" style="width:30%;;padding-right:1.5em;text-align: right;border-bottom:1px solid #CCCCCC;">Proceeds from disposal of property and equipment</td> 
+       </tr> 
+       <tr> 
+        <td class="rowHeaderLeft" style="width:30%;;padding-left:1.5em">Pembayaran untuk perolehan aset tetap</td> 
+        <td class="valueCell" style="text-align:right;;background-color:#fdff67;vertical-align:middle"> ( 
+         <ix:nonfraction contextref="CurrentYearDuration" decimals="-3" format="ixt:numcommadot" id="IX02_0833_00002_01_0005" name="idx-cor:PaymentsForAcquisitionOfPropertyAndEquipment" scale="3" unitref="IDR">
+           96,972,645 
+         </ix:nonfraction>) </td> 
+        <td class="valueCell" style="text-align:right;;background-color:#fdff67;vertical-align:middle"> ( 
+         <ix:nonfraction contextref="PriorYearDuration" decimals="-3" format="ixt:numcommadot" id="IX02_0833_00006_01_0005" name="idx-cor:PaymentsForAcquisitionOfPropertyAndEquipment" scale="3" unitref="IDR">
+           97,186,932 
+         </ix:nonfraction>) </td> 
+        <td class="rowHeaderRight fixedFormRowHeaderRight" style="width:30%;;padding-right:1.5em;text-align: right;border-bottom:1px solid #CCCCCC;">Payments for acquisition of property and equipment</td> 
+       </tr> 
+       <tr style="display:none;"> 
+        <td class="rowHeaderLeft" style="width:30%;;padding-left:1.5em">Penerimaan dari penjualan aset agunan yang diambil alih</td> 
+        <td class="valueCell" style="text-align:right;;vertical-align:middle"> 
+         <ix:nonfraction contextref="CurrentYearDuration" id="IX02_0408_00002_01_0005" name="idx-cor:ProceedsFromDisposalOfForeclosedAssets" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="valueCell" style="text-align:right;;vertical-align:middle"> 
+         <ix:nonfraction contextref="PriorYearDuration" id="IX02_0408_00006_01_0005" name="idx-cor:ProceedsFromDisposalOfForeclosedAssets" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="rowHeaderRight fixedFormRowHeaderRight" style="width:30%;;padding-right:1.5em;text-align: right;border-bottom:1px solid #CCCCCC;">Proceeds from disposal of foreclosed assets</td> 
+       </tr> 
+       <tr style="display:none;"> 
+        <td class="rowHeaderLeft" style="width:30%;;padding-left:1.5em">Penerimaan dari penjualan aset non-keuangan lainnya</td> 
+        <td class="valueCell" style="text-align:right;;vertical-align:middle"> 
+         <ix:nonfraction contextref="CurrentYearDuration" id="IX02_0417_00002_01_0009" name="idx-cor:ProceedsFromDisposalOfOtherNonFinancialAssets" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="valueCell" style="text-align:right;;vertical-align:middle"> 
+         <ix:nonfraction contextref="PriorYearDuration" id="IX02_0417_00006_01_0009" name="idx-cor:ProceedsFromDisposalOfOtherNonFinancialAssets" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="rowHeaderRight fixedFormRowHeaderRight" style="width:30%;;padding-right:1.5em;text-align: right;border-bottom:1px solid #CCCCCC;">Proceeds from disposal of other non-financial assets</td> 
+       </tr> 
+       <tr style="display:none;"> 
+        <td class="rowHeaderLeft" style="width:30%;;padding-left:1.5em">Pembayaran untuk perolehan aset non-keuangan lainnya</td> 
+        <td class="valueCell" style="text-align:right;;background-color:#fdff67;vertical-align:middle"> 
+         <ix:nonfraction contextref="CurrentYearDuration" id="IX02_0346_00002_01_0009" name="idx-cor:PaymentsForAcquisitionOfOtherNonFinancialAssets" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="valueCell" style="text-align:right;;background-color:#fdff67;vertical-align:middle"> 
+         <ix:nonfraction contextref="PriorYearDuration" id="IX02_0346_00006_01_0009" name="idx-cor:PaymentsForAcquisitionOfOtherNonFinancialAssets" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="rowHeaderRight fixedFormRowHeaderRight" style="width:30%;;padding-right:1.5em;text-align: right;border-bottom:1px solid #CCCCCC;">Payments for acquisition of other non-financial assets</td> 
+       </tr> 
+       <tr style="display:none;"> 
+        <td class="rowHeaderLeft" style="width:30%;;padding-left:1.5em">Pencairan (penempatan) aset keuangan nilai wajar melalui pendapatan komprehensif lainnya</td> 
+        <td class="valueCell" style="text-align:right;;vertical-align:middle"> 
+         <ix:nonfraction contextref="CurrentYearDuration" id="IX02_0556_00002_01_0013" name="idx-cor:WithdrawalPlacementOfFinancialAssetsFairValueThroughOtherComprehensiveIncome" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="valueCell" style="text-align:right;;vertical-align:middle"> 
+         <ix:nonfraction contextref="PriorYearDuration" id="IX02_0556_00006_01_0013" name="idx-cor:WithdrawalPlacementOfFinancialAssetsFairValueThroughOtherComprehensiveIncome" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="rowHeaderRight fixedFormRowHeaderRight" style="width:30%;;padding-right:1.5em;text-align: right;border-bottom:1px solid #CCCCCC;">Withdrawal (placement) of financial assets fair value through other comprehensive income</td> 
+       </tr> 
+       <tr style="display:none;"> 
+        <td class="rowHeaderLeft" style="width:30%;;padding-left:1.5em">Penempatan aset keuangan biaya perolehan diamortisasi</td> 
+        <td class="valueCell" style="text-align:right;;background-color:#fdff67;vertical-align:middle"> 
+         <ix:nonfraction contextref="CurrentYearDuration" id="IX02_0391_00002_01_0013" name="idx-cor:PlacementOfFinancialAssetsAmortizedCostInvestments" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="valueCell" style="text-align:right;;background-color:#fdff67;vertical-align:middle"> 
+         <ix:nonfraction contextref="PriorYearDuration" id="IX02_0391_00006_01_0013" name="idx-cor:PlacementOfFinancialAssetsAmortizedCostInvestments" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="rowHeaderRight fixedFormRowHeaderRight" style="width:30%;;padding-right:1.5em;text-align: right;border-bottom:1px solid #CCCCCC;">Placement of financial assets amotized cost investments</td> 
+       </tr> 
+       <tr style="display:none;"> 
+        <td class="rowHeaderLeft" style="width:30%;;padding-left:1.5em">Pencairan aset keuangan biaya perolehan diamortisasi</td> 
+        <td class="valueCell" style="text-align:right;;vertical-align:middle"> 
+         <ix:nonfraction contextref="CurrentYearDuration" id="IX02_0541_00002_01_0013" name="idx-cor:WithdrawalOfFinancialAssetsAmortizedCostInvestments" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="valueCell" style="text-align:right;;vertical-align:middle"> 
+         <ix:nonfraction contextref="PriorYearDuration" id="IX02_0541_00006_01_0013" name="idx-cor:WithdrawalOfFinancialAssetsAmortizedCostInvestments" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="rowHeaderRight fixedFormRowHeaderRight" style="width:30%;;padding-right:1.5em;text-align: right;border-bottom:1px solid #CCCCCC;">Withdrawal of financial assets amortized cost investments</td> 
+       </tr> 
+       <tr style="display:none;"> 
+        <td class="rowHeaderLeft" style="width:30%;;padding-left:1.5em">Penerimaan dari pelepasan entitas anak</td> 
+        <td class="valueCell" style="text-align:right;;vertical-align:middle"> 
+         <ix:nonfraction contextref="CurrentYearDuration" id="IX02_0421_00002_01_0008" name="idx-cor:ProceedsFromDisposalOfSubsidiaries" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="valueCell" style="text-align:right;;vertical-align:middle"> 
+         <ix:nonfraction contextref="PriorYearDuration" id="IX02_0421_00006_01_0008" name="idx-cor:ProceedsFromDisposalOfSubsidiaries" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="rowHeaderRight fixedFormRowHeaderRight" style="width:30%;;padding-right:1.5em;text-align: right;border-bottom:1px solid #CCCCCC;">Proceeds from disposal of subsidiaries</td> 
+       </tr> 
+       <tr style="display:none;"> 
+        <td class="rowHeaderLeft" style="width:30%;;padding-left:1.5em">Pembayaran untuk perolehan entitas anak</td> 
+        <td class="valueCell" style="text-align:right;;background-color:#fdff67;vertical-align:middle"> 
+         <ix:nonfraction contextref="CurrentYearDuration" id="IX02_0350_00002_01_0010" name="idx-cor:PaymentsForAcquisitionOfSubsidiaries" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="valueCell" style="text-align:right;;background-color:#fdff67;vertical-align:middle"> 
+         <ix:nonfraction contextref="PriorYearDuration" id="IX02_0350_00006_01_0010" name="idx-cor:PaymentsForAcquisitionOfSubsidiaries" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="rowHeaderRight fixedFormRowHeaderRight" style="width:30%;;padding-right:1.5em;text-align: right;border-bottom:1px solid #CCCCCC;">Payments for acquisition of subsidiaries</td> 
+       </tr> 
+       <tr style="display:none;"> 
+        <td class="rowHeaderLeft" style="width:30%;;padding-left:1.5em">Penerimaan dari pelepasan kepentingan di entitas anak tanpa hilangnya pengendalian dari kegiatan investasi</td> 
+        <td class="valueCell" style="text-align:right;;vertical-align:middle"> 
+         <ix:nonfraction contextref="CurrentYearDuration" id="IX02_0439_00002_01_0010" name="idx-cor:ProceedsFromSalesOfInterestsInSubsidiariesWithoutLossOfControlFromInvestingActivities" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="valueCell" style="text-align:right;;vertical-align:middle"> 
+         <ix:nonfraction contextref="PriorYearDuration" id="IX02_0439_00006_01_0010" name="idx-cor:ProceedsFromSalesOfInterestsInSubsidiariesWithoutLossOfControlFromInvestingActivities" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="rowHeaderRight fixedFormRowHeaderRight" style="width:30%;;padding-right:1.5em;text-align: right;border-bottom:1px solid #CCCCCC;">Proceeds from sales of interests in subsidiaries without loss of control from investing activities</td> 
+       </tr> 
+       <tr style="display:none;"> 
+        <td class="rowHeaderLeft" style="width:30%;;padding-left:1.5em">Pembayaran untuk perolehan tambahan kepemilikan pada entitas anak</td> 
+        <td class="valueCell" style="text-align:right;;background-color:#fdff67;vertical-align:middle"> 
+         <ix:nonfraction contextref="CurrentYearDuration" id="IX02_0334_00002_01_0010" name="idx-cor:PaymentsForAcquisitionOfAdditionalInterestsInSubsidiaries" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="valueCell" style="text-align:right;;background-color:#fdff67;vertical-align:middle"> 
+         <ix:nonfraction contextref="PriorYearDuration" id="IX02_0334_00006_01_0010" name="idx-cor:PaymentsForAcquisitionOfAdditionalInterestsInSubsidiaries" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="rowHeaderRight fixedFormRowHeaderRight" style="width:30%;;padding-right:1.5em;text-align: right;border-bottom:1px solid #CCCCCC;">Payments for acquisition of additional interests in subsidiaries</td> 
+       </tr> 
+       <tr style="display:none;"> 
+        <td class="rowHeaderLeft" style="width:30%;;padding-left:1.5em">Penerimaan dari pelepasan kepemilikan pada entitas ventura bersama</td> 
+        <td class="valueCell" style="text-align:right;;vertical-align:middle"> 
+         <ix:nonfraction contextref="CurrentYearDuration" id="IX02_0437_00002_01_0008" name="idx-cor:ProceedsFromSalesOfInterestsInJointVentures" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="valueCell" style="text-align:right;;vertical-align:middle"> 
+         <ix:nonfraction contextref="PriorYearDuration" id="IX02_0437_00006_01_0008" name="idx-cor:ProceedsFromSalesOfInterestsInJointVentures" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="rowHeaderRight fixedFormRowHeaderRight" style="width:30%;;padding-right:1.5em;text-align: right;border-bottom:1px solid #CCCCCC;">Proceeds from sales of interests in joint ventures</td> 
+       </tr> 
+       <tr style="display:none;"> 
+        <td class="rowHeaderLeft" style="width:30%;;padding-left:1.5em">Pembayaran untuk perolehan kepemilikan pada entitas ventura bersama</td> 
+        <td class="valueCell" style="text-align:right;;background-color:#fdff67;vertical-align:middle"> 
+         <ix:nonfraction contextref="CurrentYearDuration" id="IX02_0339_00002_01_0008" name="idx-cor:PaymentsForAcquisitionOfInterestsInJointVentures" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="valueCell" style="text-align:right;;background-color:#fdff67;vertical-align:middle"> 
+         <ix:nonfraction contextref="PriorYearDuration" id="IX02_0339_00006_01_0008" name="idx-cor:PaymentsForAcquisitionOfInterestsInJointVentures" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="rowHeaderRight fixedFormRowHeaderRight" style="width:30%;;padding-right:1.5em;text-align: right;border-bottom:1px solid #CCCCCC;">Payments for acquisition of interests in joint ventures</td> 
+       </tr> 
+       <tr style="display:none;"> 
+        <td class="rowHeaderLeft" style="width:30%;;padding-left:1.5em">Penerimaan dari pelepasan kepemilikan pada entitas asosiasi</td> 
+        <td class="valueCell" style="text-align:right;;vertical-align:middle"> 
+         <ix:nonfraction contextref="CurrentYearDuration" id="IX02_0436_00002_01_0010" name="idx-cor:ProceedsFromSalesOfInterestsInAssociates" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="valueCell" style="text-align:right;;vertical-align:middle"> 
+         <ix:nonfraction contextref="PriorYearDuration" id="IX02_0436_00006_01_0010" name="idx-cor:ProceedsFromSalesOfInterestsInAssociates" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="rowHeaderRight fixedFormRowHeaderRight" style="width:30%;;padding-right:1.5em;text-align: right;border-bottom:1px solid #CCCCCC;">Proceeds from sales of interests in associates</td> 
+       </tr> 
+       <tr style="display:none;"> 
+        <td class="rowHeaderLeft" style="width:30%;;padding-left:1.5em">Pembayaran untuk perolehan kepemilikan pada entitas asosiasi</td> 
+        <td class="valueCell" style="text-align:right;;background-color:#fdff67;vertical-align:middle"> 
+         <ix:nonfraction contextref="CurrentYearDuration" id="IX02_0338_00002_01_0010" name="idx-cor:PaymentsForAcquisitionOfInterestsInAssociates" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="valueCell" style="text-align:right;;background-color:#fdff67;vertical-align:middle"> 
+         <ix:nonfraction contextref="PriorYearDuration" id="IX02_0338_00006_01_0010" name="idx-cor:PaymentsForAcquisitionOfInterestsInAssociates" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="rowHeaderRight fixedFormRowHeaderRight" style="width:30%;;padding-right:1.5em;text-align: right;border-bottom:1px solid #CCCCCC;">Payments for acquisition of interests in associates</td> 
+       </tr> 
+       <tr style="display:none;"> 
+        <td class="rowHeaderLeft" style="width:30%;;padding-left:1.5em">Penerimaan dari pelepasan aset tidak lancar atau kelompok lepasan yang diklasifikasikan sebagai dimiliki untuk dijual dan operasi yang dihentikan</td> 
+        <td class="valueCell" style="text-align:right;;vertical-align:middle"> 
+         <ix:nonfraction contextref="CurrentYearDuration" id="IX02_0415_00002_01_0007" name="idx-cor:ProceedsFromDisposalOfNonCurrentAssetsOrDisposalGroupsClassifiedAsHeldForSaleAndDiscontinuedOperations" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="valueCell" style="text-align:right;;vertical-align:middle"> 
+         <ix:nonfraction contextref="PriorYearDuration" id="IX02_0415_00006_01_0007" name="idx-cor:ProceedsFromDisposalOfNonCurrentAssetsOrDisposalGroupsClassifiedAsHeldForSaleAndDiscontinuedOperations" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="rowHeaderRight fixedFormRowHeaderRight" style="width:30%;;padding-right:1.5em;text-align: right;border-bottom:1px solid #CCCCCC;">Proceeds from disposal of non-current assets or disposal groups classified as held-for-sale and discontinued operations</td> 
+       </tr> 
+       <tr style="display:none;"> 
+        <td class="rowHeaderLeft" style="width:30%;;padding-left:1.5em">Penerimaan dividen dari aktivitas investasi</td> 
+        <td class="valueCell" style="text-align:right;;vertical-align:middle"> 
+         <ix:nonfraction contextref="CurrentYearDuration" id="IX02_0132_00002_01_0011" name="idx-cor:DividendsReceivedFromInvestingActivities" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="valueCell" style="text-align:right;;vertical-align:middle"> 
+         <ix:nonfraction contextref="PriorYearDuration" id="IX02_0132_00006_01_0011" name="idx-cor:DividendsReceivedFromInvestingActivities" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="rowHeaderRight fixedFormRowHeaderRight" style="width:30%;;padding-right:1.5em;text-align: right;border-bottom:1px solid #CCCCCC;">Dividends received from investing activities</td> 
+       </tr> 
+       <tr> 
+        <td class="rowHeaderLeft" style="width:30%;;padding-left:1.5em">Penerimaan bunga dari aktivitas investasi</td> 
+        <td class="valueCell" style="text-align:right;;vertical-align:middle"> 
+         <ix:nonfraction contextref="CurrentYearDuration" decimals="-3" format="ixt:numcommadot" id="IX02_0189_00002_01_0011" name="idx-cor:InterestsReceivedFromInvestingActivities" scale="3" unitref="IDR">
+           2,279,550 
+         </ix:nonfraction> </td> 
+        <td class="valueCell" style="text-align:right;;vertical-align:middle"> 
+         <ix:nonfraction contextref="PriorYearDuration" decimals="-3" format="ixt:numcommadot" id="IX02_0189_00006_01_0011" name="idx-cor:InterestsReceivedFromInvestingActivities" scale="3" unitref="IDR">
+           7,721,654 
+         </ix:nonfraction> </td> 
+        <td class="rowHeaderRight fixedFormRowHeaderRight" style="width:30%;;padding-right:1.5em;text-align: right;border-bottom:1px solid #CCCCCC;">Interests received from investing activities</td> 
+       </tr> 
+       <tr style="display:none;"> 
+        <td class="rowHeaderLeft" style="width:30%;;padding-left:1.5em">Pembayaran bunga dari aktivitas investasi</td> 
+        <td class="valueCell" style="text-align:right;;background-color:#fdff67;vertical-align:middle"> 
+         <ix:nonfraction contextref="CurrentYearDuration" id="IX02_0186_00002_01_0011" name="idx-cor:InterestsPaidFromInvestingActivities" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="valueCell" style="text-align:right;;background-color:#fdff67;vertical-align:middle"> 
+         <ix:nonfraction contextref="PriorYearDuration" id="IX02_0186_00006_01_0011" name="idx-cor:InterestsPaidFromInvestingActivities" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="rowHeaderRight fixedFormRowHeaderRight" style="width:30%;;padding-right:1.5em;text-align: right;border-bottom:1px solid #CCCCCC;">Interests paid from investing activities</td> 
+       </tr> 
+       <tr style="display:none;"> 
+        <td class="rowHeaderLeft" style="width:30%;;padding-left:1.5em">Penerimaan pengembalian (pembayaran) pajak penghasilan dari aktivitas investasi</td> 
+        <td class="valueCell" style="text-align:right;;vertical-align:middle"> 
+         <ix:nonfraction contextref="CurrentYearDuration" id="IX02_0175_00002_01_0011" name="idx-cor:IncomeTaxesRefundedPaidFromInvestingActivities" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="valueCell" style="text-align:right;;vertical-align:middle"> 
+         <ix:nonfraction contextref="PriorYearDuration" id="IX02_0175_00006_01_0011" name="idx-cor:IncomeTaxesRefundedPaidFromInvestingActivities" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="rowHeaderRight fixedFormRowHeaderRight" style="width:30%;;padding-right:1.5em;text-align: right;border-bottom:1px solid #CCCCCC;">Income taxes refunded (paid) from investing activities</td> 
+       </tr> 
+       <tr style="display:none;"> 
+        <td class="rowHeaderLeft" style="width:30%;;padding-left:1.5em">Penerimaan (pengeluaran) kas lainnya dari aktivitas investasi</td> 
+        <td class="valueCell" style="text-align:right;;vertical-align:middle"> 
+         <ix:nonfraction contextref="CurrentYearDuration" id="IX02_0287_00002_01_0013" name="idx-cor:OtherCashInflowsOutflowsFromInvestingActivities" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="valueCell" style="text-align:right;;vertical-align:middle"> 
+         <ix:nonfraction contextref="PriorYearDuration" id="IX02_0287_00006_01_0013" name="idx-cor:OtherCashInflowsOutflowsFromInvestingActivities" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="rowHeaderRight fixedFormRowHeaderRight" style="width:30%;;padding-right:1.5em;text-align: right;border-bottom:1px solid #CCCCCC;">Other cash inflows (outflows) from investing activities</td> 
+       </tr> 
+       <tr> 
+        <td class="rowHeaderLeft" style="width:30%;;padding-left:1.5em;font-weight:bold;">Jumlah arus kas bersih yang diperoleh dari (digunakan untuk) aktivitas investasi</td> 
+        <td class="valueCell" style="text-align:right;;background-color:#00B0F0;vertical-align:middle"> ( 
+         <ix:nonfraction contextref="CurrentYearDuration" decimals="-3" format="ixt:numcommadot" id="IX02_0236_00002_01_0013" name="idx-cor:NetCashFlowsReceivedFromUsedInInvestingActivities" scale="3" sign="-" unitref="IDR">
+           94,631,306 
+         </ix:nonfraction>) </td> 
+        <td class="valueCell" style="text-align:right;;background-color:#00B0F0;vertical-align:middle"> ( 
+         <ix:nonfraction contextref="PriorYearDuration" decimals="-3" format="ixt:numcommadot" id="IX02_0236_00006_01_0013" name="idx-cor:NetCashFlowsReceivedFromUsedInInvestingActivities" scale="3" sign="-" unitref="IDR">
+           88,958,912 
+         </ix:nonfraction>) </td> 
+        <td class="rowHeaderRight fixedFormRowHeaderRight" style="width:30%;;padding-right:1.5em;text-align: right;border-bottom:1px solid #CCCCCC;;font-weight:bold;">Total net cash flows received from (used in) investing activities</td> 
+       </tr> 
+       <tr> 
+        <td class="rowHeaderLeft" style="width:30%;;font-weight:bold;font-weight:bold;">Arus kas dari aktivitas pendanaan </td> 
+        <td class="valueCell" style="text-align:right;;background-color:#b8b8b8;vertical-align:middle"></td> 
+        <td class="valueCell" style="text-align:right;;background-color:#b8b8b8;vertical-align:middle"></td> 
+        <td class="rowHeaderRight" style="width:30%;;font-weight:bold;font-weight:bold;">Cash flows from financing activities </td> 
+       </tr> 
+       <tr style="display:none;"> 
+        <td class="rowHeaderLeft" style="width:30%;;padding-left:1.5em">Penerimaan wesel bayar</td> 
+        <td class="valueCell" style="text-align:right;;vertical-align:middle"> 
+         <ix:nonfraction contextref="CurrentYearDuration" id="IX02_0433_00002_01_0008" name="idx-cor:ProceedsFromNotesPayable" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="valueCell" style="text-align:right;;vertical-align:middle"> 
+         <ix:nonfraction contextref="PriorYearDuration" id="IX02_0433_00006_01_0008" name="idx-cor:ProceedsFromNotesPayable" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="rowHeaderRight fixedFormRowHeaderRight" style="width:30%;;padding-right:1.5em;text-align: right;border-bottom:1px solid #CCCCCC;">Proceeds from notes payable</td> 
+       </tr> 
+       <tr style="display:none;"> 
+        <td class="rowHeaderLeft" style="width:30%;;padding-left:1.5em">Pembayaran wesel bayar</td> 
+        <td class="valueCell" style="text-align:right;;background-color:#fdff67;vertical-align:middle"> 
+         <ix:nonfraction contextref="CurrentYearDuration" id="IX02_0377_00002_01_0008" name="idx-cor:PaymentsOfNotesPayable" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="valueCell" style="text-align:right;;background-color:#fdff67;vertical-align:middle"> 
+         <ix:nonfraction contextref="PriorYearDuration" id="IX02_0377_00006_01_0008" name="idx-cor:PaymentsOfNotesPayable" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="rowHeaderRight fixedFormRowHeaderRight" style="width:30%;;padding-right:1.5em;text-align: right;border-bottom:1px solid #CCCCCC;">Payments of notes payable</td> 
+       </tr> 
+       <tr> 
+        <td class="rowHeaderLeft" style="width:30%;;padding-left:1.5em">Penerimaan pinjaman bank</td> 
+        <td class="valueCell" style="text-align:right;;vertical-align:middle"> 
+         <ix:nonfraction contextref="CurrentYearDuration" decimals="-3" format="ixt:numcommadot" id="IX02_0401_00002_01_0008" name="idx-cor:ProceedsFromBankLoans" scale="3" unitref="IDR">
+           9,014,780,000 
+         </ix:nonfraction> </td> 
+        <td class="valueCell" style="text-align:right;;vertical-align:middle"> 
+         <ix:nonfraction contextref="PriorYearDuration" decimals="-3" format="ixt:numcommadot" id="IX02_0401_00006_01_0008" name="idx-cor:ProceedsFromBankLoans" scale="3" unitref="IDR">
+           7,924,765,500 
+         </ix:nonfraction> </td> 
+        <td class="rowHeaderRight fixedFormRowHeaderRight" style="width:30%;;padding-right:1.5em;text-align: right;border-bottom:1px solid #CCCCCC;">Proceeds from bank loans</td> 
+       </tr> 
+       <tr> 
+        <td class="rowHeaderLeft" style="width:30%;;padding-left:1.5em">Pembayaran pinjaman bank</td> 
+        <td class="valueCell" style="text-align:right;;background-color:#fdff67;vertical-align:middle"> ( 
+         <ix:nonfraction contextref="CurrentYearDuration" decimals="-3" format="ixt:numcommadot" id="IX02_0366_00002_01_0008" name="idx-cor:PaymentsOfBankLoans" scale="3" unitref="IDR">
+           8,038,000,000 
+         </ix:nonfraction>) </td> 
+        <td class="valueCell" style="text-align:right;;background-color:#fdff67;vertical-align:middle"> ( 
+         <ix:nonfraction contextref="PriorYearDuration" decimals="-3" format="ixt:numcommadot" id="IX02_0366_00006_01_0008" name="idx-cor:PaymentsOfBankLoans" scale="3" unitref="IDR">
+           9,641,840,000 
+         </ix:nonfraction>) </td> 
+        <td class="rowHeaderRight fixedFormRowHeaderRight" style="width:30%;;padding-right:1.5em;text-align: right;border-bottom:1px solid #CCCCCC;">Payments of bank loans</td> 
+       </tr> 
+       <tr style="display:none;"> 
+        <td class="rowHeaderLeft" style="width:30%;;padding-left:1.5em">Penerimaan pinjaman dari lembaga keuangan non-bank</td> 
+        <td class="valueCell" style="text-align:right;;vertical-align:middle"> 
+         <ix:nonfraction contextref="CurrentYearDuration" id="IX02_0529_00002_01_0008" name="idx-cor:ProceedsFromNon-BankFinancialInstitutionLoan" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="valueCell" style="text-align:right;;vertical-align:middle"> 
+         <ix:nonfraction contextref="PriorYearDuration" id="IX02_0529_00006_01_0008" name="idx-cor:ProceedsFromNon-BankFinancialInstitutionLoan" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="rowHeaderRight fixedFormRowHeaderRight" style="width:30%;;padding-right:1.5em;text-align: right;border-bottom:1px solid #CCCCCC;">Proceeds from non-bank financial institution loan</td> 
+       </tr> 
+       <tr style="display:none;"> 
+        <td class="rowHeaderLeft" style="width:30%;;padding-left:1.5em">Pembayaran pinjaman kepada lembaga keuangan non-bank</td> 
+        <td class="valueCell" style="text-align:right;;background-color:#fdff67;vertical-align:middle"> 
+         <ix:nonfraction contextref="CurrentYearDuration" id="IX02_0528_00002_01_0008" name="idx-cor:PaymentsOfNon-BankFinancialInstitutionLoan" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="valueCell" style="text-align:right;;background-color:#fdff67;vertical-align:middle"> 
+         <ix:nonfraction contextref="PriorYearDuration" id="IX02_0528_00006_01_0008" name="idx-cor:PaymentsOfNon-BankFinancialInstitutionLoan" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="rowHeaderRight fixedFormRowHeaderRight" style="width:30%;;padding-right:1.5em;text-align: right;border-bottom:1px solid #CCCCCC;">Payments of non-bank financial institution loan</td> 
+       </tr> 
+       <tr style="display:none;"> 
+        <td class="rowHeaderLeft" style="width:30%;;padding-left:1.5em">Penerimaan pinjaman subordinasi</td> 
+        <td class="valueCell" style="text-align:right;;vertical-align:middle"> 
+         <ix:nonfraction contextref="CurrentYearDuration" id="IX02_0443_00002_01_0010" name="idx-cor:ProceedsFromSubordinatedLoans" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="valueCell" style="text-align:right;;vertical-align:middle"> 
+         <ix:nonfraction contextref="PriorYearDuration" id="IX02_0443_00006_01_0010" name="idx-cor:ProceedsFromSubordinatedLoans" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="rowHeaderRight fixedFormRowHeaderRight" style="width:30%;;padding-right:1.5em;text-align: right;border-bottom:1px solid #CCCCCC;">Proceeds from subordinated loans</td> 
+       </tr> 
+       <tr style="display:none;"> 
+        <td class="rowHeaderLeft" style="width:30%;;padding-left:1.5em">Pembayaran pinjaman subordinasi</td> 
+        <td class="valueCell" style="text-align:right;;background-color:#fdff67;vertical-align:middle"> 
+         <ix:nonfraction contextref="CurrentYearDuration" id="IX02_0385_00002_01_0010" name="idx-cor:PaymentsOfSubordinatedLoans" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="valueCell" style="text-align:right;;background-color:#fdff67;vertical-align:middle"> 
+         <ix:nonfraction contextref="PriorYearDuration" id="IX02_0385_00006_01_0010" name="idx-cor:PaymentsOfSubordinatedLoans" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="rowHeaderRight fixedFormRowHeaderRight" style="width:30%;;padding-right:1.5em;text-align: right;border-bottom:1px solid #CCCCCC;">Payments of subordinated loans</td> 
+       </tr> 
+       <tr style="display:none;"> 
+        <td class="rowHeaderLeft" style="width:30%;;padding-left:1.5em">Penerimaan liabilitas sewa pembiayaan</td> 
+        <td class="valueCell" style="text-align:right;;vertical-align:middle"> 
+         <ix:nonfraction contextref="CurrentYearDuration" id="IX02_0427_00002_01_0007" name="idx-cor:ProceedsFromFinanceLeaseLiabilities" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="valueCell" style="text-align:right;;vertical-align:middle"> 
+         <ix:nonfraction contextref="PriorYearDuration" id="IX02_0427_00006_01_0007" name="idx-cor:ProceedsFromFinanceLeaseLiabilities" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="rowHeaderRight fixedFormRowHeaderRight" style="width:30%;;padding-right:1.5em;text-align: right;border-bottom:1px solid #CCCCCC;">Proceeds from finance lease liabilities</td> 
+       </tr> 
+       <tr style="display:none;"> 
+        <td class="rowHeaderLeft" style="width:30%;;padding-left:1.5em">Pembayaran liabilitas sewa pembiayaan</td> 
+        <td class="valueCell" style="text-align:right;;background-color:#fdff67;vertical-align:middle"> 
+         <ix:nonfraction contextref="CurrentYearDuration" id="IX02_0374_00002_01_0007" name="idx-cor:PaymentsOfFinanceLeaseLiabilities" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="valueCell" style="text-align:right;;background-color:#fdff67;vertical-align:middle"> 
+         <ix:nonfraction contextref="PriorYearDuration" id="IX02_0374_00006_01_0007" name="idx-cor:PaymentsOfFinanceLeaseLiabilities" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="rowHeaderRight fixedFormRowHeaderRight" style="width:30%;;padding-right:1.5em;text-align: right;border-bottom:1px solid #CCCCCC;">Payments of finance lease liabilities</td> 
+       </tr> 
+       <tr style="display:none;"> 
+        <td class="rowHeaderLeft" style="width:30%;;padding-left:1.5em">Penerimaan dari surat utang jangka menengah</td> 
+        <td class="valueCell" style="text-align:right;;vertical-align:middle"> 
+         <ix:nonfraction contextref="CurrentYearDuration" id="IX02_0405_00002_01_0010" name="idx-cor:ProceedsFromMediumTermNotes" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="valueCell" style="text-align:right;;vertical-align:middle"> 
+         <ix:nonfraction contextref="PriorYearDuration" id="IX02_0405_00006_01_0010" name="idx-cor:ProceedsFromMediumTermNotes" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="rowHeaderRight fixedFormRowHeaderRight" style="width:30%;;padding-right:1.5em;text-align: right;border-bottom:1px solid #CCCCCC;">Proceeds from medium term notes</td> 
+       </tr> 
+       <tr style="display:none;"> 
+        <td class="rowHeaderLeft" style="width:30%;;padding-left:1.5em">Pembayaran dari surat utang jangka menengah</td> 
+        <td class="valueCell" style="text-align:right;;background-color:#fdff67;vertical-align:middle"> 
+         <ix:nonfraction contextref="CurrentYearDuration" id="IX02_0406_00002_01_0010" name="idx-cor:PaymentsOfMediumTermNotes" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="valueCell" style="text-align:right;;background-color:#fdff67;vertical-align:middle"> 
+         <ix:nonfraction contextref="PriorYearDuration" id="IX02_0406_00006_01_0010" name="idx-cor:PaymentsOfMediumTermNotes" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="rowHeaderRight fixedFormRowHeaderRight" style="width:30%;;padding-right:1.5em;text-align: right;border-bottom:1px solid #CCCCCC;">Payments of medium term notes</td> 
+       </tr> 
+       <tr style="display:none;"> 
+        <td class="rowHeaderLeft" style="width:30%;;padding-left:1.5em">Penerbitan sukuk mudharabah</td> 
+        <td class="valueCell" style="text-align:right;;vertical-align:middle"> 
+         <ix:nonfraction contextref="CurrentYearDuration" id="IX02_0761_00002_01_0003" name="idx-cor:IssuanceOfMudharabahSukuk" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="valueCell" style="text-align:right;;vertical-align:middle"> 
+         <ix:nonfraction contextref="PriorYearDuration" id="IX02_0761_00006_01_0003" name="idx-cor:IssuanceOfMudharabahSukuk" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="rowHeaderRight fixedFormRowHeaderRight" style="width:30%;;padding-right:1.5em;text-align: right;border-bottom:1px solid #CCCCCC;">Issuance of mudharabah sukuk</td> 
+       </tr> 
+       <tr style="display:none;"> 
+        <td class="rowHeaderLeft" style="width:30%;;padding-left:1.5em">Pembayaran sukuk mudharabah</td> 
+        <td class="valueCell" style="text-align:right;;background-color:#fdff67;vertical-align:middle"> 
+         <ix:nonfraction contextref="CurrentYearDuration" id="IX02_0858_00002_01_0001" name="idx-cor:PaymentsOfMudharabahSukuk" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="valueCell" style="text-align:right;;background-color:#fdff67;vertical-align:middle"> 
+         <ix:nonfraction contextref="PriorYearDuration" id="IX02_0858_00006_01_0001" name="idx-cor:PaymentsOfMudharabahSukuk" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="rowHeaderRight fixedFormRowHeaderRight" style="width:30%;;padding-right:1.5em;text-align: right;border-bottom:1px solid #CCCCCC;">Payments of mudharabah sukuk</td> 
+       </tr> 
+       <tr> 
+        <td class="rowHeaderLeft" style="width:30%;;padding-left:1.5em">Penerimaan surat berharga utang</td> 
+        <td class="valueCell" style="text-align:right;;vertical-align:middle"> 
+         <ix:nonfraction contextref="CurrentYearDuration" decimals="-3" format="ixt:numcommadot" id="IX02_0872_00002_01_0001" name="idx-cor:ProceedsFromDebtSecurities" scale="3" unitref="IDR">
+           2,075,000,000 
+         </ix:nonfraction> </td> 
+        <td class="valueCell" style="text-align:right;;vertical-align:middle"> 
+         <ix:nonfraction contextref="PriorYearDuration" decimals="-3" format="ixt:numcommadot" id="IX02_0872_00006_01_0001" name="idx-cor:ProceedsFromDebtSecurities" scale="3" unitref="IDR">
+           2,500,000,000 
+         </ix:nonfraction> </td> 
+        <td class="rowHeaderRight fixedFormRowHeaderRight" style="width:30%;;padding-right:1.5em;text-align: right;border-bottom:1px solid #CCCCCC;">Proceeds from debt securities</td> 
+       </tr> 
+       <tr> 
+        <td class="rowHeaderLeft" style="width:30%;;padding-left:1.5em">Pembayaran surat berharga utang</td> 
+        <td class="valueCell" style="text-align:right;;background-color:#fdff67;vertical-align:middle"> ( 
+         <ix:nonfraction contextref="CurrentYearDuration" decimals="-3" format="ixt:numcommadot" id="IX02_0852_00002_01_0001" name="idx-cor:PaymentsOfDebtSecurities" scale="3" unitref="IDR">
+           1,850,000,000 
+         </ix:nonfraction>) </td> 
+        <td class="valueCell" style="text-align:right;;background-color:#fdff67;vertical-align:middle"> ( 
+         <ix:nonfraction contextref="PriorYearDuration" decimals="-3" format="ixt:numcommadot" id="IX02_0852_00006_01_0001" name="idx-cor:PaymentsOfDebtSecurities" scale="3" unitref="IDR">
+           873,000,000 
+         </ix:nonfraction>) </td> 
+        <td class="rowHeaderRight fixedFormRowHeaderRight" style="width:30%;;padding-right:1.5em;text-align: right;border-bottom:1px solid #CCCCCC;">Payments of debt securities</td> 
+       </tr> 
+       <tr style="display:none;"> 
+        <td class="rowHeaderLeft" style="width:30%;;padding-left:1.5em">Obligasi subordinasi yang diterbitkan</td> 
+        <td class="valueCell" style="text-align:right;;vertical-align:middle"> 
+         <ix:nonfraction contextref="CurrentYearDuration" id="IX02_0977_00002_01_0010" name="idx-cor:SubordinatedBondsIssued" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="valueCell" style="text-align:right;;vertical-align:middle"> 
+         <ix:nonfraction contextref="PriorYearDuration" id="IX02_0977_00006_01_0010" name="idx-cor:SubordinatedBondsIssued" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="rowHeaderRight fixedFormRowHeaderRight" style="width:30%;;padding-right:1.5em;text-align: right;border-bottom:1px solid #CCCCCC;">Subordinated bonds issued</td> 
+       </tr> 
+       <tr style="display:none;"> 
+        <td class="rowHeaderLeft" style="width:30%;;padding-left:1.5em">Pembayaran obligasi subordinasi</td> 
+        <td class="valueCell" style="text-align:right;;background-color:#fdff67;vertical-align:middle"> 
+         <ix:nonfraction contextref="CurrentYearDuration" id="IX02_0860_00002_01_0010" name="idx-cor:PaymentsOfSubordinatedBonds" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="valueCell" style="text-align:right;;background-color:#fdff67;vertical-align:middle"> 
+         <ix:nonfraction contextref="PriorYearDuration" id="IX02_0860_00006_01_0010" name="idx-cor:PaymentsOfSubordinatedBonds" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="rowHeaderRight fixedFormRowHeaderRight" style="width:30%;;padding-right:1.5em;text-align: right;border-bottom:1px solid #CCCCCC;">Payments of subordinated bonds</td> 
+       </tr> 
+       <tr style="display:none;"> 
+        <td class="rowHeaderLeft" style="width:30%;;padding-left:1.5em">Pembayaran biaya emisi penerbitan obligasi</td> 
+        <td class="valueCell" style="text-align:right;;background-color:#fdff67;vertical-align:middle"> 
+         <ix:nonfraction contextref="CurrentYearDuration" id="IX02_0367_00002_01_0010" name="idx-cor:PaymentsOfBondsIssuanceCosts" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="valueCell" style="text-align:right;;background-color:#fdff67;vertical-align:middle"> 
+         <ix:nonfraction contextref="PriorYearDuration" id="IX02_0367_00006_01_0010" name="idx-cor:PaymentsOfBondsIssuanceCosts" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="rowHeaderRight fixedFormRowHeaderRight" style="width:30%;;padding-right:1.5em;text-align: right;border-bottom:1px solid #CCCCCC;">Payments of bonds issuance costs</td> 
+       </tr> 
+       <tr style="display:none;"> 
+        <td class="rowHeaderLeft" style="width:30%;;padding-left:1.5em">Penerimaan pinjaman lainnya</td> 
+        <td class="valueCell" style="text-align:right;;vertical-align:middle"> 
+         <ix:nonfraction contextref="CurrentYearDuration" id="IX02_0434_00002_01_0007" name="idx-cor:ProceedsFromOtherBorrowings" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="valueCell" style="text-align:right;;vertical-align:middle"> 
+         <ix:nonfraction contextref="PriorYearDuration" id="IX02_0434_00006_01_0007" name="idx-cor:ProceedsFromOtherBorrowings" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="rowHeaderRight fixedFormRowHeaderRight" style="width:30%;;padding-right:1.5em;text-align: right;border-bottom:1px solid #CCCCCC;">Proceeds from other borrowings</td> 
+       </tr> 
+       <tr style="display:none;"> 
+        <td class="rowHeaderLeft" style="width:30%;;padding-left:1.5em">Pembayaran pinjaman lainnya</td> 
+        <td class="valueCell" style="text-align:right;;background-color:#fdff67;vertical-align:middle"> 
+         <ix:nonfraction contextref="CurrentYearDuration" id="IX02_0378_00002_01_0007" name="idx-cor:PaymentsOfOtherBorrowings" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="valueCell" style="text-align:right;;background-color:#fdff67;vertical-align:middle"> 
+         <ix:nonfraction contextref="PriorYearDuration" id="IX02_0378_00006_01_0007" name="idx-cor:PaymentsOfOtherBorrowings" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="rowHeaderRight fixedFormRowHeaderRight" style="width:30%;;padding-right:1.5em;text-align: right;border-bottom:1px solid #CCCCCC;">Payments of other borrowings</td> 
+       </tr> 
+       <tr> 
+        <td class="rowHeaderLeft" style="width:30%;;padding-left:1.5em">Pembayaran biaya penerbitan surat berharga utang</td> 
+        <td class="valueCell" style="text-align:right;;background-color:#fdff67;vertical-align:middle"> ( 
+         <ix:nonfraction contextref="CurrentYearDuration" decimals="-3" format="ixt:numcommadot" id="IX02_0853_00002_01_0001" name="idx-cor:PaymentsOfDebtSecuritiesIssuanceCosts" scale="3" unitref="IDR">
+           8,009,423 
+         </ix:nonfraction>) </td> 
+        <td class="valueCell" style="text-align:right;;background-color:#fdff67;vertical-align:middle"> ( 
+         <ix:nonfraction contextref="PriorYearDuration" decimals="-3" format="ixt:numcommadot" id="IX02_0853_00006_01_0001" name="idx-cor:PaymentsOfDebtSecuritiesIssuanceCosts" scale="3" unitref="IDR">
+           7,406,421 
+         </ix:nonfraction>) </td> 
+        <td class="rowHeaderRight fixedFormRowHeaderRight" style="width:30%;;padding-right:1.5em;text-align: right;border-bottom:1px solid #CCCCCC;">Payments of debt securities issuance costs</td> 
+       </tr> 
+       <tr style="display:none;"> 
+        <td class="rowHeaderLeft" style="width:30%;;padding-left:1.5em">Penerimaan dari penerbitan saham biasa</td> 
+        <td class="valueCell" style="text-align:right;;vertical-align:middle"> 
+         <ix:nonfraction contextref="CurrentYearDuration" id="IX02_0428_00002_01_0009" name="idx-cor:ProceedsFromIssuanceOfCommonStocks" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="valueCell" style="text-align:right;;vertical-align:middle"> 
+         <ix:nonfraction contextref="PriorYearDuration" id="IX02_0428_00006_01_0009" name="idx-cor:ProceedsFromIssuanceOfCommonStocks" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="rowHeaderRight fixedFormRowHeaderRight" style="width:30%;;padding-right:1.5em;text-align: right;border-bottom:1px solid #CCCCCC;">Proceeds from issuance of common stocks</td> 
+       </tr> 
+       <tr style="display:none;"> 
+        <td class="rowHeaderLeft" style="width:30%;;padding-left:1.5em">Penerimaan dari penerbitan saham preferen</td> 
+        <td class="valueCell" style="text-align:right;;vertical-align:middle"> 
+         <ix:nonfraction contextref="CurrentYearDuration" id="IX02_0429_00002_01_0009" name="idx-cor:ProceedsFromIssuanceOfPreferredStocks" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="valueCell" style="text-align:right;;vertical-align:middle"> 
+         <ix:nonfraction contextref="PriorYearDuration" id="IX02_0429_00006_01_0009" name="idx-cor:ProceedsFromIssuanceOfPreferredStocks" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="rowHeaderRight fixedFormRowHeaderRight" style="width:30%;;padding-right:1.5em;text-align: right;border-bottom:1px solid #CCCCCC;">Proceeds from issuance of preferred stocks</td> 
+       </tr> 
+       <tr style="display:none;"> 
+        <td class="rowHeaderLeft" style="width:30%;;padding-left:1.5em">Penerimaan dari penerbitan instrumen ekuitas lainnya</td> 
+        <td class="valueCell" style="text-align:right;;vertical-align:middle"> 
+         <ix:nonfraction contextref="CurrentYearDuration" id="IX02_0430_00002_01_0008" name="idx-cor:ProceedsFromIssuingOtherEquityInstruments" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="valueCell" style="text-align:right;;vertical-align:middle"> 
+         <ix:nonfraction contextref="PriorYearDuration" id="IX02_0430_00006_01_0008" name="idx-cor:ProceedsFromIssuingOtherEquityInstruments" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="rowHeaderRight fixedFormRowHeaderRight" style="width:30%;;padding-right:1.5em;text-align: right;border-bottom:1px solid #CCCCCC;">Proceeds from issuing other equity instruments</td> 
+       </tr> 
+       <tr style="display:none;"> 
+        <td class="rowHeaderLeft" style="width:30%;;padding-left:1.5em">Pembayaran biaya emisi saham</td> 
+        <td class="valueCell" style="text-align:right;;background-color:#fdff67;vertical-align:middle"> 
+         <ix:nonfraction contextref="CurrentYearDuration" id="IX02_0384_00002_01_0011" name="idx-cor:PaymentsOfStockIssuanceCosts" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="valueCell" style="text-align:right;;background-color:#fdff67;vertical-align:middle"> 
+         <ix:nonfraction contextref="PriorYearDuration" id="IX02_0384_00006_01_0011" name="idx-cor:PaymentsOfStockIssuanceCosts" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="rowHeaderRight fixedFormRowHeaderRight" style="width:30%;;padding-right:1.5em;text-align: right;border-bottom:1px solid #CCCCCC;">Payments of stock issuance costs</td> 
+       </tr> 
+       <tr style="display:none;"> 
+        <td class="rowHeaderLeft" style="width:30%;;padding-left:1.5em">Penerimaan dari pelepasan kepentingan di entitas anak tanpa hilangnya pengendalian dari kegiatan pendanaan</td> 
+        <td class="valueCell" style="text-align:right;;vertical-align:middle"> 
+         <ix:nonfraction contextref="CurrentYearDuration" id="IX02_0438_00002_01_0007" name="idx-cor:ProceedsFromSalesOfInterestsInSubsidiariesWithoutLossOfControlFromFinancingActivities" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="valueCell" style="text-align:right;;vertical-align:middle"> 
+         <ix:nonfraction contextref="PriorYearDuration" id="IX02_0438_00006_01_0007" name="idx-cor:ProceedsFromSalesOfInterestsInSubsidiariesWithoutLossOfControlFromFinancingActivities" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="rowHeaderRight fixedFormRowHeaderRight" style="width:30%;;padding-right:1.5em;text-align: right;border-bottom:1px solid #CCCCCC;">Proceeds from sales of interests in subsidiaries without loss of control from financing activities</td> 
+       </tr> 
+       <tr style="display:none;"> 
+        <td class="rowHeaderLeft" style="width:30%;;padding-left:1.5em">Penerimaan dari penambahan kepemilikan dari non-pengendali</td> 
+        <td class="valueCell" style="text-align:right;;vertical-align:middle"> 
+         <ix:nonfraction contextref="CurrentYearDuration" id="IX02_0364_00002_01_0011" name="idx-cor:ProceedFromIncreaseOfNonControllingInterest" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="valueCell" style="text-align:right;;vertical-align:middle"> 
+         <ix:nonfraction contextref="PriorYearDuration" id="IX02_0364_00006_01_0011" name="idx-cor:ProceedFromIncreaseOfNonControllingInterest" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="rowHeaderRight fixedFormRowHeaderRight" style="width:30%;;padding-right:1.5em;text-align: right;border-bottom:1px solid #CCCCCC;">Proceed from increase of non-controlling interest</td> 
+       </tr> 
+       <tr style="display:none;"> 
+        <td class="rowHeaderLeft" style="width:30%;;padding-left:1.5em">Pembayaran untuk perolehan kepentingan pihak non-pengendali pada entitas anak</td> 
+        <td class="valueCell" style="text-align:right;;background-color:#fdff67;vertical-align:middle"> 
+         <ix:nonfraction contextref="CurrentYearDuration" id="IX02_0344_00002_01_0007" name="idx-cor:PaymentsForAcquisitionOfNoncontrollingInterestsInSubsidiaries" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="valueCell" style="text-align:right;;background-color:#fdff67;vertical-align:middle"> 
+         <ix:nonfraction contextref="PriorYearDuration" id="IX02_0344_00006_01_0007" name="idx-cor:PaymentsForAcquisitionOfNoncontrollingInterestsInSubsidiaries" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="rowHeaderRight fixedFormRowHeaderRight" style="width:30%;;padding-right:1.5em;text-align: right;border-bottom:1px solid #CCCCCC;">Payments for acquisition of non-controlling interests in subsidiaries</td> 
+       </tr> 
+       <tr style="display:none;"> 
+        <td class="rowHeaderLeft" style="width:30%;;padding-left:1.5em">Penerimaan bunga dari aktivitas pendanaan</td> 
+        <td class="valueCell" style="text-align:right;;vertical-align:middle"> 
+         <ix:nonfraction contextref="CurrentYearDuration" id="IX02_0188_00002_01_0011" name="idx-cor:InterestsReceivedFromFinancingActivities" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="valueCell" style="text-align:right;;vertical-align:middle"> 
+         <ix:nonfraction contextref="PriorYearDuration" id="IX02_0188_00006_01_0011" name="idx-cor:InterestsReceivedFromFinancingActivities" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="rowHeaderRight fixedFormRowHeaderRight" style="width:30%;;padding-right:1.5em;text-align: right;border-bottom:1px solid #CCCCCC;">Interests received from financing activities</td> 
+       </tr> 
+       <tr> 
+        <td class="rowHeaderLeft" style="width:30%;;padding-left:1.5em">Pembayaran bunga dari aktivitas pendanaan</td> 
+        <td class="valueCell" style="text-align:right;;background-color:#fdff67;vertical-align:middle"> ( 
+         <ix:nonfraction contextref="CurrentYearDuration" decimals="-3" format="ixt:numcommadot" id="IX02_0185_00002_01_0011" name="idx-cor:InterestsPaidFromFinancingActivities" scale="3" unitref="IDR">
+           596,312,881 
+         </ix:nonfraction>) </td> 
+        <td class="valueCell" style="text-align:right;;background-color:#fdff67;vertical-align:middle"> ( 
+         <ix:nonfraction contextref="PriorYearDuration" decimals="-3" format="ixt:numcommadot" id="IX02_0185_00006_01_0011" name="idx-cor:InterestsPaidFromFinancingActivities" scale="3" unitref="IDR">
+           622,686,185 
+         </ix:nonfraction>) </td> 
+        <td class="rowHeaderRight fixedFormRowHeaderRight" style="width:30%;;padding-right:1.5em;text-align: right;border-bottom:1px solid #CCCCCC;">Interests paid from financing activities</td> 
+       </tr> 
+       <tr style="display:none;"> 
+        <td class="rowHeaderLeft" style="width:30%;;padding-left:1.5em">Penerimaan pengembalian (pembayaran) pajak penghasilan dari aktivitas pendanaan</td> 
+        <td class="valueCell" style="text-align:right;;vertical-align:middle"> 
+         <ix:nonfraction contextref="CurrentYearDuration" id="IX02_0174_00002_01_0011" name="idx-cor:IncomeTaxesRefundedPaidFromFinancingActivities" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="valueCell" style="text-align:right;;vertical-align:middle"> 
+         <ix:nonfraction contextref="PriorYearDuration" id="IX02_0174_00006_01_0011" name="idx-cor:IncomeTaxesRefundedPaidFromFinancingActivities" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="rowHeaderRight fixedFormRowHeaderRight" style="width:30%;;padding-right:1.5em;text-align: right;border-bottom:1px solid #CCCCCC;">Income taxes refunded (paid) from financing activities</td> 
+       </tr> 
+       <tr> 
+        <td class="rowHeaderLeft" style="width:30%;;padding-left:1.5em">Pembayaran dividen dari aktivitas pendanaan</td> 
+        <td class="valueCell" style="text-align:right;;background-color:#fdff67;vertical-align:middle"> ( 
+         <ix:nonfraction contextref="CurrentYearDuration" decimals="-3" format="ixt:numcommadot" id="IX02_0129_00002_01_0013" name="idx-cor:DividendsPaidFromFinancingActivities" scale="3" unitref="IDR">
+           142,118,232 
+         </ix:nonfraction>) </td> 
+        <td class="valueCell" style="text-align:right;;background-color:#fdff67;vertical-align:middle"> ( 
+         <ix:nonfraction contextref="PriorYearDuration" decimals="-3" format="ixt:numcommadot" id="IX02_0129_00006_01_0013" name="idx-cor:DividendsPaidFromFinancingActivities" scale="3" unitref="IDR">
+           0 
+         </ix:nonfraction>) </td> 
+        <td class="rowHeaderRight fixedFormRowHeaderRight" style="width:30%;;padding-right:1.5em;text-align: right;border-bottom:1px solid #CCCCCC;">Dividends paid from financing activities</td> 
+       </tr> 
+       <tr> 
+        <td class="rowHeaderLeft" style="width:30%;;padding-left:1.5em">Penerimaan (pengeluaran) kas lainnya dari aktivitas pendanaan</td> 
+        <td class="valueCell" style="text-align:right;;vertical-align:middle"> ( 
+         <ix:nonfraction contextref="CurrentYearDuration" decimals="-3" format="ixt:numcommadot" id="IX02_0286_00002_01_0013" name="idx-cor:OtherCashInflowsOutflowsFromFinancingActivities" scale="3" sign="-" unitref="IDR">
+           21,051,129 
+         </ix:nonfraction>) </td> 
+        <td class="valueCell" style="text-align:right;;vertical-align:middle"> ( 
+         <ix:nonfraction contextref="PriorYearDuration" decimals="-3" format="ixt:numcommadot" id="IX02_0286_00006_01_0013" name="idx-cor:OtherCashInflowsOutflowsFromFinancingActivities" scale="3" sign="-" unitref="IDR">
+           16,252,651 
+         </ix:nonfraction>) </td> 
+        <td class="rowHeaderRight fixedFormRowHeaderRight" style="width:30%;;padding-right:1.5em;text-align: right;border-bottom:1px solid #CCCCCC;">Other cash inflows (outflows) from financing activities</td> 
+       </tr> 
+       <tr> 
+        <td class="rowHeaderLeft" style="width:30%;;padding-left:1.5em;font-weight:bold;">Jumlah arus kas bersih yang diperoleh dari (digunakan untuk) aktivitas pendanaan</td> 
+        <td class="valueCell" style="text-align:right;;background-color:#00B0F0;vertical-align:middle"> 
+         <ix:nonfraction contextref="CurrentYearDuration" decimals="-3" format="ixt:numcommadot" id="IX02_0235_00002_01_0013" name="idx-cor:NetCashFlowsReceivedFromUsedInFinancingActivities" scale="3" unitref="IDR">
+           434,288,335 
+         </ix:nonfraction> </td> 
+        <td class="valueCell" style="text-align:right;;background-color:#00B0F0;vertical-align:middle"> ( 
+         <ix:nonfraction contextref="PriorYearDuration" decimals="-3" format="ixt:numcommadot" id="IX02_0235_00006_01_0013" name="idx-cor:NetCashFlowsReceivedFromUsedInFinancingActivities" scale="3" sign="-" unitref="IDR">
+           736,419,757 
+         </ix:nonfraction>) </td> 
+        <td class="rowHeaderRight fixedFormRowHeaderRight" style="width:30%;;padding-right:1.5em;text-align: right;border-bottom:1px solid #CCCCCC;;font-weight:bold;">Total net cash flows received from (used in) financing activities</td> 
+       </tr> 
+       <tr> 
+        <td class="rowHeaderLeft" style="width:30%;;font-weight:bold;">Jumlah kenaikan (penurunan) bersih kas dan setara kas</td> 
+        <td class="valueCell" style="text-align:right;;background-color:#00B0F0;vertical-align:middle"> 
+         <ix:nonfraction contextref="CurrentYearDuration" decimals="-3" format="ixt:numcommadot" id="IX02_0239_00002_01_0013" name="idx-cor:NetIncreaseDecreaseInCashAndCashEquivalents" scale="3" unitref="IDR">
+           100,163,534 
+         </ix:nonfraction> </td> 
+        <td class="valueCell" style="text-align:right;;background-color:#00B0F0;vertical-align:middle"> ( 
+         <ix:nonfraction contextref="PriorYearDuration" decimals="-3" format="ixt:numcommadot" id="IX02_0239_00006_01_0013" name="idx-cor:NetIncreaseDecreaseInCashAndCashEquivalents" scale="3" sign="-" unitref="IDR">
+           514,342,309 
+         </ix:nonfraction>) </td> 
+        <td class="rowHeaderRight" style="width:30%;;font-weight:bold;">Total net increase (decrease) in cash and cash equivalents</td> 
+       </tr> 
+       <tr> 
+        <td class="rowHeaderLeft" style="width:30%;">Kas dan setara kas arus kas, awal periode</td> 
+        <td class="valueCell" style="text-align:right;;vertical-align:middle"> 
+         <ix:nonfraction contextref="PriorEndYearInstant" decimals="-3" format="ixt:numcommadot" id="IX02_0037_00003_01_0013" name="idx-cor:CashAndCashEquivalentsCashFlows" scale="3" unitref="IDR">
+           173,091,330 
+         </ix:nonfraction> </td> 
+        <td class="valueCell" style="text-align:right;;vertical-align:middle"> 
+         <ix:nonfraction contextref="Prior2YearsInstant" decimals="-3" format="ixt:numcommadot" id="IX02_0037_00007_01_0013" name="idx-cor:CashAndCashEquivalentsCashFlows" scale="3" unitref="IDR">
+           687,433,639 
+         </ix:nonfraction> </td> 
+        <td class="rowHeaderRight" style="width:30%;">Cash and cash equivalents cash flows, beginning of the period</td> 
+       </tr> 
+       <tr style="display:none;"> 
+        <td class="rowHeaderLeft" style="width:30%;">Efek perubahan nilai kurs pada kas dan setara kas</td> 
+        <td class="valueCell" style="text-align:right;;vertical-align:middle"> 
+         <ix:nonfraction contextref="CurrentYearDuration" id="IX02_0138_00002_01_0013" name="idx-cor:EffectOfExchangeRateChangesOnCashAndCashEquivalents" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="valueCell" style="text-align:right;;vertical-align:middle"> 
+         <ix:nonfraction contextref="PriorYearDuration" id="IX02_0138_00006_01_0013" name="idx-cor:EffectOfExchangeRateChangesOnCashAndCashEquivalents" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="rowHeaderRight" style="width:30%;">Effect of exchange rate changes on cash and cash equivalents</td> 
+       </tr> 
+       <tr style="display:none;"> 
+        <td class="rowHeaderLeft" style="width:30%;">Kas dan setara kas dari entitas anak yang didekonsolidasikan </td> 
+        <td class="valueCell" style="text-align:right;;vertical-align:middle"> 
+         <ix:nonfraction contextref="CurrentYearInstant" id="IX02_0527_00001_01_0013" name="idx-cor:CashAndCashEquivalentOfDeconsolidatedSubsidiaries" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="valueCell" style="text-align:right;;vertical-align:middle"> 
+         <ix:nonfraction contextref="PriorYearInstant" id="IX02_0527_00004_01_0013" name="idx-cor:CashAndCashEquivalentOfDeconsolidatedSubsidiaries" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="rowHeaderRight" style="width:30%;">Cash and cash equivalent of deconsolidated subsidiaries </td> 
+       </tr> 
+       <tr style="display:none;"> 
+        <td class="rowHeaderLeft" style="width:30%;">Kenaikan (penurunan) kas dan setara kas lainnya</td> 
+        <td class="valueCell" style="text-align:right;;vertical-align:middle"> 
+         <ix:nonfraction contextref="CurrentYearDuration" id="IX02_1005_00002_01_0013" name="idx-cor:OtherIncreaseDecreaseInCashAndCashEquivalents" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="valueCell" style="text-align:right;;vertical-align:middle"> 
+         <ix:nonfraction contextref="PriorYearDuration" id="IX02_1005_00006_01_0013" name="idx-cor:OtherIncreaseDecreaseInCashAndCashEquivalents" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="rowHeaderRight" style="width:30%;">Other increase (decrease) in cash and cash equivalents</td> 
+       </tr> 
+       <tr> 
+        <td class="rowHeaderLeft" style="width:30%;;font-weight:bold;">Kas dan setara kas arus kas, akhir periode</td> 
+        <td class="valueCell" style="text-align:right;;background-color:#00B0F0;vertical-align:middle"> 
+         <ix:nonfraction contextref="CurrentYearInstant" decimals="-3" format="ixt:numcommadot" id="IX02_0037_00001_01_0013" name="idx-cor:CashAndCashEquivalentsCashFlows" scale="3" unitref="IDR">
+           273,254,864 
+         </ix:nonfraction> </td> 
+        <td class="valueCell" style="text-align:right;;background-color:#00B0F0;vertical-align:middle"> 
+         <ix:nonfraction contextref="PriorYearInstant" decimals="-3" format="ixt:numcommadot" id="IX02_0037_00004_01_0013" name="idx-cor:CashAndCashEquivalentsCashFlows" scale="3" unitref="IDR">
+           173,091,330 
+         </ix:nonfraction> </td> 
+        <td class="rowHeaderRight" style="width:30%;;font-weight:bold;">Cash and cash equivalents cash flows, end of the period</td> 
+       </tr> 
+      </tbody> 
+     </table> 
+    </div> 
+   </div> 
+  </div>  
+ </body>
+</html>

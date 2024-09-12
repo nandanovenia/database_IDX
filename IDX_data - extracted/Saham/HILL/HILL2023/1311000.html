@@ -1,0 +1,505 @@
+<?xml version="1.0"?>
+<!--?xml version="1.0"?--><!-- All Rights Reserved, Copyright (c) FUJITSU 2012 --><html xmlns="http://www.w3.org/1999/xhtml" xmlns:rpi="http://www.fujitsu.com/raportado/ixbrl" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:ix="http://www.xbrl.org/2008/inlineXBRL" xmlns:ixt="http://www.xbrl.org/inlineXBRL/transformation/2010-04-20" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:ref="http://www.xbrl.org/2006/ref" xmlns:num="http://www.xbrl.org/dtr/type/numeric" xmlns:nonnum="http://www.xbrl.org/dtr/type/non-numeric" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:negated="http://www.xbrl.org/2009/role/negated" xmlns:idx-cor="http://www.idx.co.id/xbrl/taxonomy/2020-01-01/cor" xmlns:idx-dei="http://www.idx.co.id/xbrl/taxonomy/2020-01-01/dei" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:xlink="http://www.w3.org/1999/xlink"> 
+ <!--1311000.html--> 
+ <head> 
+  <title>Interstage XWand WebForm</title> 
+  <!-- following style tag will be converted to be inline styling HTML --> 
+  <!-- following style tag will not be converted to be inline styling HTML --> 
+  <style type="text/css"> @page { size: 43in 27in; margin: 0.15in; padding: 1em; } .ix_negated { background-color: yellow; } input[type='radio'][name^='IX'] { width: auto; } input[name^='IX'] { width: 80%; } select[name^='IX'] { width: 80%; } </style> 
+  <script type="text/javascript"> // var specialKeys = new Array(); specialKeys.push(8); // backspace //specialKeys.push(44); // comma (,) //specialKeys.push(46); // dot (.) var IsNumeric = function IsNumeric(e) { var keyCode = e.which ? e.which : e.keyCode; var allow = (keyCode &gt;= 48 &amp;&amp; keyCode &lt;= 57) || specialKeys.indexOf(keyCode) != -1; if (!allow) { e.preventDefault(); } }; function onBodyLoaded() { var moneteryItemTypeInputs = document.getElementsByClassName( "ix_monetary" ); var formatNumber = function (e) { let value = e.srcElement.value; if (value == '') return; value = value.replace(/\D/g, ''); value = new Number(value).toLocaleString('en-US'); e.srcElement.value = value; } for (var i = 0; i &lt; moneteryItemTypeInputs.length; i++) { var monetaryItemTypeInput = moneteryItemTypeInputs.item(i); monetaryItemTypeInput.addEventListener("keypress", IsNumeric); monetaryItemTypeInput.addEventListener('keyup', formatNumber); monetaryItemTypeInput.value = monetaryItemTypeInput.value.replace(/\.0*/, ''); } } // </script> 
+ </head> 
+ <body onload="onBodyLoaded()"> 
+  <p class="titleLeft" style="font-family: Arial, Helvetica, sans-serif;font-size: 13.5pt;font-weight: bold;color: #000000;padding: 5px;border-spacing: 0px;vertical-align: top;text-align: left;">[1311000] Statement of profit or loss and other comprehensive income, OCI components presented net of tax, by function - General Industry</p> 
+  <div name="FORM_CONTAINER_FIXED" class="prepareTemplateFormContainer" href="http://www.idx.co.id/role/IDX-rt_role-2020-01-01_1311000"> 
+   <div> 
+    <div> 
+     <div> 
+      <table class="table01" style="font-family: Arial, Helvetica, sans-serif;font-size: 10pt;padding: 5px;border-spacing: 0px;text-align: center;width:100%;"> 
+       <tbody> 
+        <tr> 
+         <td class="titleLeft" colspan="2" style="font-family: Arial, Helvetica, sans-serif;font-size: 13.5pt;font-weight: bold;color: #000000;padding: 5px;border-spacing: 0px;vertical-align: top;text-align: left;">Laporan laba rugi dan penghasilan komprehensif lain </td> 
+         <td class="titleRight" colspan="2" style="font-family: Arial, Helvetica, sans-serif;font-size: 13.5pt;font-weight: bold;color: #000000;padding: 5px;border-spacing: 0px;vertical-align: top;text-align: right;">Statement of profit or loss and other comprehensive income </td> 
+        </tr> 
+        <tr> 
+         <td/> 
+         <td class="colHeader01" style="width: 200px !important;padding: 1px;background-color: #b2bec9;color: #000000;text-decoration: underline;font-weight: bold;text-align: center;/* border-bottom: 1px solid #4e4d4d;*/            font-size: 8pt;width:20%;">  2023-12-31</td> 
+         <td class="colHeader01" style="width: 200px !important;padding: 1px;background-color: #b2bec9;color: #000000;text-decoration: underline;font-weight: bold;text-align: center;/* border-bottom: 1px solid #4e4d4d;*/            font-size: 8pt;width:20%;">  2022-12-31</td> 
+        </tr> 
+        <tr> 
+         <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;width:30%;">Laporan laba rugi dan penghasilan komprehensif lain </td> 
+         <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"/> 
+         <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"/> 
+         <td class="rowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;width:30%;">Statement of profit or loss and other comprehensive income </td> 
+        </tr> 
+        <tr> 
+         <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;width:30%;;padding-left:1.5em">Penjualan dan pendapatan usaha</td> 
+         <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+          <ix:nonFraction name="idx-cor:SalesAndRevenue" contextRef="CurrentYearDuration" unitRef="IDR" id="IXF1311000E02_0489_00002_01_0001" format="ixt:numcommadot" decimals="-6" scale="6">4,045,748</ix:nonFraction> </td> 
+         <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+          <ix:nonFraction name="idx-cor:SalesAndRevenue" contextRef="PriorYearDuration" unitRef="IDR" id="IXF1311000E02_0489_00006_01_0001" format="ixt:numcommadot" decimals="-6" scale="6">3,265,509</ix:nonFraction> </td> 
+         <td class="rowHeaderRight fixedFormRowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;width:30%;;padding-right:1.5em">Sales and revenue</td> 
+        </tr> 
+        <tr> 
+         <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;width:30%;;padding-left:1.5em">Beban pokok penjualan dan pendapatan</td> 
+         <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+          (<ix:nonFraction name="idx-cor:CostOfSalesAndRevenue" contextRef="CurrentYearDuration" unitRef="IDR" id="IXF1311000E02_0057_00002_01_0001" format="ixt:numcommadot" decimals="-6" scale="6">3,179,036</ix:nonFraction>) </td> 
+         <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+          (<ix:nonFraction name="idx-cor:CostOfSalesAndRevenue" contextRef="PriorYearDuration" unitRef="IDR" id="IXF1311000E02_0057_00006_01_0001" format="ixt:numcommadot" decimals="-6" scale="6">2,404,161</ix:nonFraction>) </td> 
+         <td class="rowHeaderRight fixedFormRowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;width:30%;;padding-right:1.5em">Cost of sales and revenue</td> 
+        </tr> 
+        <tr> 
+         <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;width:30%;;padding-left:1.5em">Jumlah laba bruto</td> 
+         <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+          <ix:nonFraction name="idx-cor:GrossProfit" contextRef="CurrentYearDuration" unitRef="IDR" id="IXF1311000E02_0171_00002_01_0001" format="ixt:numcommadot" decimals="-6" scale="6">866,712</ix:nonFraction> </td> 
+         <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+          <ix:nonFraction name="idx-cor:GrossProfit" contextRef="PriorYearDuration" unitRef="IDR" id="IXF1311000E02_0171_00006_01_0001" format="ixt:numcommadot" decimals="-6" scale="6">861,348</ix:nonFraction> </td> 
+         <td class="rowHeaderRight fixedFormRowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;width:30%;;padding-right:1.5em">Total gross profit</td> 
+        </tr> 
+        <tr> 
+         <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;width:30%;;padding-left:1.5em">Beban penjualan</td> 
+         <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+          <ix:nonFraction name="idx-cor:SellingExpenses" contextRef="CurrentYearDuration" unitRef="IDR" xsi:nil="true" id="IXF1311000E02_0491_00002_01_0001"/> </td> 
+         <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+          <ix:nonFraction name="idx-cor:SellingExpenses" contextRef="PriorYearDuration" unitRef="IDR" xsi:nil="true" id="IXF1311000E02_0491_00006_01_0001"/> </td> 
+         <td class="rowHeaderRight fixedFormRowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;width:30%;;padding-right:1.5em">Selling expenses</td> 
+        </tr> 
+        <tr> 
+         <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;width:30%;;padding-left:1.5em">Beban umum dan administrasi</td> 
+         <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+          (<ix:nonFraction name="idx-cor:GeneralAndAdministrativeExpenses" contextRef="CurrentYearDuration" unitRef="IDR" id="IXF1311000E02_0169_00002_01_0001" format="ixt:numcommadot" decimals="-6" scale="6">494,654</ix:nonFraction>) </td> 
+         <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+          (<ix:nonFraction name="idx-cor:GeneralAndAdministrativeExpenses" contextRef="PriorYearDuration" unitRef="IDR" id="IXF1311000E02_0169_00006_01_0001" format="ixt:numcommadot" decimals="-6" scale="6">185,744</ix:nonFraction>) </td> 
+         <td class="rowHeaderRight fixedFormRowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;width:30%;;padding-right:1.5em">General and administrative expenses</td> 
+        </tr> 
+        <tr> 
+         <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;width:30%;;padding-left:1.5em">Pendapatan keuangan</td> 
+         <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+          <ix:nonFraction name="idx-cor:FinanceIncome" contextRef="CurrentYearDuration" unitRef="IDR" xsi:nil="true" id="IXF1311000E02_0153_00002_01_0001"/> </td> 
+         <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+          <ix:nonFraction name="idx-cor:FinanceIncome" contextRef="PriorYearDuration" unitRef="IDR" xsi:nil="true" id="IXF1311000E02_0153_00006_01_0001"/> </td> 
+         <td class="rowHeaderRight fixedFormRowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;width:30%;;padding-right:1.5em">Finance income</td> 
+        </tr> 
+        <tr> 
+         <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;width:30%;;padding-left:1.5em">Pendapatan dividen</td> 
+         <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+          <ix:nonFraction name="idx-cor:DividendsIncome" contextRef="CurrentYearDuration" unitRef="IDR" xsi:nil="true" id="IXF1311000E02_0658_00002_01_0001"/> </td> 
+         <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+          <ix:nonFraction name="idx-cor:DividendsIncome" contextRef="PriorYearDuration" unitRef="IDR" xsi:nil="true" id="IXF1311000E02_0658_00006_01_0001"/> </td> 
+         <td class="rowHeaderRight fixedFormRowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;width:30%;;padding-right:1.5em">Dividends income</td> 
+        </tr> 
+        <tr> 
+         <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;width:30%;;padding-left:1.5em">Pendapatan bunga</td> 
+         <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+          <ix:nonFraction name="idx-cor:InterestIncome" contextRef="CurrentYearDuration" unitRef="IDR" xsi:nil="true" id="IXF1311000E02_0745_00002_01_0001"/> </td> 
+         <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+          <ix:nonFraction name="idx-cor:InterestIncome" contextRef="PriorYearDuration" unitRef="IDR" xsi:nil="true" id="IXF1311000E02_0745_00006_01_0001"/> </td> 
+         <td class="rowHeaderRight fixedFormRowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;width:30%;;padding-right:1.5em">Interest income</td> 
+        </tr> 
+        <tr> 
+         <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;width:30%;;padding-left:1.5em">Pendapatan investasi</td> 
+         <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+          <ix:nonFraction name="idx-cor:InvestmentIncome" contextRef="CurrentYearDuration" unitRef="IDR" xsi:nil="true" id="IXF1311000E02_1424_00002_01_0001"/> </td> 
+         <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+          <ix:nonFraction name="idx-cor:InvestmentIncome" contextRef="PriorYearDuration" unitRef="IDR" xsi:nil="true" id="IXF1311000E02_1424_00006_01_0001"/> </td> 
+         <td class="rowHeaderRight fixedFormRowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;width:30%;;padding-right:1.5em">Investment income</td> 
+        </tr> 
+        <tr> 
+         <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;width:30%;;padding-left:1.5em">Beban bunga dan keuangan</td> 
+         <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+          (<ix:nonFraction name="idx-cor:InterestAndFinanceCosts" contextRef="CurrentYearDuration" unitRef="IDR" id="IXF1311000E02_0152_00002_01_0001" format="ixt:numcommadot" decimals="-6" scale="6">258,430</ix:nonFraction>) </td> 
+         <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+          (<ix:nonFraction name="idx-cor:InterestAndFinanceCosts" contextRef="PriorYearDuration" unitRef="IDR" id="IXF1311000E02_0152_00006_01_0001" format="ixt:numcommadot" decimals="-6" scale="6">179,086</ix:nonFraction>) </td> 
+         <td class="rowHeaderRight fixedFormRowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;width:30%;;padding-right:1.5em">Interest and finance costs</td> 
+        </tr> 
+        <tr> 
+         <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;width:30%;;padding-left:1.5em">Keuntungan (kerugian) selisih kurs mata uang asing</td> 
+         <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+          <ix:nonFraction name="idx-cor:GainsLossesOnChangesInForeignExchangeRates" contextRef="CurrentYearDuration" unitRef="IDR" xsi:nil="true" id="IXF1311000E02_0163_00002_01_0001"/> </td> 
+         <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+          <ix:nonFraction name="idx-cor:GainsLossesOnChangesInForeignExchangeRates" contextRef="PriorYearDuration" unitRef="IDR" xsi:nil="true" id="IXF1311000E02_0163_00006_01_0001"/> </td> 
+         <td class="rowHeaderRight fixedFormRowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;width:30%;;padding-right:1.5em">Gains (losses) on changes in foreign exchange rates</td> 
+        </tr> 
+        <tr> 
+         <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;width:30%;;padding-left:1.5em">Bagian atas laba (rugi) entitas asosiasi yang dicatat dengan menggunakan metode ekuitas</td> 
+         <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+          <ix:nonFraction name="idx-cor:ShareOfProfitLossOfAssociatesAccountedForUsingEquityMethod" contextRef="CurrentYearDuration" unitRef="IDR" xsi:nil="true" id="IXF1311000E02_0498_00002_01_0001"/> </td> 
+         <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+          <ix:nonFraction name="idx-cor:ShareOfProfitLossOfAssociatesAccountedForUsingEquityMethod" contextRef="PriorYearDuration" unitRef="IDR" xsi:nil="true" id="IXF1311000E02_0498_00006_01_0001"/> </td> 
+         <td class="rowHeaderRight fixedFormRowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;width:30%;;padding-right:1.5em">Share of profit (loss) of associates accounted for using equity method</td> 
+        </tr> 
+        <tr> 
+         <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;width:30%;;padding-left:1.5em">Bagian atas laba (rugi) entitas ventura bersama yang dicatat menggunakan metode ekuitas</td> 
+         <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+          <ix:nonFraction name="idx-cor:ShareOfProfitLossOfJointVenturesAccountedForUsingEquityMethod" contextRef="CurrentYearDuration" unitRef="IDR" xsi:nil="true" id="IXF1311000E02_0499_00002_01_0001"/> </td> 
+         <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+          <ix:nonFraction name="idx-cor:ShareOfProfitLossOfJointVenturesAccountedForUsingEquityMethod" contextRef="PriorYearDuration" unitRef="IDR" xsi:nil="true" id="IXF1311000E02_0499_00006_01_0001"/> </td> 
+         <td class="rowHeaderRight fixedFormRowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;width:30%;;padding-right:1.5em">Share of profit (loss) of joint ventures accounted for using equity method</td> 
+        </tr> 
+        <tr> 
+         <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;width:30%;;padding-left:1.5em">Keuntungan (kerugian) perubahan nilai wajar efek</td> 
+         <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+          <ix:nonFraction name="idx-cor:GainsLossesOnChangesInFairValueOfMarketableSecurities" contextRef="CurrentYearDuration" unitRef="IDR" xsi:nil="true" id="IXF1311000E02_0666_00002_01_0001"/> </td> 
+         <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+          <ix:nonFraction name="idx-cor:GainsLossesOnChangesInFairValueOfMarketableSecurities" contextRef="PriorYearDuration" unitRef="IDR" xsi:nil="true" id="IXF1311000E02_0666_00006_01_0001"/> </td> 
+         <td class="rowHeaderRight fixedFormRowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;width:30%;;padding-right:1.5em">Gains (losses) on changes in fair value of marketable securities</td> 
+        </tr> 
+        <tr> 
+         <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;width:30%;;padding-left:1.5em">Keuntungan (kerugian) dari transaksi perdagangan efek yang telah direalisasi</td> 
+         <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+          <ix:nonFraction name="idx-cor:RealisedGainsLossesOnTradingOfMarketableSecurities" contextRef="CurrentYearDuration" unitRef="IDR" xsi:nil="true" id="IXF1311000E02_0897_00002_01_0001"/> </td> 
+         <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+          <ix:nonFraction name="idx-cor:RealisedGainsLossesOnTradingOfMarketableSecurities" contextRef="PriorYearDuration" unitRef="IDR" xsi:nil="true" id="IXF1311000E02_0897_00006_01_0001"/> </td> 
+         <td class="rowHeaderRight fixedFormRowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;width:30%;;padding-right:1.5em">Realised gains (losses) on trading of marketable securities</td> 
+        </tr> 
+        <tr> 
+         <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;width:30%;;padding-left:1.5em">Keuntungan (kerugian) atas instrumen keuangan derivatif</td> 
+         <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+          <ix:nonFraction name="idx-cor:GainsLossesOnDerivativeFinancialInstruments" contextRef="CurrentYearDuration" unitRef="IDR" xsi:nil="true" id="IXF1311000E02_0164_00002_01_0001"/> </td> 
+         <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+          <ix:nonFraction name="idx-cor:GainsLossesOnDerivativeFinancialInstruments" contextRef="PriorYearDuration" unitRef="IDR" xsi:nil="true" id="IXF1311000E02_0164_00006_01_0001"/> </td> 
+         <td class="rowHeaderRight fixedFormRowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;width:30%;;padding-right:1.5em">Gains (losses) on derivative financial instruments</td> 
+        </tr> 
+        <tr> 
+         <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;width:30%;;padding-left:1.5em">Beban pajak final</td> 
+         <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+          <ix:nonFraction name="idx-cor:FinalTaxExpenses" contextRef="CurrentYearDuration" unitRef="IDR" xsi:nil="true" id="IXF1311000E02_0530_00002_01_0001"/> </td> 
+         <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+          <ix:nonFraction name="idx-cor:FinalTaxExpenses" contextRef="PriorYearDuration" unitRef="IDR" xsi:nil="true" id="IXF1311000E02_0530_00006_01_0001"/> </td> 
+         <td class="rowHeaderRight fixedFormRowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;width:30%;;padding-right:1.5em">Final tax expenses</td> 
+        </tr> 
+        <tr> 
+         <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;width:30%;;padding-left:1.5em">Pendapatan lainnya</td> 
+         <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+          <ix:nonFraction name="idx-cor:OtherIncome" contextRef="CurrentYearDuration" unitRef="IDR" id="IXF1311000E02_0314_00002_01_0001" format="ixt:numcommadot" decimals="-6" scale="6">346,167</ix:nonFraction> </td> 
+         <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+          <ix:nonFraction name="idx-cor:OtherIncome" contextRef="PriorYearDuration" unitRef="IDR" id="IXF1311000E02_0314_00006_01_0001" format="ixt:numcommadot" decimals="-6" scale="6">1,266</ix:nonFraction> </td> 
+         <td class="rowHeaderRight fixedFormRowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;width:30%;;padding-right:1.5em">Other income</td> 
+        </tr> 
+        <tr> 
+         <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;width:30%;;padding-left:1.5em">Beban lainnya</td> 
+         <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+          (<ix:nonFraction name="idx-cor:OtherExpenses" contextRef="CurrentYearDuration" unitRef="IDR" id="IXF1311000E02_0311_00002_01_0001" format="ixt:numcommadot" decimals="-6" scale="6">5,724</ix:nonFraction>) </td> 
+         <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+          (<ix:nonFraction name="idx-cor:OtherExpenses" contextRef="PriorYearDuration" unitRef="IDR" id="IXF1311000E02_0311_00006_01_0001" format="ixt:numcommadot" decimals="-6" scale="6">59,249</ix:nonFraction>) </td> 
+         <td class="rowHeaderRight fixedFormRowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;width:30%;;padding-right:1.5em">Other expenses</td> 
+        </tr> 
+        <tr> 
+         <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;width:30%;;padding-left:1.5em">Keuntungan (kerugian) lainnya</td> 
+         <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+          <ix:nonFraction name="idx-cor:OtherGainsLosses" contextRef="CurrentYearDuration" unitRef="IDR" xsi:nil="true" id="IXF1311000E02_0313_00002_01_0001"/> </td> 
+         <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+          <ix:nonFraction name="idx-cor:OtherGainsLosses" contextRef="PriorYearDuration" unitRef="IDR" xsi:nil="true" id="IXF1311000E02_0313_00006_01_0001"/> </td> 
+         <td class="rowHeaderRight fixedFormRowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;width:30%;;padding-right:1.5em">Other gains (losses)</td> 
+        </tr> 
+        <tr> 
+         <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;width:30%;;padding-left:1.5em">Jumlah laba (rugi) sebelum pajak penghasilan</td> 
+         <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+          <ix:nonFraction name="idx-cor:ProfitLossBeforeIncomeTax" contextRef="CurrentYearDuration" unitRef="IDR" id="IXF1311000E02_0451_00002_01_0001" format="ixt:numcommadot" decimals="-6" scale="6">454,071</ix:nonFraction> </td> 
+         <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+          <ix:nonFraction name="idx-cor:ProfitLossBeforeIncomeTax" contextRef="PriorYearDuration" unitRef="IDR" id="IXF1311000E02_0451_00006_01_0001" format="ixt:numcommadot" decimals="-6" scale="6">438,535</ix:nonFraction> </td> 
+         <td class="rowHeaderRight fixedFormRowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;width:30%;;padding-right:1.5em">Total profit (loss) before tax</td> 
+        </tr> 
+        <tr> 
+         <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;width:30%;;padding-left:1.5em">Pendapatan (beban) pajak</td> 
+         <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+          (<ix:nonFraction name="idx-cor:TaxBenefitExpenses" contextRef="CurrentYearDuration" unitRef="IDR" id="IXF1311000E02_0510_00002_01_0001" format="ixt:numcommadot" decimals="-6" scale="6" sign="-">15,116</ix:nonFraction>) </td> 
+         <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+          (<ix:nonFraction name="idx-cor:TaxBenefitExpenses" contextRef="PriorYearDuration" unitRef="IDR" id="IXF1311000E02_0510_00006_01_0001" format="ixt:numcommadot" decimals="-6" scale="6" sign="-">57,756</ix:nonFraction>) </td> 
+         <td class="rowHeaderRight fixedFormRowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;width:30%;;padding-right:1.5em">Tax benefit (expenses)</td> 
+        </tr> 
+        <tr> 
+         <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;width:30%;;padding-left:1.5em">Jumlah laba (rugi) dari operasi yang dilanjutkan</td> 
+         <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+          <ix:nonFraction name="idx-cor:ProfitLossFromContinuingOperations" contextRef="CurrentYearDuration" unitRef="IDR" id="IXF1311000E02_0452_00002_01_0001" format="ixt:numcommadot" decimals="-6" scale="6">438,955</ix:nonFraction> </td> 
+         <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+          <ix:nonFraction name="idx-cor:ProfitLossFromContinuingOperations" contextRef="PriorYearDuration" unitRef="IDR" id="IXF1311000E02_0452_00006_01_0001" format="ixt:numcommadot" decimals="-6" scale="6">380,779</ix:nonFraction> </td> 
+         <td class="rowHeaderRight fixedFormRowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;width:30%;;padding-right:1.5em">Total profit (loss) from continuing operations</td> 
+        </tr> 
+        <tr> 
+         <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;width:30%;;padding-left:1.5em">Laba (rugi) dari operasi yang dihentikan</td> 
+         <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+          <ix:nonFraction name="idx-cor:ProfitLossFromDiscontinuedOperations" contextRef="CurrentYearDuration" unitRef="IDR" xsi:nil="true" id="IXF1311000E02_0453_00002_01_0001"/> </td> 
+         <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+          <ix:nonFraction name="idx-cor:ProfitLossFromDiscontinuedOperations" contextRef="PriorYearDuration" unitRef="IDR" xsi:nil="true" id="IXF1311000E02_0453_00006_01_0001"/> </td> 
+         <td class="rowHeaderRight fixedFormRowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;width:30%;;padding-right:1.5em">Profit (loss) from discontinued operations</td> 
+        </tr> 
+        <tr> 
+         <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;width:30%;;padding-left:1.5em">Jumlah laba (rugi)</td> 
+         <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+          <ix:nonFraction name="idx-cor:ProfitLoss" contextRef="CurrentYearDuration" unitRef="IDR" id="IXF1311000E02_0447_00002_01_0001" format="ixt:numcommadot" decimals="-6" scale="6">438,955</ix:nonFraction> </td> 
+         <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+          <ix:nonFraction name="idx-cor:ProfitLoss" contextRef="PriorYearDuration" unitRef="IDR" id="IXF1311000E02_0447_00006_01_0001" format="ixt:numcommadot" decimals="-6" scale="6">380,779</ix:nonFraction> </td> 
+         <td class="rowHeaderRight fixedFormRowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;width:30%;;padding-right:1.5em">Total profit (loss)</td> 
+        </tr> 
+        <tr> 
+         <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;width:30%;;padding-left:1.5em">Pendapatan komprehensif lainnya, setelah pajak </td> 
+         <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"/> 
+         <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"/> 
+         <td class="rowHeaderRight fixedFormRowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;width:30%;;padding-right:1.5em">Other comprehensive income, after tax </td> 
+        </tr> 
+        <tr> 
+         <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;width:30%;;padding-left:3.0em">Pendapatan komprehensif lainnya yang tidak akan direklasifikasi ke laba rugi, setelah pajak </td> 
+         <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"/> 
+         <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"/> 
+         <td class="rowHeaderRight fixedFormRowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;width:30%;;padding-right:3.0em">Other comprehensive income that will not be reclassified to profit or loss, after tax </td> 
+        </tr> 
+        <tr> 
+         <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;width:30%;;padding-left:4.5em">Pendapatan komprehensif lainnya atas keuntungan (kerugian) hasil revaluasi aset tetap, setelah pajak</td> 
+         <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+          <ix:nonFraction name="idx-cor:OtherComprehensiveIncomeForGainsLossesOnRevaluationOfPropertyPlantAndEquipmentAfterTax" contextRef="CurrentYearDuration" unitRef="IDR" xsi:nil="true" id="IXF1311000E02_0295_00002_01_0001"/> </td> 
+         <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+          <ix:nonFraction name="idx-cor:OtherComprehensiveIncomeForGainsLossesOnRevaluationOfPropertyPlantAndEquipmentAfterTax" contextRef="PriorYearDuration" unitRef="IDR" xsi:nil="true" id="IXF1311000E02_0295_00006_01_0001"/> </td> 
+         <td class="rowHeaderRight fixedFormRowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;width:30%;;padding-right:4.5em">Other comprehensive income for gains (losses) on revaluation of property, plant and equipment, after tax</td> 
+        </tr> 
+        <tr> 
+         <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;width:30%;;padding-left:4.5em">Pendapatan komprehensif lainnya atas pengukuran kembali kewajiban manfaat pasti, setelah pajak</td> 
+         <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+          (<ix:nonFraction name="idx-cor:OtherComprehensiveIncomeForRemeasurementOfDefinedBenefitObligationAfterTax" contextRef="CurrentYearDuration" unitRef="IDR" id="IXF1311000E02_0297_00002_01_0001" format="ixt:numcommadot" decimals="-6" scale="6" sign="-">709</ix:nonFraction>) </td> 
+         <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+          (<ix:nonFraction name="idx-cor:OtherComprehensiveIncomeForRemeasurementOfDefinedBenefitObligationAfterTax" contextRef="PriorYearDuration" unitRef="IDR" id="IXF1311000E02_0297_00006_01_0001" format="ixt:numcommadot" decimals="-6" scale="6" sign="-">522</ix:nonFraction>) </td> 
+         <td class="rowHeaderRight fixedFormRowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;width:30%;;padding-right:4.5em">Other comprehensive income for remeasurement of defined benefit obligation, after tax</td> 
+        </tr> 
+        <tr> 
+         <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;width:30%;;padding-left:4.5em">Penyesuaian lainnya atas pendapatan komprehensif lainnya yang tidak akan direklasifikasi ke laba rugi, setelah pajak</td> 
+         <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+          <ix:nonFraction name="idx-cor:OtherAdjustmentsToOtherComprehensiveIncomeThatWillNotBeReclassifiedToProfitOrLossAfterTax" contextRef="CurrentYearDuration" unitRef="IDR" xsi:nil="true" id="IXF1311000E02_0282_00002_01_0001"/> </td> 
+         <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+          <ix:nonFraction name="idx-cor:OtherAdjustmentsToOtherComprehensiveIncomeThatWillNotBeReclassifiedToProfitOrLossAfterTax" contextRef="PriorYearDuration" unitRef="IDR" xsi:nil="true" id="IXF1311000E02_0282_00006_01_0001"/> </td> 
+         <td class="rowHeaderRight fixedFormRowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;width:30%;;padding-right:4.5em">Other adjustments to other comprehensive income that will not be reclassified to profit or loss, after tax</td> 
+        </tr> 
+        <tr> 
+         <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;width:30%;;padding-left:4.5em">Jumlah pendapatan komprehensif lainnya yang tidak akan direklasifikasi ke laba rugi, setelah pajak</td> 
+         <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+          (<ix:nonFraction name="idx-cor:OtherComprehensiveIncomeThatWillNotBeReclassifiedToProfitOrLossAfterTax" contextRef="CurrentYearDuration" unitRef="IDR" id="IXF1311000E02_0301_00002_01_0001" format="ixt:numcommadot" decimals="-6" scale="6" sign="-">709</ix:nonFraction>) </td> 
+         <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+          (<ix:nonFraction name="idx-cor:OtherComprehensiveIncomeThatWillNotBeReclassifiedToProfitOrLossAfterTax" contextRef="PriorYearDuration" unitRef="IDR" id="IXF1311000E02_0301_00006_01_0001" format="ixt:numcommadot" decimals="-6" scale="6" sign="-">522</ix:nonFraction>) </td> 
+         <td class="rowHeaderRight fixedFormRowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;width:30%;;padding-right:4.5em">Total other comprehensive income that will not be reclassified to profit or loss, after tax</td> 
+        </tr> 
+        <tr> 
+         <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;width:30%;;padding-left:3.0em">Pendapatan komprehensif lainnya yang akan direklasifikasi ke laba rugi, setelah pajak </td> 
+         <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"/> 
+         <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"/> 
+         <td class="rowHeaderRight fixedFormRowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;width:30%;;padding-right:3.0em">Other comprehensive income that may be reclassified to profit or loss, after tax </td> 
+        </tr> 
+        <tr> 
+         <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;width:30%;;padding-left:4.5em">Keuntungan (kerugian) selisih kurs penjabaran, setelah pajak</td> 
+         <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+          <ix:nonFraction name="idx-cor:GainsLossesOnExchangeDifferencesOnTranslationAfterTax" contextRef="CurrentYearDuration" unitRef="IDR" xsi:nil="true" id="IXF1311000E02_0165_00002_01_0001"/> </td> 
+         <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+          <ix:nonFraction name="idx-cor:GainsLossesOnExchangeDifferencesOnTranslationAfterTax" contextRef="PriorYearDuration" unitRef="IDR" xsi:nil="true" id="IXF1311000E02_0165_00006_01_0001"/> </td> 
+         <td class="rowHeaderRight fixedFormRowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;width:30%;;padding-right:4.5em">Gains (losses) on exchange differences on translation, after tax</td> 
+        </tr> 
+        <tr> 
+         <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;width:30%;;padding-left:4.5em">Penyesuaian reklasifikasi selisih kurs penjabaran, setelah pajak</td> 
+         <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+          <ix:nonFraction name="idx-cor:ReclassificationAdjustmentsOnExchangeDifferencesOnTranslationAfterTax" contextRef="CurrentYearDuration" unitRef="IDR" xsi:nil="true" id="IXF1311000E02_0479_00002_01_0001"/> </td> 
+         <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+          <ix:nonFraction name="idx-cor:ReclassificationAdjustmentsOnExchangeDifferencesOnTranslationAfterTax" contextRef="PriorYearDuration" unitRef="IDR" xsi:nil="true" id="IXF1311000E02_0479_00006_01_0001"/> </td> 
+         <td class="rowHeaderRight fixedFormRowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;width:30%;;padding-right:4.5em">Reclassification adjustments on exchange differences on translation, after tax</td> 
+        </tr> 
+        <tr> 
+         <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;width:30%;;padding-left:4.5em">Keuntungan (kerugian) yang belum direalisasi atas perubahan nilai wajar aset keuangan melalui penghasilan komprehensif lain, setelah pajak</td> 
+         <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+          <ix:nonFraction name="idx-cor:UnrealisedGainsLossesOnChangesInFairValueThroughOtherComprehensiveIncomeFinancialAssetsAfterTax" contextRef="CurrentYearDuration" unitRef="IDR" xsi:nil="true" id="IXF1311000E02_0536_00002_01_0001"/> </td> 
+         <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+          <ix:nonFraction name="idx-cor:UnrealisedGainsLossesOnChangesInFairValueThroughOtherComprehensiveIncomeFinancialAssetsAfterTax" contextRef="PriorYearDuration" unitRef="IDR" xsi:nil="true" id="IXF1311000E02_0536_00006_01_0001"/> </td> 
+         <td class="rowHeaderRight fixedFormRowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;width:30%;;padding-right:4.5em">Unrealised gains (losses) on changes in fair value through other comprehensive income financial assets, after tax</td> 
+        </tr> 
+        <tr> 
+         <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;width:30%;;padding-left:4.5em">Penyesuaian reklasifikasi atas aset keuangan nilai wajar melalui pendapatan komprehensif lainnya, setelah pajak</td> 
+         <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+          <ix:nonFraction name="idx-cor:ReclassificationAdjustmentsOnFairValueThroughOtherComprehensiveIncomeFinancialAssetsAfterTax" contextRef="CurrentYearDuration" unitRef="IDR" xsi:nil="true" id="IXF1311000E02_0475_00002_01_0001"/> </td> 
+         <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+          <ix:nonFraction name="idx-cor:ReclassificationAdjustmentsOnFairValueThroughOtherComprehensiveIncomeFinancialAssetsAfterTax" contextRef="PriorYearDuration" unitRef="IDR" xsi:nil="true" id="IXF1311000E02_0475_00006_01_0001"/> </td> 
+         <td class="rowHeaderRight fixedFormRowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;width:30%;;padding-right:4.5em">Reclassification adjustments on fair value through other comprehensive income financial assets, after tax</td> 
+        </tr> 
+        <tr> 
+         <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;width:30%;;padding-left:4.5em">Keuntungan (kerugian) lindung nilai arus kas, setelah pajak</td> 
+         <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+          <ix:nonFraction name="idx-cor:GainsLossesOnCashFlowHedgesAfterTax" contextRef="CurrentYearDuration" unitRef="IDR" xsi:nil="true" id="IXF1311000E02_0161_00002_01_0001"/> </td> 
+         <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+          <ix:nonFraction name="idx-cor:GainsLossesOnCashFlowHedgesAfterTax" contextRef="PriorYearDuration" unitRef="IDR" xsi:nil="true" id="IXF1311000E02_0161_00006_01_0001"/> </td> 
+         <td class="rowHeaderRight fixedFormRowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;width:30%;;padding-right:4.5em">Gains (losses) on cash flow hedges, after tax</td> 
+        </tr> 
+        <tr> 
+         <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;width:30%;;padding-left:4.5em">Penyesuaian reklasifikasi atas lindung nilai arus kas, setelah pajak</td> 
+         <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+          <ix:nonFraction name="idx-cor:ReclassificationAdjustmentsOnCashFlowHedgesAfterTax" contextRef="CurrentYearDuration" unitRef="IDR" xsi:nil="true" id="IXF1311000E02_0477_00002_01_0001"/> </td> 
+         <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+          <ix:nonFraction name="idx-cor:ReclassificationAdjustmentsOnCashFlowHedgesAfterTax" contextRef="PriorYearDuration" unitRef="IDR" xsi:nil="true" id="IXF1311000E02_0477_00006_01_0001"/> </td> 
+         <td class="rowHeaderRight fixedFormRowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;width:30%;;padding-right:4.5em">Reclassification adjustments on cash flow hedges, after tax</td> 
+        </tr> 
+        <tr> 
+         <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;width:30%;;padding-left:4.5em">Nilai tercatat dari aset (liabilitas) non-keuangan yang perolehan atau keterjadiannya merupakan suatu prakiraan transaksi yang kemungkinan besar terjadi yang dilindung nilai, setelah pajak</td> 
+         <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+          <ix:nonFraction name="idx-cor:CarryingAmountOfNonFinancialAssetLiabilityWhoseAcquisitionOrIncurrenceWasHedgedOnHighlyProbableForecastTransactionAdjustedFromEquityAfterTax" contextRef="CurrentYearDuration" unitRef="IDR" xsi:nil="true" id="IXF1311000E02_0033_00002_01_0001"/> </td> 
+         <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+          <ix:nonFraction name="idx-cor:CarryingAmountOfNonFinancialAssetLiabilityWhoseAcquisitionOrIncurrenceWasHedgedOnHighlyProbableForecastTransactionAdjustedFromEquityAfterTax" contextRef="PriorYearDuration" unitRef="IDR" xsi:nil="true" id="IXF1311000E02_0033_00006_01_0001"/> </td> 
+         <td class="rowHeaderRight fixedFormRowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;width:30%;;padding-right:4.5em">Carrying amount of non-financial asset (liability) whose acquisition or incurrence was hedged on highly probable forecast transaction, adjusted from equity, after tax</td> 
+        </tr> 
+        <tr> 
+         <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;width:30%;;padding-left:4.5em">Keuntungan (kerugian) lindung nilai investasi bersih kegiatan usaha luar negeri, setelah pajak</td> 
+         <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+          <ix:nonFraction name="idx-cor:GainsLossesOnHedgesOfNetInvestmentsInForeignOperationsAfterTax" contextRef="CurrentYearDuration" unitRef="IDR" xsi:nil="true" id="IXF1311000E02_0167_00002_01_0001"/> </td> 
+         <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+          <ix:nonFraction name="idx-cor:GainsLossesOnHedgesOfNetInvestmentsInForeignOperationsAfterTax" contextRef="PriorYearDuration" unitRef="IDR" xsi:nil="true" id="IXF1311000E02_0167_00006_01_0001"/> </td> 
+         <td class="rowHeaderRight fixedFormRowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;width:30%;;padding-right:4.5em">Gains (losses) on hedges of net investments in foreign operations, after tax</td> 
+        </tr> 
+        <tr> 
+         <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;width:30%;;padding-left:4.5em">Penyesuaian reklasifikasi atas lindung nilai investasi bersih kegiatan usaha luar negeri, setelah pajak</td> 
+         <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+          <ix:nonFraction name="idx-cor:ReclassificationAdjustmentsOnHedgesOfNetInvestmentsInForeignOperationsAfterTax" contextRef="CurrentYearDuration" unitRef="IDR" xsi:nil="true" id="IXF1311000E02_0481_00002_01_0001"/> </td> 
+         <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+          <ix:nonFraction name="idx-cor:ReclassificationAdjustmentsOnHedgesOfNetInvestmentsInForeignOperationsAfterTax" contextRef="PriorYearDuration" unitRef="IDR" xsi:nil="true" id="IXF1311000E02_0481_00006_01_0001"/> </td> 
+         <td class="rowHeaderRight fixedFormRowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;width:30%;;padding-right:4.5em">Reclassification adjustments on hedges of net investments in foreign operations, after tax</td> 
+        </tr> 
+        <tr> 
+         <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;width:30%;;padding-left:4.5em">Bagian pendapatan komprehensif lainnya dari entitas asosiasi yang dicatat dengan menggunakan metode ekuitas, setelah pajak</td> 
+         <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+          <ix:nonFraction name="idx-cor:ShareOfOtherComprehensiveIncomeOfAssociatesAccountedForUsingEquityMethodAfterTax" contextRef="CurrentYearDuration" unitRef="IDR" xsi:nil="true" id="IXF1311000E02_0494_00002_01_0001"/> </td> 
+         <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+          <ix:nonFraction name="idx-cor:ShareOfOtherComprehensiveIncomeOfAssociatesAccountedForUsingEquityMethodAfterTax" contextRef="PriorYearDuration" unitRef="IDR" xsi:nil="true" id="IXF1311000E02_0494_00006_01_0001"/> </td> 
+         <td class="rowHeaderRight fixedFormRowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;width:30%;;padding-right:4.5em">Share of other comprehensive income of associates accounted for using equity method, after tax</td> 
+        </tr> 
+        <tr> 
+         <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;width:30%;;padding-left:4.5em">Bagian pendapatan komprehensif lainnya dari entitas ventura bersama yang dicatat dengan menggunakan metode ekuitas, setelah pajak</td> 
+         <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+          <ix:nonFraction name="idx-cor:ShareOfOtherComprehensiveIncomeOfJointVenturesAccountedForUsingEquityMethodAfterTax" contextRef="CurrentYearDuration" unitRef="IDR" xsi:nil="true" id="IXF1311000E02_0496_00002_01_0001"/> </td> 
+         <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+          <ix:nonFraction name="idx-cor:ShareOfOtherComprehensiveIncomeOfJointVenturesAccountedForUsingEquityMethodAfterTax" contextRef="PriorYearDuration" unitRef="IDR" xsi:nil="true" id="IXF1311000E02_0496_00006_01_0001"/> </td> 
+         <td class="rowHeaderRight fixedFormRowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;width:30%;;padding-right:4.5em">Share of other comprehensive income of joint ventures accounted for using equity method, after tax</td> 
+        </tr> 
+        <tr> 
+         <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;width:30%;;padding-left:4.5em">Penyesuaian lainnya atas pendapatan komprehensif lainnya yang akan direklasifikasi ke laba rugi, setelah pajak</td> 
+         <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+          <ix:nonFraction name="idx-cor:OtherAdjustmentsToOtherComprehensiveIncomeThatMayBeReclassifiedToProfitOrLossAfterTax" contextRef="CurrentYearDuration" unitRef="IDR" xsi:nil="true" id="IXF1311000E02_0280_00002_01_0001"/> </td> 
+         <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+          <ix:nonFraction name="idx-cor:OtherAdjustmentsToOtherComprehensiveIncomeThatMayBeReclassifiedToProfitOrLossAfterTax" contextRef="PriorYearDuration" unitRef="IDR" xsi:nil="true" id="IXF1311000E02_0280_00006_01_0001"/> </td> 
+         <td class="rowHeaderRight fixedFormRowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;width:30%;;padding-right:4.5em">Other adjustments to other comprehensive income that may be reclassified to profit or loss, after tax</td> 
+        </tr> 
+        <tr> 
+         <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;width:30%;;padding-left:4.5em">Jumlah pendapatan komprehensif lainnya yang akan direklasifikasi ke laba rugi, setelah pajak</td> 
+         <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+          <ix:nonFraction name="idx-cor:OtherComprehensiveIncomeThatMayBeReclassifiedToProfitOrLossAfterTax" contextRef="CurrentYearDuration" unitRef="IDR" id="IXF1311000E02_0299_00002_01_0001" format="ixt:numcommadot" decimals="-6" scale="6">0</ix:nonFraction> </td> 
+         <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+          <ix:nonFraction name="idx-cor:OtherComprehensiveIncomeThatMayBeReclassifiedToProfitOrLossAfterTax" contextRef="PriorYearDuration" unitRef="IDR" id="IXF1311000E02_0299_00006_01_0001" format="ixt:numcommadot" decimals="-6" scale="6">0</ix:nonFraction> </td> 
+         <td class="rowHeaderRight fixedFormRowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;width:30%;;padding-right:4.5em">Total other comprehensive income that may be reclassified to profit or loss, after tax</td> 
+        </tr> 
+        <tr> 
+         <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;width:30%;;padding-left:3.0em">Jumlah pendapatan komprehensif lainnya, setelah pajak</td> 
+         <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+          (<ix:nonFraction name="idx-cor:OtherComprehensiveIncomeAfterTax" contextRef="CurrentYearDuration" unitRef="IDR" id="IXF1311000E02_0293_00002_01_0001" format="ixt:numcommadot" decimals="-6" scale="6" sign="-">709</ix:nonFraction>) </td> 
+         <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+          (<ix:nonFraction name="idx-cor:OtherComprehensiveIncomeAfterTax" contextRef="PriorYearDuration" unitRef="IDR" id="IXF1311000E02_0293_00006_01_0001" format="ixt:numcommadot" decimals="-6" scale="6" sign="-">522</ix:nonFraction>) </td> 
+         <td class="rowHeaderRight fixedFormRowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;width:30%;;padding-right:3.0em">Total other comprehensive income, after tax</td> 
+        </tr> 
+        <tr> 
+         <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;width:30%;;padding-left:1.5em">Jumlah laba rugi komprehensif</td> 
+         <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+          <ix:nonFraction name="idx-cor:ComprehensiveIncome" contextRef="CurrentYearDuration" unitRef="IDR" id="IXF1311000E02_0050_00002_01_0001" format="ixt:numcommadot" decimals="-6" scale="6">438,246</ix:nonFraction> </td> 
+         <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+          <ix:nonFraction name="idx-cor:ComprehensiveIncome" contextRef="PriorYearDuration" unitRef="IDR" id="IXF1311000E02_0050_00006_01_0001" format="ixt:numcommadot" decimals="-6" scale="6">380,257</ix:nonFraction> </td> 
+         <td class="rowHeaderRight fixedFormRowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;width:30%;;padding-right:1.5em">Total comprehensive income</td> 
+        </tr> 
+        <tr> 
+         <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;width:30%;;padding-left:1.5em">Laba (rugi) yang dapat diatribusikan </td> 
+         <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"/> 
+         <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"/> 
+         <td class="rowHeaderRight fixedFormRowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;width:30%;;padding-right:1.5em">Profit (loss) attributable to </td> 
+        </tr> 
+        <tr> 
+         <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;width:30%;;padding-left:3.0em">Laba (rugi) yang dapat diatribusikan ke entitas induk</td> 
+         <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+          <ix:nonFraction name="idx-cor:ProfitLossAttributableToParentEntity" contextRef="CurrentYearDuration" unitRef="IDR" id="IXF1311000E02_0450_00002_01_0001" format="ixt:numcommadot" decimals="-6" scale="6">351,078</ix:nonFraction> </td> 
+         <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+          <ix:nonFraction name="idx-cor:ProfitLossAttributableToParentEntity" contextRef="PriorYearDuration" unitRef="IDR" id="IXF1311000E02_0450_00006_01_0001" format="ixt:numcommadot" decimals="-6" scale="6">301,033</ix:nonFraction> </td> 
+         <td class="rowHeaderRight fixedFormRowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;width:30%;;padding-right:3.0em">Profit (loss) attributable to parent entity</td> 
+        </tr> 
+        <tr> 
+         <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;width:30%;;padding-left:3.0em">Laba (rugi) yang dapat diatribusikan ke kepentingan non-pengendali</td> 
+         <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+          <ix:nonFraction name="idx-cor:ProfitLossAttributableToNonControllingInterests" contextRef="CurrentYearDuration" unitRef="IDR" id="IXF1311000E02_0449_00002_01_0001" format="ixt:numcommadot" decimals="-6" scale="6">87,877</ix:nonFraction> </td> 
+         <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+          <ix:nonFraction name="idx-cor:ProfitLossAttributableToNonControllingInterests" contextRef="PriorYearDuration" unitRef="IDR" id="IXF1311000E02_0449_00006_01_0001" format="ixt:numcommadot" decimals="-6" scale="6">79,746</ix:nonFraction> </td> 
+         <td class="rowHeaderRight fixedFormRowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;width:30%;;padding-right:3.0em">Profit (loss) attributable to non-controlling interests</td> 
+        </tr> 
+        <tr> 
+         <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;width:30%;;padding-left:1.5em">Laba rugi komprehensif yang dapat diatribusikan </td> 
+         <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"/> 
+         <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"/> 
+         <td class="rowHeaderRight fixedFormRowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;width:30%;;padding-right:1.5em">Comprehensive income attributable to </td> 
+        </tr> 
+        <tr> 
+         <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;width:30%;;padding-left:3.0em">Laba rugi komprehensif yang dapat diatribusikan ke entitas induk</td> 
+         <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+          <ix:nonFraction name="idx-cor:ComprehensiveIncomeAttributableToParentEntity" contextRef="CurrentYearDuration" unitRef="IDR" id="IXF1311000E02_0052_00002_01_0001" format="ixt:numcommadot" decimals="-6" scale="6">350,511</ix:nonFraction> </td> 
+         <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+          <ix:nonFraction name="idx-cor:ComprehensiveIncomeAttributableToParentEntity" contextRef="PriorYearDuration" unitRef="IDR" id="IXF1311000E02_0052_00006_01_0001" format="ixt:numcommadot" decimals="-6" scale="6">300,615</ix:nonFraction> </td> 
+         <td class="rowHeaderRight fixedFormRowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;width:30%;;padding-right:3.0em">Comprehensive income attributable to parent entity</td> 
+        </tr> 
+        <tr> 
+         <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;width:30%;;padding-left:3.0em">Laba rugi komprehensif yang dapat diatribusikan ke kepentingan non-pengendali</td> 
+         <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+          <ix:nonFraction name="idx-cor:ComprehensiveIncomeAttributableToNonControllingInterests" contextRef="CurrentYearDuration" unitRef="IDR" id="IXF1311000E02_0051_00002_01_0001" format="ixt:numcommadot" decimals="-6" scale="6">87,735</ix:nonFraction> </td> 
+         <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+          <ix:nonFraction name="idx-cor:ComprehensiveIncomeAttributableToNonControllingInterests" contextRef="PriorYearDuration" unitRef="IDR" id="IXF1311000E02_0051_00006_01_0001" format="ixt:numcommadot" decimals="-6" scale="6">79,642</ix:nonFraction> </td> 
+         <td class="rowHeaderRight fixedFormRowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;width:30%;;padding-right:3.0em">Comprehensive income attributable to non-controlling interests</td> 
+        </tr> 
+        <tr> 
+         <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;width:30%;;padding-left:1.5em">Laba (rugi) per saham </td> 
+         <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"/> 
+         <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"/> 
+         <td class="rowHeaderRight fixedFormRowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;width:30%;;padding-right:1.5em">Earnings (loss) per share </td> 
+        </tr> 
+        <tr> 
+         <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;width:30%;;padding-left:3.0em">Laba per saham dasar diatribusikan kepada pemilik entitas induk </td> 
+         <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"/> 
+         <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"/> 
+         <td class="rowHeaderRight fixedFormRowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;width:30%;;padding-right:3.0em">Basic earnings per share attributable to equity owners of the parent entity </td> 
+        </tr> 
+        <tr> 
+         <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;width:30%;;padding-left:4.5em">Laba (rugi) per saham dasar dari operasi yang dilanjutkan</td> 
+         <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+          <ix:nonFraction name="idx-cor:BasicEarningsLossPerShareFromContinuingOperations" contextRef="CurrentYearDuration" unitRef="IDRPerShares" id="IXF1311000E02_0030_00002_02_0001" format="ixt:numcommadot" decimals="INF" scale="0">119</ix:nonFraction> </td> 
+         <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+          <ix:nonFraction name="idx-cor:BasicEarningsLossPerShareFromContinuingOperations" contextRef="PriorYearDuration" unitRef="IDRPerShares" id="IXF1311000E02_0030_00006_02_0001" format="ixt:numcommadot" decimals="INF" scale="0">120</ix:nonFraction> </td> 
+         <td class="rowHeaderRight fixedFormRowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;width:30%;;padding-right:4.5em">Basic earnings (loss) per share from continuing operations</td> 
+        </tr> 
+        <tr> 
+         <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;width:30%;;padding-left:4.5em">Laba (rugi) per saham dasar dari operasi yang dihentikan</td> 
+         <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+          <ix:nonFraction name="idx-cor:BasicEarningsLossPerShareFromDiscontinuedOperations" contextRef="CurrentYearDuration" unitRef="IDRPerShares" xsi:nil="true" id="IXF1311000E02_0031_00002_02_0001"/> </td> 
+         <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+          <ix:nonFraction name="idx-cor:BasicEarningsLossPerShareFromDiscontinuedOperations" contextRef="PriorYearDuration" unitRef="IDRPerShares" xsi:nil="true" id="IXF1311000E02_0031_00006_02_0001"/> </td> 
+         <td class="rowHeaderRight fixedFormRowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;width:30%;;padding-right:4.5em">Basic earnings (loss) per share from discontinued operations</td> 
+        </tr> 
+        <tr> 
+         <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;width:30%;;padding-left:3.0em">Laba (rugi) per saham dilusian </td> 
+         <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"/> 
+         <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"/> 
+         <td class="rowHeaderRight fixedFormRowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;width:30%;;padding-right:3.0em">Diluted earnings (loss) per share </td> 
+        </tr> 
+        <tr> 
+         <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;width:30%;;padding-left:4.5em">Laba (rugi) per saham dilusian dari operasi yang dilanjutkan</td> 
+         <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+          <ix:nonFraction name="idx-cor:DilutedEarningsLossPerShareFromContinuingOperations" contextRef="CurrentYearDuration" unitRef="IDRPerShares" xsi:nil="true" id="IXF1311000E02_0124_00002_02_0001"/> </td> 
+         <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+          <ix:nonFraction name="idx-cor:DilutedEarningsLossPerShareFromContinuingOperations" contextRef="PriorYearDuration" unitRef="IDRPerShares" xsi:nil="true" id="IXF1311000E02_0124_00006_02_0001"/> </td> 
+         <td class="rowHeaderRight fixedFormRowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;width:30%;;padding-right:4.5em">Diluted earnings (loss) per share from continuing operations</td> 
+        </tr> 
+        <tr> 
+         <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;width:30%;;padding-left:4.5em">Laba (rugi) per saham dilusian dari operasi yang dihentikan</td> 
+         <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+          <ix:nonFraction name="idx-cor:DilutedEarningsLossPerShareFromDiscontinuedOperations" contextRef="CurrentYearDuration" unitRef="IDRPerShares" xsi:nil="true" id="IXF1311000E02_0125_00002_02_0001"/> </td> 
+         <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"> 
+          <ix:nonFraction name="idx-cor:DilutedEarningsLossPerShareFromDiscontinuedOperations" contextRef="PriorYearDuration" unitRef="IDRPerShares" xsi:nil="true" id="IXF1311000E02_0125_00006_02_0001"/> </td> 
+         <td class="rowHeaderRight fixedFormRowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;width:30%;;padding-right:4.5em">Diluted earnings (loss) per share from discontinued operations</td> 
+        </tr> 
+       </tbody> 
+      </table> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+ </body> 
+</html>

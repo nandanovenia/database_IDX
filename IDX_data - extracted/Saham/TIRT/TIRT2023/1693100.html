@@ -1,0 +1,83 @@
+<?xml version="1.0"?>
+<!--?xml version="1.0"?--><!-- All Rights Reserved, Copyright (c) FUJITSU 2012 --><html xmlns="http://www.w3.org/1999/xhtml" xmlns:rpi="http://www.fujitsu.com/raportado/ixbrl" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:ix="http://www.xbrl.org/2008/inlineXBRL" xmlns:ixt="http://www.xbrl.org/inlineXBRL/transformation/2010-04-20" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:ref="http://www.xbrl.org/2006/ref" xmlns:num="http://www.xbrl.org/dtr/type/numeric" xmlns:nonnum="http://www.xbrl.org/dtr/type/non-numeric" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:negated="http://www.xbrl.org/2009/role/negated" xmlns:idx-cor="http://www.idx.co.id/xbrl/taxonomy/2020-01-01/cor" xmlns:idx-dei="http://www.idx.co.id/xbrl/taxonomy/2020-01-01/dei" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:xlink="http://www.w3.org/1999/xlink"> 
+ <!--1693100.html--> 
+ <head> 
+  <title>Interstage XWand WebForm</title> 
+  <!-- following style tag will be converted to be inline styling HTML --> 
+  <!-- following style tag will not be converted to be inline styling HTML --> 
+  <style type="text/css"> @page { size: 43in 27in; margin: 0.15in; padding: 1em; } .ix_negated { background-color: yellow; } input[type='radio'][name^='IX'] { width: auto; } input[name^='IX'] { width: 80%; } select[name^='IX'] { width: 80%; } </style> 
+  <script type="text/javascript"> // var specialKeys = new Array(); specialKeys.push(8); // backspace //specialKeys.push(44); // comma (,) //specialKeys.push(46); // dot (.) var IsNumeric = function IsNumeric(e) { var keyCode = e.which ? e.which : e.keyCode; var allow = (keyCode &gt;= 48 &amp;&amp; keyCode &lt;= 57) || specialKeys.indexOf(keyCode) != -1; if (!allow) { e.preventDefault(); } }; function onBodyLoaded() { var moneteryItemTypeInputs = document.getElementsByClassName( "ix_monetary" ); var formatNumber = function (e) { let value = e.srcElement.value; if (value == '') return; value = value.replace(/\D/g, ''); value = new Number(value).toLocaleString('en-US'); e.srcElement.value = value; } for (var i = 0; i &lt; moneteryItemTypeInputs.length; i++) { var monetaryItemTypeInput = moneteryItemTypeInputs.item(i); monetaryItemTypeInput.addEventListener("keypress", IsNumeric); monetaryItemTypeInput.addEventListener('keyup', formatNumber); monetaryItemTypeInput.value = monetaryItemTypeInput.value.replace(/\.0*/, ''); } } // </script> 
+ </head> 
+ <body onload="onBodyLoaded()"> 
+  <p class="titleLeft" style="font-family: Arial, Helvetica, sans-serif;font-size: 13.5pt;font-weight: bold;color: #000000;padding: 5px;border-spacing: 0px;vertical-align: top;text-align: left;">[1693100] Disclosure of Notes to the financial statements - Short-Term Bank Loans - General Industry</p> 
+  <div name="FORM_CONTAINER_FIXED" class="prepareTemplateFormContainer" href="http://www.idx.co.id/role/IDX-rt_role-2020-01-01_1693100"> 
+   <div> 
+    <div> 
+     <div> 
+      <table class="table01" style="font-family: Arial, Helvetica, sans-serif;font-size: 10pt;padding: 5px;border-spacing: 0px;text-align: center;width:100%;"> 
+       <tbody> 
+        <tr> 
+         <td class="titleLeft" colspan="1" style="font-family: Arial, Helvetica, sans-serif;font-size: 13.5pt;font-weight: bold;color: #000000;padding: 5px;border-spacing: 0px;vertical-align: top;text-align: left;">Pengungkapan </td> 
+         <td class="titleRight" colspan="2" style="font-family: Arial, Helvetica, sans-serif;font-size: 13.5pt;font-weight: bold;color: #000000;padding: 5px;border-spacing: 0px;vertical-align: top;text-align: right;">Disclosure </td> 
+        </tr> 
+        <tr> 
+         <td/> 
+         <td class="colHeader01" style="width: 200px !important;padding: 1px;background-color: #b2bec9;color: #000000;text-decoration: underline;font-weight: bold;text-align: center;/* border-bottom: 1px solid #4e4d4d;*/            font-size: 8pt;width:20%;">  2023-12-31</td> 
+        </tr> 
+        <tr> 
+         <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;width:30%;">Pengungkapan </td> 
+         <td class="valueCell" style="min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;text-align:center;"/> 
+         <td class="rowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;width:30%;">Disclosure </td> 
+        </tr> 
+        <tr> 
+         <td class="rowHeaderLeft" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: left;color: #000000;vertical-align: top;font-size: 10pt;width:30%;;padding-left:1.5em">Pengungkapan catatan atas utang bank jangka pendek </td> 
+         <td class="valueCell textBlockValueCell" style="height: 100px;min-width: 200px;padding: 1px;border-bottom: 1px solid #cccccc;text-align: right;vertical-align: top;font-size: 10pt;background-color: #caecfd;border-left: 3px solid white;border-right: 3px solid white;height:100px"> 
+          <ix:nonNumeric name="idx-cor:DisclosureofNotesforShortTermBankLoansTextBlock" contextRef="CurrentYearDuration" id="IXF1693100E02_1297_00002_00_0001" escape="false">Akun ini merupakan pinjaman fasilitas revolving dari PT Bank DBS Indonesia dalam mata uang Dolar Amerika Serikat. Saldo pinjaman pada tanggal 31 Desember 2022 dan 2021 masing-masing adalah sebesar
+Rp 140.005.900.000 (USD 8.900.000) dan Rp 189.064.250.000 (USD 13.250.000).
+Berdasarkan Perjanjian Fasilitas Perbankan No. 508/STC-DBSI/XII/2011 tanggal 2 Desember 2011 yang telah diubah beberapa kali dengan perubahan terakhir berdasarkan Perubahan Pertama atas Perubahan dan Penegasan Kembali Perjanjian Fasilitas Perbankan No.280/PFPA-DBSI/IX/1-2/2022 tanggal 28 September 2022, Perusahaan mendapat fasilitas perbankan dari PT Bank DBS Indonesia sebesar USD 8.900.000 yang merupakan uncommitted revolving credit facilty untuk kegiatan impor. Bunga yang dikenakan adalah sebesar 5,45% - 6,50% per tahun dan jatuh tempo pinjaman tanggal 31 Agustus 2023 serta dapat diperpanjang.
+Jaminan atas perjanjian tersebut adalah sebagai berikut:
+a. Hak tanggungan peringkat pertama atas sebidang tanah dan segala sesuatu, termasuk bangunan yang melekat diatasnya, sebagaimana termaktub dalam SHGB No. 00782/Kelurahan Bukuan (dahulu SHGB No.6/Bukuan) seluas 157.770 m2, yang terletak di Desa Bukuan, Kecamatan Palaran, Kota Dati II Samarinda, Propinsi Kalimantan Timur, yang terdaftar atas nama PT Tirta Mahakam Resources Tbk, dengan masa berlaku hak hingga tanggal 12 Oktober 2052.
+Total nilai penjaminan sekurang-kurangnya sebesar Rp 75.297.744.895.
+b. Hak tanggungan atas sebidang tanah dan segala sesuatu, termasuk bangunan yang melekat diatasnya, sebagaimana termaktub dalam SHGB No. 729/Bukuan seluas 20.000 m2, yang terletak di Desa Bukuan, Kecamatan Palaran, Kota Samarinda, Propinsi Kalimantan Timur, yang terdaftar atas nama PT Tirta Mahakam Resources Tbk, dengan masa berlaku hak hingga tanggal 2 Maret 2036.
+Total nilai penjaminan sekurang-kurangnya sebesar Rp 9.545.255.105.
+c. Hak tanggungan atas sebidang tanah dan segala sesuatu, termasuk bangunan yang melekat diatasnya, sebagaimana termaktub dalam:
+i. SHGB No.38/Bukuan, seluas 71.135 m2 yang terletak di Desa Bukuan, Kecamatan Palaran, Kota Samarinda, Propinsi Kalimantan Timur yang terdaftar atas nama PT Tirta Mahakam Resources Tbk, dengan masa berlaku hak hingga tanggal 30 Agustus 2025.
+ii. SHGB No.39/Bukuan, seluas 103.164 m2, yang terletak di Desa Bukuan, Kecamatan Palaran, Kota Samarinda, Propinsi Kalimantan Timur, yang terdaftar atas nama PT Tirta Mahakam Resources Tbk, dengan masa berlaku hak hingga tanggal 30 Agustus 2025.
+Dengan nilai penjaminan, sebagai berikut:
+- peringkat pertama sekurang-kurangnya sebesar Rp 13.595.322.000.
+- peringkat kedua sekurang-kurangnya sebesar Rp 16.906.678.000.
+Total nilai penjaminan sekurang-kurangnya sebesar Rp 30.502.000.000.
+d. Hak tanggungan peringkat pertama atas sebidang tanah dan segala sesuatu, termasuk bangunan yang melekat diatasnya, sebagaimana termaktub dalam SHGB No. 44/Bukuan, seluas 130.732 m2, yang terletak di Desa Bukuan, Kecamatan Palaran, Kota Samarinda, Propinsi Kalimantan Timur, yang terdaftar atas nama PT Tirta Mahakam Resources Tbk, dengan masa berlaku hak hingga tanggal 7 Maret 2027.
+Dengan nilai penjaminan, sebagai berikut:
+- peringkat pertama sekurang-kurangnya sebesar Rp 4.444.888.000.
+- peringkat kedua sekurang-kurangnya sebesar Rp 7.321.112.000
+Total nilai penjaminan sekurang-kurangnya sebesar Rp 11.766.000.000.
+e. Hak tanggungan peringkat pertama atas beberapa bidang tanah dan segala sesuatu, termasuk bangunan SHGB No. 95, seluas 120.531 m2, yang terletak di Desa Bukuan, Kecamatan Palaran, Kota Samarinda, Propinsi Kalimantan Timur, yang terdaftar atas nama PT Tirta Mahakam Resources Tbk, dengan masa berlaku hak hingga tanggal 17 Mei 2029.
+Total nilai penjaminan sekurang-kurangnya sebesar Rp 9.040.000.000.
+f. Jaminan fidusia atas mesin-mesin sebagaimana termaktub dalam Sertipikat Jaminan Fidusia No. W7-016131.AH.05.01.TH2012/STD tanggal 24 April 2012 yang terletak di Jalan Pangeran Antasari No.61, Desa Bukuan, Kecamatan Palaran, Kota Samarinda, Propinsi Kalimantan Timur.
+Total nilai penjaminan sekurang-kurangnya sebesar Rp 112.317.721.120.
+g. Jaminan fidusia atas persedian barang, sebagaimana termaktub dalam Sertipikat Jaminan Fidusia No. W7-016129.AH.05.01.TH2012/STD tanggal 24 April 2012, yang terletak di Jalan Pangeran Antasari No. 61, Desa Bukuan, Kecamatan Palaran, Kota Samarinda, Propinsi Kalimantan Timur.
+Total nilai penjaminan sekurang-kurangnya sebesar USD 32.500.000.
+h. Jaminan fidusia atas tagihan piutang yang dibiayai oleh bank, sebagaimana termaktub dalam Sertipikat Jaminan Fidusia No. W7-016130.AH.05.01.TH 2012/STD tanggal 24 April 2012.
+Total nilai penjaminan sekurang-kurangnya sebesar USD 5.000.000.
+i. Perjanjian pengalihan hak secara cessie atas rekening-rekening bank, sebagaimana termaktub dalam Akta Pengalihan Secara Bersyarat Hak Atas Rekening Bank No. 17 tanggal 2 Desember 2011 yang dibuat di hadapan Veronica Nataadmadja, SH., M. Corp. Admin., M. Com (Business Law), Notaris di Jakarta.
+Total nilai penjaminan sekurang-kurangnya sebesar USD 40.000.000.
+j. Hak tanggungan peringkat pertama atas sebidang tanah dan segala sesuatu, termasuk bangunan yang melekat diatasnya, sebagaimana termaktub dalam SHM No. 3684/Grogol Selatan, seluas 952 m2, yang terletak di jalan Sultan Iskandar Muda (Jalan Komplek Simprug Garden Blok D2), Kecamatan Kebayoran Lama, Kotamadya Jakarta Selatan, Propinsi DKI Jakarta, yang terdaftar atas nama Rita Indriawati.
+Total nilai penjaminan sekurang-kurangnya sebesar Rp 13.159.000.000.
+k. Jaminan pribadi yang diberikan oleh Tuan Lim Gunardi Hariyanto, sebagaimana termaktub dalam Akta Perjanjian Jaminan Pribadi- Penanggungan No. 18 tanggal 2 Desember 2011, yang dibuat dihadapan Veronica Nataadmadja, SH., M. Corp. Admin., M. Com (Business Law), Notaris di Jakarta.
+Total nilai penjaminan sekurang-kurangnya sebesar 100%.
+l. Jaminan pribadi yang diberikan oleh Tuan Lim Gunawan Hariyanto, sebagaimana termaktub dalam Akta Perjanjian Jaminan Pribadi-Penanggungan No. 19 tanggal 2 Desember 2011, yang dibuat dihadapan Veronica Nataadmadja, SH., M. Corp. Admin., M. Com (Business Law), Notaris di Jakarta.
+Total nilai penjaminan sekurang-kurangnya sebesar 100%.
+m. Jaminan korporasi yang diberikan oleh PT Harita Jayaraya, suatu perseroan terbatas yang didirikan berdasarkan hukum negara Indonesia, sebagaimana termaktub dalam Akta Perjanjian Jaminan Korporasi-Penanggungan No. 20 tanggal 2 Desember 2011, yang dibuat dihadapan Veronica Nataadmadja, SH., M. Corp. Admin., M. Com (Business Law), Notaris di Jakarta.
+Total nilai penjaminan sekurang-kurangnya sebesar 100%.
+Pada tanggal 25 Januari 2023 Perusahaan telah melunasi semua pinjaman bank kepada PT Bank DBS Indonesia.</ix:nonNumeric> </td> 
+         <td class="rowHeaderRight fixedFormRowHeaderRight" style="padding: 1px;padding-right: 5px;padding-left: 5px;border-bottom: 1px solid #cccccc;text-align: right;color: #000000;vertical-align: top;font-size: 10pt;width:30%;;padding-right:1.5em">Disclosure of notes for short-term bank loans </td> 
+        </tr> 
+       </tbody> 
+      </table> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+ </body> 
+</html>

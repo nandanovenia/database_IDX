@@ -1,0 +1,431 @@
+<!--?xml version="1.0" encoding="UTF-8"?-->
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:rpi="http://www.fujitsu.com/raportado/ixbrl" xmlns:ix="http://www.xbrl.org/2008/inlineXBRL" xmlns:ixt="http://www.xbrl.org/inlineXBRL/transformation/2010-04-20" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:idx-cor="http://www.idx.co.id/xbrl/taxonomy/2014-04-30/cor" xmlns:idx-dei="http://www.idx.co.id/xbrl/taxonomy/2014-04-30/dei" xmlns:test2012-12-31="http://www.idx.co.id/xbrl/samples/TEST/2012-12-31" xmlns:ref="http://www.xbrl.org/2006/ref" xmlns:num="http://www.xbrl.org/dtr/type/numeric" xmlns:nonnum="http://www.xbrl.org/dtr/type/non-numeric" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:idx-rt="http://www.idx.co.id/xbrl/taxonomy/2014-04-30/rt" xmlns:idx-dei-cm="http://www.idx.co.id/xbrl/taxonomy/2014-04-30/dei/cm" xmlns:negated="http://www.xbrl.org/2009/role/negated" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+ <!--1000000.html-->
+ <head> 
+  <style type="text/css">
+p.MsoNormal {
+font-family: "Arial","sans-serif"; font-size: 9pt; margin: 0mm 0mm 0pt; text-align: justify; text-justify: inter-ideograph;
+}
+li.MsoNormal {
+font-family: "Arial","sans-serif"; font-size: 9pt; margin: 0mm 0mm 0pt; text-align: justify; text-justify: inter-ideograph;
+}
+div.MsoNormal {
+font-family: "Arial","sans-serif"; font-size: 9pt; margin: 0mm 0mm 0pt; text-align: justify; text-justify: inter-ideograph;
+}
+td.MsoNormal {
+font-family: "Arial","sans-serif"; font-size: 9pt; margin: 0mm 0mm 0pt; text-align: justify; text-justify: inter-ideograph;
+}
+p.MsoHeader {
+font-family: "Arial","sans-serif"; font-size: 9pt; layout-grid-mode: char; margin: 0mm 0mm 0pt; text-align: justify; text-justify: inter-ideograph;
+}
+li.MsoHeader {
+font-family: "Arial","sans-serif"; font-size: 9pt; layout-grid-mode: char; margin: 0mm 0mm 0pt; text-align: justify; text-justify: inter-ideograph;
+}
+div.MsoHeader {
+font-family: "Arial","sans-serif"; font-size: 9pt; layout-grid-mode: char; margin: 0mm 0mm 0pt; text-align: justify; text-justify: inter-ideograph;
+}
+p.MsoFooter {
+font-family: "Arial","sans-serif"; font-size: 9pt; layout-grid-mode: char; margin: 0mm 0mm 0pt; text-align: justify; text-justify: inter-ideograph;
+}
+li.MsoFooter {
+font-family: "Arial","sans-serif"; font-size: 9pt; layout-grid-mode: char; margin: 0mm 0mm 0pt; text-align: justify; text-justify: inter-ideograph;
+}
+div.MsoFooter {
+font-family: "Arial","sans-serif"; font-size: 9pt; layout-grid-mode: char; margin: 0mm 0mm 0pt; text-align: justify; text-justify: inter-ideograph;
+}
+p.MsoAcetate {
+font-family: "Arial","sans-serif"; font-size: 9pt; margin: 0mm 0mm 0pt; text-align: justify; text-justify: inter-ideograph;
+}
+li.MsoAcetate {
+font-family: "Arial","sans-serif"; font-size: 9pt; margin: 0mm 0mm 0pt; text-align: justify; text-justify: inter-ideograph;
+}
+div.MsoAcetate {
+font-family: "Arial","sans-serif"; font-size: 9pt; margin: 0mm 0mm 0pt; text-align: justify; text-justify: inter-ideograph;
+}
+span.MsoPlaceholderText {
+color: gray;
+}
+span.a {
+font-family: "Arial","sans-serif";
+}
+span.a0 {
+font-family: "Arial","sans-serif";
+}
+span.a1 {
+font-family: "Arial","sans-serif";
+}
+.MsoChpDefault {
+font-family: "Century","serif";
+}
+.MsoPapDefault {
+text-align: justify; text-justify: inter-ideograph;
+}
+
+	.titleLeft { font-family: Arial,Helvetica,sans-serif; font-size: 13.5pt; font-weight:bold; color: #000000; padding:2px; border-spacing:0px; vertical-align:top; text-align:left; }
+	.titleRight { font-family: Arial,Helvetica,sans-serif; font-size: 13.5pt; font-weight:bold; color: #000000; padding:2px; border-spacing:0px; vertical-align:top; text-align:right; }
+
+	.table01 { font-family: Arial,Helvetica,sans-serif; font-size: 10pt; padding:5px; border-spacing:0px; }
+	.colHeader01 { padding:1px; background-color:#FFFFFF; color:#000000; text-decoration:underline; font-weight:bold; text-align:center; border-left:3px solid white; border-right:3px solid white; font-size: 8pt;}
+	.rowHeaderLeft { padding:1px; border-bottom:1px solid #CCCCCC; text-align:left; color:#000000; vertical-align:top; font-size: 10pt;}
+	.rowHeaderRight { padding:1px; border-bottom:1px solid #CCCCCC; text-align:right; color:#000000; vertical-align:top; font-size: 10pt;}
+	.valueCell { padding:1px; border-bottom:1px solid #CCCCCC; text-align:left; vertical-align:top; font-size: 10pt; background-color: #CAECFD; border-left:3px solid white; border-right:3px solid white;}
+@page{ 
+	size: 8.3in 11.7in;
+	margin: 0.30in;
+	padding: 1.5em;
+}
+</style> 
+  <title>Interstage XWand WebForm</title>
+ </head>  
+ <!--1670000.html-->    
+ <body> 
+  <p class="titleLeft">[1670000] Notes to the financial statements - Cost of Good Sold - General Industry</p> 
+  <div> 
+   <div> 
+    <div> 
+     <table class="table01" style="width:100%;"> 
+      <tbody> 
+       <tr> 
+        <td class="titleLeft" colspan="2">Beban pokok penjualan </td> 
+        <td class="titleRight" colspan="2" style="text-align:right;">Cost of good sold </td> 
+       </tr> 
+       <tr> 
+        <td></td> 
+        <td class="colHeader01" style="width:20%;"> <span>31 December 2022</span> </td> 
+        <td class="colHeader01" style="width:20%;"> <span>31 December 2021</span> </td> 
+       </tr> 
+       <tr> 
+        <td class="rowHeaderLeft" style="width:30%;">Persediaan bahan baku awal</td> 
+        <td class="valueCell" style="text-align:right;;vertical-align:middle"> 
+         <ix:nonfraction contextref="PriorEndYearInstant" decimals="-0" format="ixt:numcommadot" id="IX02_1064_00003_01_0001" name="idx-cor:RawInventory" scale="0" unitref="IDR">
+           117,679,723,799 
+         </ix:nonfraction> </td> 
+        <td class="valueCell" style="text-align:right;;vertical-align:middle"> 
+         <ix:nonfraction contextref="Prior2YearsInstant" decimals="-0" format="ixt:numcommadot" id="IX02_1064_00007_01_0001" name="idx-cor:RawInventory" scale="0" unitref="IDR">
+           70,332,863,983 
+         </ix:nonfraction> </td> 
+        <td class="rowHeaderRight" style="width:30%;">Beginning raw inventory</td> 
+       </tr> 
+       <tr> 
+        <td class="rowHeaderLeft" style="width:30%;">Pembelian bahan baku</td> 
+        <td class="valueCell" style="text-align:right;;vertical-align:middle"> 
+         <ix:nonfraction contextref="CurrentYearDuration" decimals="-0" format="ixt:numcommadot" id="IX02_1065_00002_01_0001" name="idx-cor:PurcahsedRawInventory" scale="0" unitref="IDR">
+           332,863,692,705 
+         </ix:nonfraction> </td> 
+        <td class="valueCell" style="text-align:right;;vertical-align:middle"> 
+         <ix:nonfraction contextref="PriorYearDuration" decimals="-0" format="ixt:numcommadot" id="IX02_1065_00006_01_0001" name="idx-cor:PurcahsedRawInventory" scale="0" unitref="IDR">
+           362,513,151,296 
+         </ix:nonfraction> </td> 
+        <td class="rowHeaderRight" style="width:30%;">Purchased raw inventory</td> 
+       </tr> 
+       <tr> 
+        <td class="rowHeaderLeft" style="width:30%;">Persediaan bahan baku akhir</td> 
+        <td class="valueCell" style="text-align:right;;vertical-align:middle"> 
+         <ix:nonfraction contextref="CurrentYearInstant" decimals="-0" format="ixt:numcommadot" id="IX02_1064_00001_01_0001" name="idx-cor:RawInventory" scale="0" unitref="IDR">
+           103,626,354,668 
+         </ix:nonfraction> </td> 
+        <td class="valueCell" style="text-align:right;;vertical-align:middle"> 
+         <ix:nonfraction contextref="PriorYearInstant" decimals="-0" format="ixt:numcommadot" id="IX02_1064_00004_01_0001" name="idx-cor:RawInventory" scale="0" unitref="IDR">
+           117,679,723,799 
+         </ix:nonfraction> </td> 
+        <td class="rowHeaderRight" style="width:30%;">Ending raw inventory</td> 
+       </tr> 
+       <tr> 
+        <td class="rowHeaderLeft" style="width:30%;;font-weight:bold;">Bahan baku yang digunakan</td> 
+        <td class="valueCell" style="text-align:right;;background-color:#00B0F0;vertical-align:middle"> 
+         <ix:nonfraction contextref="CurrentYearDuration" decimals="-0" format="ixt:numcommadot" id="IX02_1447_00002_01_0001" name="idx-cor:RawInventoryUsed" scale="0" unitref="IDR">
+           346,917,061,836 
+         </ix:nonfraction> </td> 
+        <td class="valueCell" style="text-align:right;;background-color:#00B0F0;vertical-align:middle"> 
+         <ix:nonfraction contextref="PriorYearDuration" decimals="-0" format="ixt:numcommadot" id="IX02_1447_00006_01_0001" name="idx-cor:RawInventoryUsed" scale="0" unitref="IDR">
+           315,166,291,480 
+         </ix:nonfraction> </td> 
+        <td class="rowHeaderRight" style="width:30%;;font-weight:bold;">Raw inventory used</td> 
+       </tr> 
+       <tr style="display:none;"> 
+        <td class="rowHeaderLeft" style="width:30%;">Beban jasa</td> 
+        <td class="valueCell" style="text-align:right;;vertical-align:middle"> 
+         <ix:nonfraction contextref="CurrentYearDuration" id="IX02_1448_00002_01_0001" name="idx-cor:ServiceCost" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="valueCell" style="text-align:right;;vertical-align:middle"> 
+         <ix:nonfraction contextref="PriorYearDuration" id="IX02_1448_00006_01_0001" name="idx-cor:ServiceCost" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="rowHeaderRight" style="width:30%;">Service Cost</td> 
+       </tr> 
+       <tr style="display:none;"> 
+        <td class="rowHeaderLeft" style="width:30%;">Makan dan minuman</td> 
+        <td class="valueCell" style="text-align:right;;vertical-align:middle"> 
+         <ix:nonfraction contextref="CurrentYearDuration" id="IX02_1066_00002_01_0001" name="idx-cor:FoodAndBeverage" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="valueCell" style="text-align:right;;vertical-align:middle"> 
+         <ix:nonfraction contextref="PriorYearDuration" id="IX02_1066_00006_01_0001" name="idx-cor:FoodAndBeverage" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="rowHeaderRight" style="width:30%;">Food and beverage</td> 
+       </tr> 
+       <tr style="display:none;"> 
+        <td class="rowHeaderLeft" style="width:30%;">Material</td> 
+        <td class="valueCell" style="text-align:right;;vertical-align:middle"> 
+         <ix:nonfraction contextref="CurrentYearDuration" id="IX02_1067_00002_01_0001" name="idx-cor:MaterialUsage" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="valueCell" style="text-align:right;;vertical-align:middle"> 
+         <ix:nonfraction contextref="PriorYearDuration" id="IX02_1067_00006_01_0001" name="idx-cor:MaterialUsage" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="rowHeaderRight" style="width:30%;">Material usage</td> 
+       </tr> 
+       <tr style="display:none;"> 
+        <td class="rowHeaderLeft" style="width:30%;">Pertambangan</td> 
+        <td class="valueCell" style="text-align:right;;vertical-align:middle"> 
+         <ix:nonfraction contextref="CurrentYearDuration" id="IX02_1068_00002_01_0001" name="idx-cor:MiningCost" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="valueCell" style="text-align:right;;vertical-align:middle"> 
+         <ix:nonfraction contextref="PriorYearDuration" id="IX02_1068_00006_01_0001" name="idx-cor:MiningCost" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="rowHeaderRight" style="width:30%;">Mining cost</td> 
+       </tr> 
+       <tr style="display:none;"> 
+        <td class="rowHeaderLeft" style="width:30%;">Royalti kepada pemerintah</td> 
+        <td class="valueCell" style="text-align:right;;vertical-align:middle"> 
+         <ix:nonfraction contextref="CurrentYearDuration" id="IX02_1069_00002_01_0001" name="idx-cor:RoyaltiesToGovernment" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="valueCell" style="text-align:right;;vertical-align:middle"> 
+         <ix:nonfraction contextref="PriorYearDuration" id="IX02_1069_00006_01_0001" name="idx-cor:RoyaltiesToGovernment" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="rowHeaderRight" style="width:30%;">Royalties to government</td> 
+       </tr> 
+       <tr style="display:none;"> 
+        <td class="rowHeaderLeft" style="width:30%;">Pengangkutan dan bongkar muat</td> 
+        <td class="valueCell" style="text-align:right;;vertical-align:middle"> 
+         <ix:nonfraction contextref="CurrentYearDuration" id="IX02_1070_00002_01_0001" name="idx-cor:FreightAndHandlingCosts" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="valueCell" style="text-align:right;;vertical-align:middle"> 
+         <ix:nonfraction contextref="PriorYearDuration" id="IX02_1070_00006_01_0001" name="idx-cor:FreightAndHandlingCosts" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="rowHeaderRight" style="width:30%;">Freight and handling costs</td> 
+       </tr> 
+       <tr style="display:none;"> 
+        <td class="rowHeaderLeft" style="width:30%;">Biaya reklamasi dan penutupan tambang</td> 
+        <td class="valueCell" style="text-align:right;;vertical-align:middle"> 
+         <ix:nonfraction contextref="CurrentYearDuration" id="IX02_1071_00002_01_0001" name="idx-cor:MineReclamationAndClosureCosts" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="valueCell" style="text-align:right;;vertical-align:middle"> 
+         <ix:nonfraction contextref="PriorYearDuration" id="IX02_1071_00006_01_0001" name="idx-cor:MineReclamationAndClosureCosts" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="rowHeaderRight" style="width:30%;">Mine reclamation and closure costs</td> 
+       </tr> 
+       <tr style="display:none;"> 
+        <td class="rowHeaderLeft" style="width:30%;">Biaya pelaksanaan proyek</td> 
+        <td class="valueCell" style="text-align:right;;vertical-align:middle"> 
+         <ix:nonfraction contextref="CurrentYearDuration" id="IX02_1072_00002_01_0001" name="idx-cor:ProjectImplementationCosts" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="valueCell" style="text-align:right;;vertical-align:middle"> 
+         <ix:nonfraction contextref="PriorYearDuration" id="IX02_1072_00006_01_0001" name="idx-cor:ProjectImplementationCosts" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="rowHeaderRight" style="width:30%;">Project implementation costs</td> 
+       </tr> 
+       <tr style="display:none;"> 
+        <td class="rowHeaderLeft" style="width:30%;">Subkontraktor</td> 
+        <td class="valueCell" style="text-align:right;;vertical-align:middle"> 
+         <ix:nonfraction contextref="CurrentYearDuration" id="IX02_1073_00002_01_0001" name="idx-cor:Subcontractor" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="valueCell" style="text-align:right;;vertical-align:middle"> 
+         <ix:nonfraction contextref="PriorYearDuration" id="IX02_1073_00006_01_0001" name="idx-cor:Subcontractor" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="rowHeaderRight" style="width:30%;">Subcontractor</td> 
+       </tr> 
+       <tr> 
+        <td class="rowHeaderLeft" style="width:30%;">Upah, tenaga kerja langsung</td> 
+        <td class="valueCell" style="text-align:right;;vertical-align:middle"> 
+         <ix:nonfraction contextref="CurrentYearDuration" decimals="-0" format="ixt:numcommadot" id="IX02_1074_00002_01_0001" name="idx-cor:WagesAndDirectLabor" scale="0" unitref="IDR">
+           24,383,347,777 
+         </ix:nonfraction> </td> 
+        <td class="valueCell" style="text-align:right;;vertical-align:middle"> 
+         <ix:nonfraction contextref="PriorYearDuration" decimals="-0" format="ixt:numcommadot" id="IX02_1074_00006_01_0001" name="idx-cor:WagesAndDirectLabor" scale="0" unitref="IDR">
+           22,354,867,122 
+         </ix:nonfraction> </td> 
+        <td class="rowHeaderRight" style="width:30%;">Wages and direct labor</td> 
+       </tr> 
+       <tr style="display:none;"> 
+        <td class="rowHeaderLeft" style="width:30%;">Amortisasi</td> 
+        <td class="valueCell" style="text-align:right;;vertical-align:middle"> 
+         <ix:nonfraction contextref="CurrentYearDuration" id="IX02_1075_00002_01_0001" name="idx-cor:Amortization" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="valueCell" style="text-align:right;;vertical-align:middle"> 
+         <ix:nonfraction contextref="PriorYearDuration" id="IX02_1075_00006_01_0001" name="idx-cor:Amortization" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="rowHeaderRight" style="width:30%;">Amortization</td> 
+       </tr> 
+       <tr style="display:none;"> 
+        <td class="rowHeaderLeft" style="width:30%;">Depresiasi</td> 
+        <td class="valueCell" style="text-align:right;;vertical-align:middle"> 
+         <ix:nonfraction contextref="CurrentYearDuration" id="IX02_1076_00002_01_0001" name="idx-cor:Depreciation" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="valueCell" style="text-align:right;;vertical-align:middle"> 
+         <ix:nonfraction contextref="PriorYearDuration" id="IX02_1076_00006_01_0001" name="idx-cor:Depreciation" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="rowHeaderRight" style="width:30%;">Depreciation</td> 
+       </tr> 
+       <tr style="display:none;"> 
+        <td class="rowHeaderLeft" style="width:30%;">Sewa</td> 
+        <td class="valueCell" style="text-align:right;;vertical-align:middle"> 
+         <ix:nonfraction contextref="CurrentYearDuration" id="IX02_1077_00002_01_0001" name="idx-cor:RentCost" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="valueCell" style="text-align:right;;vertical-align:middle"> 
+         <ix:nonfraction contextref="PriorYearDuration" id="IX02_1077_00006_01_0001" name="idx-cor:RentCost" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="rowHeaderRight" style="width:30%;">Rent cost</td> 
+       </tr> 
+       <tr style="display:none;"> 
+        <td class="rowHeaderLeft" style="width:30%;">Perbaikan dan pemeliharaan</td> 
+        <td class="valueCell" style="text-align:right;;vertical-align:middle"> 
+         <ix:nonfraction contextref="CurrentYearDuration" id="IX02_1078_00002_01_0001" name="idx-cor:RepairsAndMaintenance" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="valueCell" style="text-align:right;;vertical-align:middle"> 
+         <ix:nonfraction contextref="PriorYearDuration" id="IX02_1078_00006_01_0001" name="idx-cor:RepairsAndMaintenance" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="rowHeaderRight" style="width:30%;">Repairs and maintenance</td> 
+       </tr> 
+       <tr style="display:none;"> 
+        <td class="rowHeaderLeft" style="width:30%;">Pemrosesan barang tambang</td> 
+        <td class="valueCell" style="text-align:right;;vertical-align:middle"> 
+         <ix:nonfraction contextref="CurrentYearDuration" id="IX02_1079_00002_01_0001" name="idx-cor:MiningProductProces" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="valueCell" style="text-align:right;;vertical-align:middle"> 
+         <ix:nonfraction contextref="PriorYearDuration" id="IX02_1079_00006_01_0001" name="idx-cor:MiningProductProces" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="rowHeaderRight" style="width:30%;">Mining product proces</td> 
+       </tr> 
+       <tr style="display:none;"> 
+        <td class="rowHeaderLeft" style="width:30%;">Beban utilitas</td> 
+        <td class="valueCell" style="text-align:right;;vertical-align:middle"> 
+         <ix:nonfraction contextref="CurrentYearDuration" id="IX02_1435_00002_01_0001" name="idx-cor:UtilitiesExpenses" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="valueCell" style="text-align:right;;vertical-align:middle"> 
+         <ix:nonfraction contextref="PriorYearDuration" id="IX02_1435_00006_01_0001" name="idx-cor:UtilitiesExpenses" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="rowHeaderRight" style="width:30%;">Utilities expense</td> 
+       </tr> 
+       <tr style="display:none;"> 
+        <td class="rowHeaderLeft" style="width:30%;">Beban bahan bakar</td> 
+        <td class="valueCell" style="text-align:right;;vertical-align:middle"> 
+         <ix:nonfraction contextref="CurrentYearDuration" id="IX02_1436_00002_01_0001" name="idx-cor:FuelExpenses" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="valueCell" style="text-align:right;;vertical-align:middle"> 
+         <ix:nonfraction contextref="PriorYearDuration" id="IX02_1436_00006_01_0001" name="idx-cor:FuelExpenses" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="rowHeaderRight" style="width:30%;">Fuel expenses</td> 
+       </tr> 
+       <tr> 
+        <td class="rowHeaderLeft" style="width:30%;">Biaya pabrikasi lainya</td> 
+        <td class="valueCell" style="text-align:right;;vertical-align:middle"> 
+         <ix:nonfraction contextref="CurrentYearDuration" decimals="-0" format="ixt:numcommadot" id="IX02_1080_00002_01_0001" name="idx-cor:OtherManufacturingOverhead" scale="0" unitref="IDR">
+           8,960,763,219 
+         </ix:nonfraction> </td> 
+        <td class="valueCell" style="text-align:right;;vertical-align:middle"> 
+         <ix:nonfraction contextref="PriorYearDuration" decimals="-0" format="ixt:numcommadot" id="IX02_1080_00006_01_0001" name="idx-cor:OtherManufacturingOverhead" scale="0" unitref="IDR">
+           10,677,256,281 
+         </ix:nonfraction> </td> 
+        <td class="rowHeaderRight" style="width:30%;">Other manufacturing overhead</td> 
+       </tr> 
+       <tr> 
+        <td class="rowHeaderLeft" style="width:30%;;font-weight:bold;">Jumlah biaya produksi</td> 
+        <td class="valueCell" style="text-align:right;;background-color:#00B0F0;vertical-align:middle"> 
+         <ix:nonfraction contextref="CurrentYearDuration" decimals="-0" format="ixt:numcommadot" id="IX02_1449_00002_01_0001" name="idx-cor:ProductionCost" scale="0" unitref="IDR">
+           380,261,172,832 
+         </ix:nonfraction> </td> 
+        <td class="valueCell" style="text-align:right;;background-color:#00B0F0;vertical-align:middle"> 
+         <ix:nonfraction contextref="PriorYearDuration" decimals="-0" format="ixt:numcommadot" id="IX02_1449_00006_01_0001" name="idx-cor:ProductionCost" scale="0" unitref="IDR">
+           348,198,414,883 
+         </ix:nonfraction> </td> 
+        <td class="rowHeaderRight" style="width:30%;;font-weight:bold;">Total production cost</td> 
+       </tr> 
+       <tr> 
+        <td class="rowHeaderLeft" style="width:30%;">Barang setengah jadi awal</td> 
+        <td class="valueCell" style="text-align:right;;vertical-align:middle"> 
+         <ix:nonfraction contextref="PriorEndYearInstant" decimals="-0" format="ixt:numcommadot" id="IX02_1081_00003_01_0001" name="idx-cor:WipInventory" scale="0" unitref="IDR">
+           8,823,966,801 
+         </ix:nonfraction> </td> 
+        <td class="valueCell" style="text-align:right;;vertical-align:middle"> 
+         <ix:nonfraction contextref="Prior2YearsInstant" decimals="-0" format="ixt:numcommadot" id="IX02_1081_00007_01_0001" name="idx-cor:WipInventory" scale="0" unitref="IDR">
+           9,713,204,378 
+         </ix:nonfraction> </td> 
+        <td class="rowHeaderRight" style="width:30%;">Beginning wip inventory</td> 
+       </tr> 
+       <tr> 
+        <td class="rowHeaderLeft" style="width:30%;">Barang setengah jadi akhir</td> 
+        <td class="valueCell" style="text-align:right;;vertical-align:middle"> 
+         <ix:nonfraction contextref="CurrentYearInstant" decimals="-0" format="ixt:numcommadot" id="IX02_1081_00001_01_0001" name="idx-cor:WipInventory" scale="0" unitref="IDR">
+           9,231,890,965 
+         </ix:nonfraction> </td> 
+        <td class="valueCell" style="text-align:right;;vertical-align:middle"> 
+         <ix:nonfraction contextref="PriorYearInstant" decimals="-0" format="ixt:numcommadot" id="IX02_1081_00004_01_0001" name="idx-cor:WipInventory" scale="0" unitref="IDR">
+           8,823,966,801 
+         </ix:nonfraction> </td> 
+        <td class="rowHeaderRight" style="width:30%;">Ending wip inventory</td> 
+       </tr> 
+       <tr> 
+        <td class="rowHeaderLeft" style="width:30%;;font-weight:bold;">Harga pokok produksi</td> 
+        <td class="valueCell" style="text-align:right;;background-color:#00B0F0;vertical-align:middle"> 
+         <ix:nonfraction contextref="CurrentYearDuration" decimals="-0" format="ixt:numcommadot" id="IX02_1450_00002_01_0001" name="idx-cor:CostOfGoodsManufactured" scale="0" unitref="IDR">
+           379,853,248,668 
+         </ix:nonfraction> </td> 
+        <td class="valueCell" style="text-align:right;;background-color:#00B0F0;vertical-align:middle"> 
+         <ix:nonfraction contextref="PriorYearDuration" decimals="-0" format="ixt:numcommadot" id="IX02_1450_00006_01_0001" name="idx-cor:CostOfGoodsManufactured" scale="0" unitref="IDR">
+           349,087,652,460 
+         </ix:nonfraction> </td> 
+        <td class="rowHeaderRight" style="width:30%;;font-weight:bold;">Cost of goods manufactured</td> 
+       </tr> 
+       <tr> 
+        <td class="rowHeaderLeft" style="width:30%;">Barang jadi awal</td> 
+        <td class="valueCell" style="text-align:right;;vertical-align:middle"> 
+         <ix:nonfraction contextref="PriorEndYearInstant" decimals="-0" format="ixt:numcommadot" id="IX02_1082_00003_01_0001" name="idx-cor:FinishGoodsInventory" scale="0" unitref="IDR">
+           60,741,631,004 
+         </ix:nonfraction> </td> 
+        <td class="valueCell" style="text-align:right;;vertical-align:middle"> 
+         <ix:nonfraction contextref="Prior2YearsInstant" decimals="-0" format="ixt:numcommadot" id="IX02_1082_00007_01_0001" name="idx-cor:FinishGoodsInventory" scale="0" unitref="IDR">
+           43,406,588,370 
+         </ix:nonfraction> </td> 
+        <td class="rowHeaderRight" style="width:30%;">Beginning finish goods inventory</td> 
+       </tr> 
+       <tr> 
+        <td class="rowHeaderLeft" style="width:30%;">Pembelian barang jadi</td> 
+        <td class="valueCell" style="text-align:right;;vertical-align:middle"> 
+         <ix:nonfraction contextref="CurrentYearDuration" decimals="-0" format="ixt:numcommadot" id="IX02_1083_00002_01_0001" name="idx-cor:PurcahsedFinishGoodsInventory" scale="0" unitref="IDR">
+           387,018,261,227 
+         </ix:nonfraction> </td> 
+        <td class="valueCell" style="text-align:right;;vertical-align:middle"> 
+         <ix:nonfraction contextref="PriorYearDuration" decimals="-0" format="ixt:numcommadot" id="IX02_1083_00006_01_0001" name="idx-cor:PurcahsedFinishGoodsInventory" scale="0" unitref="IDR">
+           408,176,928,640 
+         </ix:nonfraction> </td> 
+        <td class="rowHeaderRight" style="width:30%;">Purchased finish goods inventory</td> 
+       </tr> 
+       <tr> 
+        <td class="rowHeaderLeft" style="width:30%;">Barang jadi akhir</td> 
+        <td class="valueCell" style="text-align:right;;vertical-align:middle"> 
+         <ix:nonfraction contextref="CurrentYearInstant" decimals="-0" format="ixt:numcommadot" id="IX02_1082_00001_01_0001" name="idx-cor:FinishGoodsInventory" scale="0" unitref="IDR">
+           74,573,091,779 
+         </ix:nonfraction> </td> 
+        <td class="valueCell" style="text-align:right;;vertical-align:middle"> 
+         <ix:nonfraction contextref="PriorYearInstant" decimals="-0" format="ixt:numcommadot" id="IX02_1082_00004_01_0001" name="idx-cor:FinishGoodsInventory" scale="0" unitref="IDR">
+           60,741,631,004 
+         </ix:nonfraction> </td> 
+        <td class="rowHeaderRight" style="width:30%;">Ending finish goods inventory</td> 
+       </tr> 
+       <tr style="display:none;"> 
+        <td class="rowHeaderLeft" style="width:30%;">Realti dan properti</td> 
+        <td class="valueCell" style="text-align:right;;vertical-align:middle"> 
+         <ix:nonfraction contextref="CurrentYearDuration" id="IX02_1084_00002_01_0001" name="idx-cor:RealtyAndProperty" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="valueCell" style="text-align:right;;vertical-align:middle"> 
+         <ix:nonfraction contextref="PriorYearDuration" id="IX02_1084_00006_01_0001" name="idx-cor:RealtyAndProperty" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="rowHeaderRight" style="width:30%;">Realty and property</td> 
+       </tr> 
+       <tr style="display:none;"> 
+        <td class="rowHeaderLeft" style="width:30%;">Biaya konstruksi atas proyek konsesi</td> 
+        <td class="valueCell" style="text-align:right;;vertical-align:middle"> 
+         <ix:nonfraction contextref="CurrentYearDuration" id="IX02_1085_00002_01_0001" name="idx-cor:ConstructionOfCostOfConcessionProject" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="valueCell" style="text-align:right;;vertical-align:middle"> 
+         <ix:nonfraction contextref="PriorYearDuration" id="IX02_1085_00006_01_0001" name="idx-cor:ConstructionOfCostOfConcessionProject" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="rowHeaderRight" style="width:30%;">Construction of cost of concession project</td> 
+       </tr> 
+       <tr style="display:none;"> 
+        <td class="rowHeaderLeft" style="width:30%;">Biaya overhead lainnya</td> 
+        <td class="valueCell" style="text-align:right;;vertical-align:middle"> 
+         <ix:nonfraction contextref="CurrentYearDuration" id="IX02_1086_00002_01_0001" name="idx-cor:Overhead" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="valueCell" style="text-align:right;;vertical-align:middle"> 
+         <ix:nonfraction contextref="PriorYearDuration" id="IX02_1086_00006_01_0001" name="idx-cor:Overhead" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="rowHeaderRight" style="width:30%;">Overhead</td> 
+       </tr> 
+       <tr style="display:none;"> 
+        <td class="rowHeaderLeft" style="width:30%;">Beban pokok pendapatan lainnya</td> 
+        <td class="valueCell" style="text-align:right;;vertical-align:middle"> 
+         <ix:nonfraction contextref="CurrentYearDuration" id="IX02_1437_00002_01_0001" name="idx-cor:OtherCostOfGoodSold" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="valueCell" style="text-align:right;;vertical-align:middle"> 
+         <ix:nonfraction contextref="PriorYearDuration" id="IX02_1437_00006_01_0001" name="idx-cor:OtherCostOfGoodSold" unitref="IDR" xsi:nil="true" /> </td> 
+        <td class="rowHeaderRight" style="width:30%;">Other cost of goods sold</td> 
+       </tr> 
+       <tr> 
+        <td class="rowHeaderLeft" style="width:30%;;font-weight:bold;">Beban pokok penjualan dan pendapatan</td> 
+        <td class="valueCell" style="text-align:right;;background-color:#00B0F0;vertical-align:middle"> 
+         <ix:nonfraction contextref="CurrentYearDuration" decimals="-0" format="ixt:numcommadot" id="IX02_0057_00002_01_0003" name="idx-cor:CostOfSalesAndRevenue" scale="0" unitref="IDR">
+           753,040,049,120 
+         </ix:nonfraction> </td> 
+        <td class="valueCell" style="text-align:right;;background-color:#00B0F0;vertical-align:middle"> 
+         <ix:nonfraction contextref="PriorYearDuration" decimals="-0" format="ixt:numcommadot" id="IX02_0057_00006_01_0003" name="idx-cor:CostOfSalesAndRevenue" scale="0" unitref="IDR">
+           739,929,538,466 
+         </ix:nonfraction> </td> 
+        <td class="rowHeaderRight" style="width:30%;;font-weight:bold;">Cost of sales and revenue</td> 
+       </tr> 
+      </tbody> 
+     </table> 
+    </div> 
+   </div> 
+  </div>  
+ </body>
+</html>
